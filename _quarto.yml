@@ -1,0 +1,45 @@
+project:
+  type: website
+  preview:
+    port: 4200
+    browser: false
+    watch-inputs: true
+    navigate: false
+
+website:
+  title: "Ligea Alexander"
+  page-navigation: true
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - file: index.qmd
+        text: "Home"
+      - text: "Projects"
+        menu:
+          - file: projects/all-projects.qmd
+          - file: projects/project1.qmd
+    right:
+      - file: about.qmd
+        text: "About" 
+      - icon: github
+        href: https://github.com/
+      - text: "Tableau Public"
+        # icon: fa-brands fa-tableau
+        href: https://public.tableau.com/profile/ligea.alexander#!/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alexander-ligea-620b86166/
+      - icon: medium
+        href: https://medium.com/@alexander.ligea
+  site-url: ligea-alexander.com
+  favicon: "favicon.ico"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    include-css: custom.css 
+      

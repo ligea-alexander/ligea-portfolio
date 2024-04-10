@@ -1,0 +1,11 @@
+{
+  "hash": "eff010c99f1ddbef581906b03d8b07a2",
+  "result": {
+    "markdown": "---\ntitle: \"I Swear, You're Not Stupid...\"\nformat: \n    html:\n        toc: true\n---\n\n# Regression\nThere's tons to learn about regression, but I'll just give you a quick overview.\n\n## Linear Regression\n\nHere's what linear regression looks like:\n\n## Logistic Regression\n\n ```{dssdsf}\n \n ```\n\n",
+    "supporting": [
+      "project1_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

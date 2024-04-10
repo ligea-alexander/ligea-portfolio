@@ -1,0 +1,49 @@
+---
+title: "All Projects"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+### I Swear, You're Not Stupid...
+:::: columns
+
+::: {.column width="55%"}
+This is a repository of 
+[code, analysis, visualization, plotly]
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+Image 1
+:::
+
+::::
+
+## Creative Coding
+:::: columns
+
+::: {.column width="40%"}
+Image 2
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+Description 2
+[code, analysis, visualization, plotly]
+:::
+
+::::
+
+
+
