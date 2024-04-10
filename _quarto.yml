@@ -19,6 +19,7 @@ website:
       - text: "Projects"
         menu:
           - file: projects/all-projects.qmd
+          - file: projects/project2.qmd
           - file: projects/project1.qmd
     right:
       - file: about.qmd

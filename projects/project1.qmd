@@ -35,6 +35,4 @@ Here's what linear regression looks like:
 
 
 # Design Cheat Sheets
-## Web Design
 ## Data Visualization
-## Colour Theory
