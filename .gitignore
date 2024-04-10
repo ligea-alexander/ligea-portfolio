@@ -639,4 +639,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+### Quarto ####
+/.quarto/
+/_site/
 # End of https://www.toptal.com/developers/gitignore/api/macos,python,visualstudio,jupyternotebooks,adobe,git
