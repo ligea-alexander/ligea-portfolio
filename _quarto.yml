@@ -32,9 +32,8 @@ website:
         href: https://www.linkedin.com/in/alexander-ligea-620b86166/
       - icon: medium
         href: https://medium.com/@alexander.ligea
-  site-url: ligea-alexander.com
   favicon: "favicon.ico"
-
+site-url: ligea.alexander.com 
 format:
   html:
     theme:

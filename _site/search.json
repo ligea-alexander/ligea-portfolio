@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Ligea Alexander is a human-centered designer located in NYC, NY."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,13 +21,6 @@
     "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Home",
-    "section": "About me",
-    "text": "About me"
-  },
-  {
     "objectID": "projects/project1.html",
     "href": "projects/project1.html",
     "title": "I Swear, You’re Not Stupid…",
@@ -47,34 +33,6 @@
     "title": "I Swear, You’re Not Stupid…",
     "section": "Regression",
     "text": "Regression\nThere’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
-  },
-  {
-    "objectID": "projects/project1.html#linear-regression",
-    "href": "projects/project1.html#linear-regression",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nHere’s what linear regression looks like:"
-  },
-  {
-    "objectID": "projects/project1.html#logistic-regression",
-    "href": "projects/project1.html#logistic-regression",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Logistic Regression",
-    "text": "Logistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
-  },
-  {
-    "objectID": "projects/all-projects.html",
-    "href": "projects/all-projects.html",
-    "title": "All Projects",
-    "section": "",
-    "text": "This is a repository of [code, analysis, visualization, plotly]\n\n\n\nImage 1"
-  },
-  {
-    "objectID": "index.html#hello-world",
-    "href": "index.html#hello-world",
-    "title": "Home",
-    "section": "",
-    "text": "Ligea Alexander is a human-centered designer located in NYC, NY."
   },
   {
     "objectID": "projects/project1.html#web-design",
@@ -98,11 +56,11 @@
     "text": "Colour Theory"
   },
   {
-    "objectID": "projects/all-projects.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
-    "href": "projects/all-projects.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "objectID": "projects/all-projects.html",
+    "href": "projects/all-projects.html",
     "title": "All Projects",
-    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
-    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+    "section": "",
+    "text": "This is a repository of [code, analysis, visualization, plotly]\n\n\n\nImage 1"
   },
   {
     "objectID": "projects/all-projects.html#creative-coding",
@@ -110,5 +68,12 @@
     "title": "All Projects",
     "section": "Creative Coding",
     "text": "Creative Coding\n\n\nImage 2\n\n\n\nDescription 2 [code, analysis, visualization, plotly]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Ligea Alexander is a human-centered designer located in NYC, NY."
   }
 ]

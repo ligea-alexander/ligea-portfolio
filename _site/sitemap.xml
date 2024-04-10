@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>ligea-alexander.com/index.html</loc>
-    <lastmod>2024-04-10T21:33:07.263Z</lastmod>
+    <loc>https://ligea-alexander.github.io/ligea-portfolio/about.html</loc>
+    <lastmod>2024-04-10T22:04:52.187Z</lastmod>
   </url>
   <url>
-    <loc>ligea-alexander.com/about.html</loc>
-    <lastmod>2024-04-10T20:17:14.518Z</lastmod>
+    <loc>https://ligea-alexander.github.io/ligea-portfolio/projects/project1.html</loc>
+    <lastmod>2024-04-10T22:04:50.303Z</lastmod>
   </url>
   <url>
-    <loc>ligea-alexander.com/projects.html</loc>
-    <lastmod>2024-04-10T18:39:55.947Z</lastmod>
+    <loc>https://ligea-alexander.github.io/ligea-portfolio/projects/all-projects.html</loc>
+    <lastmod>2024-04-10T22:04:48.978Z</lastmod>
   </url>
   <url>
-    <loc>ligea-alexander.com/projects/project1.html</loc>
-    <lastmod>2024-04-10T21:03:03.090Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea-alexander.com/projects/all-projects.html</loc>
-    <lastmod>2024-04-10T21:22:51.980Z</lastmod>
+    <loc>https://ligea-alexander.github.io/ligea-portfolio/index.html</loc>
+    <lastmod>2024-04-10T22:04:51.198Z</lastmod>
   </url>
 </urlset>
