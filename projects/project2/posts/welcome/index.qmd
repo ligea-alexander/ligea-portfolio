@@ -5,11 +5,11 @@ date: "2024-04-09"
 categories: [updates]
 image: "thumbnail.jpg"
 ---
-<p>"I Swear, You're Not Stupid" is a sanctuary for the intellectually curious and the perpetually befuddled alike. Nestled within my portfolio, this blog is a vibrant testament to the journey of continual learning in the ever-evolving realms of data science, analytics, and visualization.</p>
+<p><b>"I Swear, You're Not Stupid" </b>is a sanctuary for the intellectually curious and the perpetually befuddled alike. Nestled within my portfolio, this blog is a vibrant testament to the journey of continual learning in the ever-evolving realms of data science, analytics, and visualization.</p>
 
 <p>In the world of data, the leap from academic theory to professional practice can often feel like venturing into a chasm vast and unknown. Despite degrees lining our walls and accolades adorning our resumes, the moment arrives when we stare at a dataset or a regression analysis and wonder, "Have I ever truly understood this?"</p> <iframe src="https://giphy.com/embed/WRQBXSCnEFJIuxktnw" width="480" height="307" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw">via GIPHY</a></p>
 
-<p><b>"I Swear, You're Not Stupid"</b> is born out of those moments of doubt, a reassurance whispered in the midst of our struggles. It's a compilation of insights, learnings, and revisitations of concepts we thought we knew but find anew in different lights. Here, you'll find an array of posts dedicated to unraveling the complexities of data science and analytics – from the foundational stones of statistical analysis in R and Python to the intricate art of data visualization.</p>
+<p>"I Swear, You're Not Stupid" is a compilation of insights, learnings, and revisitations of concepts we thought we knew but find anew in different lights. Here, you'll find an array of posts dedicated to unraveling the complexities of data science and analytics – from the foundational stones of statistical analysis in R and Python to the intricate art of data visualization.</p>
 
 <p>This blog isn't just a repository; it's a dialogue between us. It's for the seasoned professional who momentarily forgot the formula for calculating the standard error, for the recent graduate who's never applied regression outside a classroom setting, and for the curious wanderer who believes that learning is an endless journey.</p>
 
