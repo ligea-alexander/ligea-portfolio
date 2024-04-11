@@ -49,5 +49,8 @@
   },
   "projects/project2/posts/all about regression/index.qmd": {
     "index.html": "1aeec90c"
+  },
+  "projects/project2/posts/all-about-regression/index.qmd": {
+    "index.html": "b0801ee6"
   }
 }

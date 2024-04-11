@@ -13,15 +13,15 @@ page-layout: article
 :::: columns
 
 ::: {.column width="55%"}
-This is a repository of 
-[code, analysis, visualization, plotly]
+View my work in information visualization, data visualization, and data storytelling.
+
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="40%"}
-Image 1
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZSYXtwwKeNcPGKjU9RvRKQ.png){.thumbnails}
 :::
 
 ::::
@@ -30,20 +30,20 @@ Image 1
 :::: columns
 
 ::: {.column width="55%"}
-This is a repository of 
-[code, analysis, visualization, plotly]
+This is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. 'I Swear, You're Not Stupid' offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It's a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance.
+
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="40%"}
-Image 1
+![](stupid.jpeg){.thumbnails}
 :::
 
 ::::
 
-## Creative Coding
+<!-- ## Creative Coding
 :::: columns
 
 ::: {.column width="40%"}
@@ -55,10 +55,10 @@ Image 2
 
 ::: {.column width="55%"}
 Description 2
-[code, analysis, visualization, plotly]
+
 :::
 
-::::
+:::: -->
 
 
 

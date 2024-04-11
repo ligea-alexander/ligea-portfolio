@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/projects/content.html",
-    "items": []
-  },
-  {
     "listing": "/projects/project2/index.html",
     "items": [
       "/projects/project2/posts/all-about-regression/index.html",
