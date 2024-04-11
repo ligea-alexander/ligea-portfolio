@@ -4,56 +4,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+    "text": "Ligea Alexander is an data analyst with 10+ years experience. She is passionate about utilizing her skills in data analysis, visualization, and storytelling to investigate and illustrate complex social, political, and economic issues.\n\n\nColumbia University | New York, NY Data Journalism (Scholarship Awarded) | 2023\nMaryland Institute College of Art | Baltimore, MD MPS Data Analytics and Visualization | 2020 - 2023\n\n\n\nFreelance | Data Journalist | 2024 - present\nFreelance | Writer | 2023 - present\nCenter for Employment Opportunities | Data Insights Specialist | 2019 - present"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
     "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "text": "Columbia University | New York, NY Data Journalism (Scholarship Awarded) | 2023\nMaryland Institute College of Art | Baltimore, MD MPS Data Analytics and Visualization | 2020 - 2023"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "About",
     "section": "",
-    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "",
-    "text": "You’re not stupid, you’re just out of practice."
-  },
-  {
-    "objectID": "projects/project1.html#regression",
-    "href": "projects/project1.html#regression",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Regression",
-    "text": "Regression\nThere’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
-  },
-  {
-    "objectID": "projects/project1.html#web-design",
-    "href": "projects/project1.html#web-design",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Web Design",
-    "text": "Web Design"
-  },
-  {
-    "objectID": "projects/project1.html#data-visualization",
-    "href": "projects/project1.html#data-visualization",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Data Visualization",
-    "text": "Data Visualization"
-  },
-  {
-    "objectID": "projects/project1.html#colour-theory",
-    "href": "projects/project1.html#colour-theory",
-    "title": "I Swear, You’re Not Stupid…",
-    "section": "Colour Theory",
-    "text": "Colour Theory"
+    "text": "Freelance | Data Journalist | 2024 - present\nFreelance | Writer | 2023 - present\nCenter for Employment Opportunities | Data Insights Specialist | 2019 - present"
   },
   {
     "objectID": "projects/all-projects.html",
@@ -70,10 +35,129 @@
     "text": "Creative Coding\n\n\nImage 2\n\n\n\nDescription 2 [code, analysis, visualization, plotly]"
   },
   {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "",
+    "text": "You’re not stupid, you’re just out of practice."
+  },
+  {
+    "objectID": "projects/project1.html#regression",
+    "href": "projects/project1.html#regression",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Regression",
+    "text": "Regression\nThere’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
+  },
+  {
+    "objectID": "projects/project1.html#data-visualization",
+    "href": "projects/project1.html#data-visualization",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Data Visualization",
+    "text": "Data Visualization"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
     "text": "Ligea Alexander is a human-centered designer located in NYC, NY."
+  },
+  {
+    "objectID": "projects/project2/project2.html",
+    "href": "projects/project2/project2.html",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "",
+    "text": "You’re not stupid, you’re just out of practice."
+  },
+  {
+    "objectID": "projects/project2/project2.html#regression",
+    "href": "projects/project2/project2.html#regression",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Regression",
+    "text": "Regression\nThere’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
+  },
+  {
+    "objectID": "projects/project2/project2.html#data-visualization",
+    "href": "projects/project2/project2.html#data-visualization",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Data Visualization",
+    "text": "Data Visualization"
+  },
+  {
+    "objectID": "projects/project2/project2b/index.html",
+    "href": "projects/project2/project2b/index.html",
+    "title": "project2b",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 7, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project2/project2b/posts/post-with-code/index.html",
+    "href": "projects/project2/project2b/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/project2/project2b/posts/welcome/index.html",
+    "href": "projects/project2/project2b/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/project2/project2b/about.html",
+    "href": "projects/project2/project2b/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "projects/project2/about.html",
+    "href": "projects/project2/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "projects/project2/posts/welcome/index.html",
+    "href": "projects/project2/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/content.html",
+    "href": "projects/content.html",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "",
+    "text": "You’re not stupid, you’re just out of practice."
+  },
+  {
+    "objectID": "projects/content.html#regression",
+    "href": "projects/content.html#regression",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Regression",
+    "text": "Regression\nThere’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
+  },
+  {
+    "objectID": "projects/content.html#data-visualization",
+    "href": "projects/content.html#data-visualization",
+    "title": "I Swear, You’re Not Stupid…",
+    "section": "Data Visualization",
+    "text": "Data Visualization"
+  },
+  {
+    "objectID": "projects/project2/posts/post-with-code/index.html",
+    "href": "projects/project2/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/project2/index.html",
+    "href": "projects/project2/index.html",
+    "title": "I Swear, You’re Not Stupid",
+    "section": "",
+    "text": "All About Regression\n\n\n\n\n\n\n\ndata science\n\n\ndata analytics\n\n\nr\n\n\npython\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nLigea Alexander\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to a Safe Space for Understanding\n\n\n\n\n\n\n\nupdates\n\n\n\n\n\n\n\n\n\n\n\nApr 9, 2024\n\n\nLigea Alexander\n\n\n\n\n\n\nNo matching items"
   }
 ]

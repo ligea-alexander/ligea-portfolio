@@ -1,17 +1,32 @@
 ---
 title: "All Projects"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
 title-block-banner: true
+format:
+    html:
+        toc: true
+        layout: 
+            title: false
+page-layout: article
 ---
 
-### I Swear, You're Not Stupid...
+### Data Visualization
+:::: columns
+
+::: {.column width="55%"}
+This is a repository of 
+[code, analysis, visualization, plotly]
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+Image 1
+:::
+
+::::
+
+### I Swear, You're Not Stupid.
 :::: columns
 
 ::: {.column width="55%"}

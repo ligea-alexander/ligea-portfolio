@@ -19,20 +19,21 @@ website:
       - text: "Projects"
         menu:
           - file: projects/all-projects.qmd
-          - file: projects/project2.qmd
           - file: projects/project1.qmd
+          - file: projects/project2/index.qmd
+         
     right:
       - file: about.qmd
         text: "About" 
       - icon: github
-        href: https://github.com/
+        href: https://linkedin.com/in/ligea-alexander
       - text: "Tableau Public"
         # icon: fa-brands fa-tableau
-        href: https://public.tableau.com/profile/ligea.alexander#!/
+        href: https://public.tableau.com/app/profile/ligea.alexander
       - icon: linkedin
-        href: https://www.linkedin.com/in/alexander-ligea-620b86166/
+        href: https://linkedin.com/in/ligea-alexander
       - icon: medium
-        href: https://medium.com/@alexander.ligea
+        href: https://medium.com/@ligea.alex
   favicon: "favicon.ico"
 site-url: ligea.alexander.com 
 format:

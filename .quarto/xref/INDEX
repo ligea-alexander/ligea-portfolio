@@ -13,5 +13,41 @@
   },
   "projects/all-projects.qmd": {
     "all-projects.html": "3959246e"
+  },
+  "projects/project2.qmd": {
+    "project2.html": "5abee142"
+  },
+  "projects/project2/project2b/posts/post-with-code/index.qmd": {
+    "index.html": "dcbdd4e9"
+  },
+  "projects/project2/project2b/posts/welcome/index.qmd": {
+    "index.html": "cd9cc12c"
+  },
+  "projects/project2/project2b/index.qmd": {
+    "index.html": "37c66650"
+  },
+  "projects/project2/project2b/about.qmd": {
+    "about.html": "1855f28b"
+  },
+  "projects/project2/project2.qmd": {
+    "project2.html": "d1cba94d"
+  },
+  "projects/content.qmd": {
+    "content.html": "4b69b61b"
+  },
+  "projects/project2/posts/post-with-code/index.qmd": {
+    "index.html": "d385204d"
+  },
+  "projects/project2/posts/welcome/index.qmd": {
+    "index.html": "4a5fb827"
+  },
+  "projects/project2/index.qmd": {
+    "index.html": "4b8d5365"
+  },
+  "projects/project2/about.qmd": {
+    "about.html": "b68e90d6"
+  },
+  "projects/project2/posts/all about regression/index.qmd": {
+    "index.html": "1aeec90c"
   }
 }

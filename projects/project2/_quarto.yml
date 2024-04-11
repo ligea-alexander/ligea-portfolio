@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "I Swear, You're Not Stupid"
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "Data Science Topics"
+        contents:
+          - 
+          - 
+      - section: "Design Cheats"
+        contents:
+          - 
+          -
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

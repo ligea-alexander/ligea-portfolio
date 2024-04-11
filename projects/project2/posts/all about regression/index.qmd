@@ -1,0 +1,9 @@
+---
+title: "All About Regression"
+author: "Ligea Alexander"
+date: "2024-04-10"
+categories: [data science, data analytics, r, python]
+image: "image.jpg"
+---
+
+This is a post with executable code.
