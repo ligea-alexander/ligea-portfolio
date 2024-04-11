@@ -1,24 +1,5 @@
 [
   {
-    "listing": "/projects/all-projects.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/project1.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/project2/project2.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/project2/project2b/index.html",
-    "items": [
-      "/projects/project2/project2b/posts/post-with-code/index.html",
-      "/projects/project2/project2b/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/projects/content.html",
     "items": []
   },

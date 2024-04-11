@@ -9,7 +9,7 @@ format:
 page-layout: article
 ---
 
-### Data Visualization
+## Data Visualization
 :::: columns
 
 ::: {.column width="55%"}
@@ -26,7 +26,7 @@ Image 1
 
 ::::
 
-### I Swear, You're Not Stupid.
+## I Swear, You're Not Stupid.
 :::: columns
 
 ::: {.column width="55%"}
