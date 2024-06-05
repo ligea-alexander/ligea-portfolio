@@ -5,8 +5,8 @@
 /* Import Mango Grotesque font */
 @font-face {
   font-family: 'Mango Grotesque';
-  src: url('../ligea-portfolio/fonts/MangoGrotesque-Bold.woff2') format('woff2'), /* Modern Browsers */
-       url('../ligea-portfolio/fonts/MangoGrotesque-Bold.woff') format('woff'); /* Older Browsers */
+  src: url('../ligea-portfolio/fonts/MangoGrotesque-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../ligea-portfolio/fonts/MangoGrotesque-Regular.woff') format('woff'); /* Older Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -34,7 +34,6 @@
 
   h1{
     font-family: 'Mango Grotesque', serif;
-    font-weight: 200;
     font-size: xx-large;
   }
 
