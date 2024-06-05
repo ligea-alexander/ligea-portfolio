@@ -10,4 +10,4 @@ metadata-files:
   - _website.yml
 
 execute:
-  freeze: auto
+  freeze: false
