@@ -14,8 +14,8 @@ website:
       - text: "Work"
         menu:
           - file: projects/all-projects.qmd
-          - file: projects/project1.qmd
-          - file: projects/project2/index.qmd
+          - file: projects/data-viz/all.qmd
+          - file: projects/swear-youre-not-stupid/index.qmd 
          
     right:
       - file: about.qmd

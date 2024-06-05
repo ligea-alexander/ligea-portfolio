@@ -1,5 +1,4 @@
 ---
-# title: "Ligea Alexander"
 title-block-banner: true
 image: images/italy.jpeg
 about:

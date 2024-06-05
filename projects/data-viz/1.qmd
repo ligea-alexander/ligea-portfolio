@@ -12,10 +12,14 @@ jupyter: python3
 
 Provide some context or introduction here...
 
+::: {.observable}
+<!-- // Observable notebook embed code or link here -->
+:::
+
 
 ## Analysis
 Include any specific figures or outputs from the notebook:
-![Description of image](path/to/image/output_from_notebook.png)
+
 
 ```{python}
 import numpy as np

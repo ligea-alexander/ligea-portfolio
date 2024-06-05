@@ -1,10 +1,10 @@
 {
   "listingMap": {
+    "projects/swear-youre-not-stupid/index.qmd": [
+      "posts"
+    ],
     "projects/data-viz/all.qmd": [
       "*.qmd"
-    ],
-    "projects/project2/index.qmd": [
-      "posts"
     ]
   }
 }

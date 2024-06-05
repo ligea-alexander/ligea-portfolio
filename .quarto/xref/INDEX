@@ -34,5 +34,20 @@
   },
   "projects/data-viz/2.qmd": {
     "2.html": "35e55817"
+  },
+  "projects/data-journalism.qmd": {
+    "data-journalism.html": "04be5a41"
+  },
+  "projects/swear-youre-not-stupid/posts/all-about-regression/index.qmd": {
+    "index.html": "e647cc0e"
+  },
+  "projects/swear-youre-not-stupid/posts/welcome/index.qmd": {
+    "index.html": "80fdd71c"
+  },
+  "projects/swear-youre-not-stupid/index.qmd": {
+    "index.html": "5cc6824d"
+  },
+  "projects/swear-youre-not-stupid/about.qmd": {
+    "about.html": "b7ce9f5b"
   }
 }
