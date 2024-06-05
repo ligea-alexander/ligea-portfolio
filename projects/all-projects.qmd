@@ -6,15 +6,17 @@ format:
         toc: true
         layout: 
             title: false
+        linkcolor: deeppink
 page-layout: article
 ---
 
-## Data Visualization
+## Data Visualization and Information Design
 :::: columns
 
 ::: {.column width="55%"}
 View my work in information visualization, data visualization, and data storytelling.
-
+<br>
+[Continue...](/projects/project1.qmd)
 :::
 
 ::: {.column width="5%"}
@@ -26,19 +28,37 @@ View my work in information visualization, data visualization, and data storytel
 
 ::::
 
-## I Swear, You're Not Stupid.
+## Data Journalism and Feature Writing
 :::: columns
 
 ::: {.column width="55%"}
-This is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. 'I Swear, You're Not Stupid' offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It's a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance.
 
+[Continue...](/projects/p3-data-journalism.qmd)
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="40%"}
-![](stupid.jpeg){.thumbnails}
+![](data-journo-thumbnail.png){.thumbnails}
+:::
+
+::::
+
+## I Swear, You're Not Stupid
+:::: columns
+
+::: {.column width="55%"}
+This is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. 'I Swear, You're Not Stupid' offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It's a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance.
+<br>
+[Continue...](/projects/project2/)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+[![](stupid.jpeg){fig-alt="Alt text"}]{.thumbnails}
 :::
 
 ::::

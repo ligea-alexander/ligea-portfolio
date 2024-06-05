@@ -7,8 +7,9 @@ image: "image.jpg"
 ---
 
 There's tons to learn about regression, but I'll just give you a quick overview.
+<br>
 
-<p><b>Types of Regression</b></p>
+<b>Types of Regression</b>
 <p>There are several types of regression analysis, including:</p>
 <ul>
 - Linear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It's the most straightforward type of regression, used when the relationship between variables is linear.

@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization"
+title: "Data Visualization and Information Design"
 format:
     html:
         toc: true
@@ -8,3 +8,5 @@ format:
 title-block-banner: true
 page-layout: article
 ---
+
+[<<Back to All Projects](/projects/all-projects.qmd)

@@ -52,5 +52,8 @@
   },
   "projects/project2/posts/all-about-regression/index.qmd": {
     "index.html": "b0801ee6"
+  },
+  "projects/p3-data-journalism.qmd": {
+    "p3-data-journalism.html": "66e40423"
   }
 }

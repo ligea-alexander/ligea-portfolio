@@ -1,1 +1,1 @@
-Sitemap: https://ligea-alexander.github.io/ligea-portfolio/sitemap.xml
+Sitemap: ligea.alexander.com/sitemap.xml

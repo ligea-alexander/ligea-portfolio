@@ -35,32 +35,53 @@
     "text": "“I Swear, You’re Not Stupid” is a sanctuary for the intellectually curious and the perpetually befuddled alike. Nestled within my portfolio, this blog is a vibrant testament to the journey of continual learning in the ever-evolving realms of data science, analytics, and visualization.\n\n\nIn the world of data, the leap from academic theory to professional practice can often feel like venturing into a chasm vast and unknown. Despite degrees lining our walls and accolades adorning our resumes, the moment arrives when we stare at a dataset or a regression analysis and wonder, “Have I ever truly understood this?”\n\n\n\nvia GIPHY\n\n\n“I Swear, You’re Not Stupid” is a compilation of insights, learnings, and revisitations of concepts we thought we knew but find anew in different lights. Here, you’ll find an array of posts dedicated to unraveling the complexities of data science and analytics – from the foundational stones of statistical analysis in R and Python to the intricate art of data visualization.\n\n\nThis blog isn’t just a repository; it’s a dialogue between us. It’s for the seasoned professional who momentarily forgot the formula for calculating the standard error, for the recent graduate who’s never applied regression outside a classroom setting, and for the curious wanderer who believes that learning is an endless journey.\n\n\nIn this small space of the internet, I’d hope readers will be reminded that understanding comes not from the ability to recite, but the capacity to apply. Hopefully, through one post at a time, I can support you from knowing to understanding, from theory to practice, from doubt to confidence.\n\n\nTogether, we’ll delve into the principles that drive our field, armed with the conviction that, indeed, you’re not stupid – sometimes, we just need to see things a little differently."
   },
   {
+    "objectID": "projects/p3-data-journalism.html",
+    "href": "projects/p3-data-journalism.html",
+    "title": "Data Journalism and Feature Writing",
+    "section": "",
+    "text": "&lt;&lt;Back to All Projects"
+  },
+  {
     "objectID": "projects/all-projects.html",
     "href": "projects/all-projects.html",
     "title": "All Projects",
     "section": "",
-    "text": "View my work in information visualization, data visualization, and data storytelling."
+    "text": "View my work in information visualization, data visualization, and data storytelling.  Continue…"
   },
   {
-    "objectID": "projects/all-projects.html#data-visualization",
-    "href": "projects/all-projects.html#data-visualization",
+    "objectID": "projects/all-projects.html#data-visualization-and-information-design",
+    "href": "projects/all-projects.html#data-visualization-and-information-design",
     "title": "All Projects",
     "section": "",
-    "text": "View my work in information visualization, data visualization, and data storytelling."
+    "text": "View my work in information visualization, data visualization, and data storytelling.  Continue…"
   },
   {
-    "objectID": "projects/all-projects.html#i-swear-youre-not-stupid.",
-    "href": "projects/all-projects.html#i-swear-youre-not-stupid.",
+    "objectID": "projects/all-projects.html#data-journalism-and-feature-writing",
+    "href": "projects/all-projects.html#data-journalism-and-feature-writing",
     "title": "All Projects",
-    "section": "I Swear, You’re Not Stupid.",
-    "text": "I Swear, You’re Not Stupid.\n\n\nThis is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. ‘I Swear, You’re Not Stupid’ offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It’s a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance."
+    "section": "Data Journalism and Feature Writing",
+    "text": "Data Journalism and Feature Writing\n\n\nContinue…"
+  },
+  {
+    "objectID": "projects/all-projects.html#i-swear-youre-not-stupid",
+    "href": "projects/all-projects.html#i-swear-youre-not-stupid",
+    "title": "All Projects",
+    "section": "I Swear, You’re Not Stupid",
+    "text": "I Swear, You’re Not Stupid\n\n\nThis is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. ‘I Swear, You’re Not Stupid’ offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It’s a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance.  Continue…"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Data Visualization and Information Design",
+    "section": "",
+    "text": "&lt;&lt;Back to All Projects"
   },
   {
     "objectID": "projects/project2/posts/all-about-regression/index.html",
     "href": "projects/project2/posts/all-about-regression/index.html",
     "title": "All About Regression",
     "section": "",
-    "text": "There’s tons to learn about regression, but I’ll just give you a quick overview.\n\nTypes of Regression\n\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
+    "text": "There’s tons to learn about regression, but I’ll just give you a quick overview. \nTypes of Regression\n\nThere are several types of regression analysis, including:\n\n\n\nLinear Regression: Predicts a dependent variable using a linear equation with one or more independent variables. It’s the most straightforward type of regression, used when the relationship between variables is linear.\nLogistic Regression: Used for binary outcomes (e.g., success/failure). It estimates probabilities using a logistic function, making it suitable for classification problems.\nPolynomial Regression: Extends linear regression by allowing the model to fit nonlinear relationships through polynomial terms of independent variables.\nRidge and Lasso Regression: These are extensions of linear regression that include regularization terms to prevent overfitting, with Lasso also allowing for feature selection by shrinking some coefficients to zero.\n\n\n\nNote: For more information, check out this article.\n\n\nLinear Regression\nHere’s what linear regression looks like:\n\n\nLogistic Regression\nlogistic regression is a type of regression that is used to predict a binary outcome."
   },
   {
     "objectID": "projects/project2/index.html",

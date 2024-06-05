@@ -8,6 +8,8 @@ project:
 
 website:
   title: "Ligea Alexander"
+  site-url: ligea.alexander.com 
+  favicon: favicon.ico
   page-navigation: true
   search: 
     location: navbar
@@ -26,7 +28,7 @@ website:
       - file: about.qmd
         text: "About" 
       - icon: github
-        href: https://linkedin.com/in/ligea-alexander
+        href: https://github.com/ligea-alexander
       - text: "Tableau Public"
         # icon: fa-brands fa-tableau
         href: https://public.tableau.com/app/profile/ligea.alexander
@@ -34,13 +36,15 @@ website:
         href: https://linkedin.com/in/ligea-alexander
       - icon: medium
         href: https://medium.com/@ligea.alex
-  favicon: "favicon.ico"
-site-url: ligea.alexander.com 
+        
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
+      
     css: styles.css
     include-css: custom.css 
+
+
       

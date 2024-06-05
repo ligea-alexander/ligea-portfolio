@@ -1,0 +1,5 @@
+---
+title: "Data Journalism and Feature Writing"
+title-block-banner: true
+---
+[<<Back to All Projects](/projects/all-projects.qmd)
