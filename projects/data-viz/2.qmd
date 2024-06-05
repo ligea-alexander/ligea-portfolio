@@ -1,0 +1,13 @@
+---
+title: "Visualization 2"
+date: 6/4/2024
+categories: ["maps", "R"]
+---
+
+## Interactive Visualization
+
+Here is my interactive visualization using Observable.
+
+::: {.observable}
+// Observable notebook embed code or link here
+:::

@@ -25,5 +25,14 @@
   },
   "about.qmd": {
     "about.html": "9481e284"
+  },
+  "projects/data-viz/all.qmd": {
+    "all.html": "5ec56b1c"
+  },
+  "projects/data-viz/1.qmd": {
+    "1.html": "7a21bba4"
+  },
+  "projects/data-viz/2.qmd": {
+    "2.html": "35e55817"
   }
 }

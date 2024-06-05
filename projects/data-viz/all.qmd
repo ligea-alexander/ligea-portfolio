@@ -1,0 +1,19 @@
+---
+title: "Data Visualization and Information Design"
+listing:
+  id: data-viz-projects
+  contents: "*.qmd"
+  type: grid
+  categories: true
+  feed: true
+  sort-ui: [date]
+  page-size: 36
+#   include:
+#     author: "{Harlow,Tristan}*"
+---
+
+[<<Back to All Projects](projects/data-viz/1.qmd)
+
+
+:::{#data-viz-projects}
+:::

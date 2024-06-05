@@ -1,5 +1,5 @@
 website:
-  title: "Ligea Alexander"
+  # title: "Ligea Alexander"
   site-url: ligea.alexander.com 
   favicon: favicon.ico
   image: images/italy.jpeg
@@ -10,8 +10,8 @@ website:
   navbar:
     left:
       - file: index.qmd
-        text: "Home"
-      - text: "Projects"
+        text: "Ligea Alexander"
+      - text: "Work"
         menu:
           - file: projects/all-projects.qmd
           - file: projects/project1.qmd
@@ -23,7 +23,7 @@ website:
       - icon: github
         href: https://github.com/ligea-alexander
       - text: "Tableau Public"
-        # icon: fa-brands fa-tableau
+        icon: fa-brands fa-tableau
         href: https://public.tableau.com/app/profile/ligea.alexander
       - icon: linkedin
         href: https://linkedin.com/in/ligea-alexander
@@ -33,13 +33,17 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: 
+        - cosmo
+        - custom-light.scss
+      dark: 
+        - darkly
+        - custom-dark.scss
+    include-css: 
+      - styles.css
       
-    css: styles.css
-    include-css: custom.css 
 includes:
-    in-header: |
+    in-header: 
       <link rel="icon" href="favicon.ico" type="image/x-icon">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 

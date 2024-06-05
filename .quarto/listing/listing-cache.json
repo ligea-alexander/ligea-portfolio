@@ -1,5 +1,8 @@
 {
   "listingMap": {
+    "projects/data-viz/all.qmd": [
+      "*.qmd"
+    ],
     "projects/project2/index.qmd": [
       "posts"
     ]

@@ -1,0 +1,28 @@
+---
+title: "Intervention Analysis"
+date: 5/31/2024
+categories: ["insights", "python"]
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+## Data Visualization in the Field
+
+Provide some context or introduction here...
+
+
+## Analysis
+Include any specific figures or outputs from the notebook:
+![Description of image](path/to/image/output_from_notebook.png)
+
+```{python}
+import numpy as np
+```
+
+
+
+## Telling The Story
+Include the Datawrapper iframe here:
+<!-- <iframe title="KPI Dashboard" aria-label="Dashboard" src="https://datawrapper.dwcdn.net/chartID/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe> -->
