@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ligea Alexander - I Swear, You’re Not Stupid</title>
+<title>Data Visualization and Information Design</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,20 +67,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-data-viz-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-data-viz-projects'] = new List('listing-data-viz-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -97,7 +97,6 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -107,11 +106,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Ligea Alexander</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -120,23 +114,23 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+ <span class="menu-text">Ligea Alexander</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="../../projects/all-projects.html" rel="" target="">
- <span class="dropdown-text">All Projects</span></a>
+ <span class="dropdown-text">All Work</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../projects/project1.html" rel="" target="">
+    <a class="dropdown-item" href="../../projects/data-viz/all.html" rel="" target="">
  <span class="dropdown-text">Data Visualization and Information Design</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../projects/project2/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../projects/swear-youre-not-stupid/index.html" rel="" target="">
  <span class="dropdown-text">I Swear, You’re Not Stupid</span></a>
   </li>  
     </ul>
@@ -153,7 +147,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://public.tableau.com/app/profile/ligea.alexander" rel="" target="">
+    <a class="nav-link" href="https://public.tableau.com/app/profile/ligea.alexander" rel="" target=""><i class="bi bi-fa-brands fa-tableau" role="img">
+</i> 
  <span class="menu-text">Tableau Public</span></a>
   </li>  
   <li class="nav-item compact">
@@ -177,8 +172,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">I Swear, You’re Not Stupid</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Data Visualization and Information Design</h1>
                       </div>
   </div>
     
@@ -191,109 +186,108 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data analytics">data analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div><div class="category" data-category="updates">updates <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="insights">insights <span class="quarto-category-count">(1)</span></div><div class="category" data-category="maps">maps <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="data science,data analytics,r,python" data-listing-date-sort="1712721600000" data-listing-file-modified-sort="1717560366457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../projects/project2/posts/all-about-regression/index.html"> <img src="../../projects/project2/posts/all-about-regression/image.jpg" class="thumbnail-image"> </a></p>
+<!-- [<<Back to All Projects](projects/all-projects.qmd) -->
+<div id="listing-data-viz-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-data-viz-projects-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-data-viz-projects'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
 </div>
-<div class="body">
-<a href="../../projects/project2/posts/all-about-regression/index.html">
-<h3 class="no-anchor listing-title">
-All About Regression
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="insights,python" data-listing-date-sort="1717128000000" data-listing-file-modified-sort="1717619340996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../projects/data-viz/1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Intervention Analysis
+</h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
-data science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data analytics'); return false;">
-data analytics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
-r
+<div class="listing-category" onclick="window.quartoListingCategory('insights'); return false;">
+insights
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
 python
 </div>
 </div>
-<a href="../../projects/project2/posts/all-about-regression/index.html">
-<div class="listing-description">
-There’s tons to learn about regression, but I’ll just give you a quick overview. <br>
+<div class="card-text listing-description">
+Provide some context or introduction here…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../projects/project2/posts/all-about-regression/index.html">
-<div class="listing-date">
-Apr 10, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Ligea Alexander
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="updates" data-listing-date-sort="1712635200000" data-listing-file-modified-sort="1717560366468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../../projects/project2/posts/welcome/index.html"> <img src="../../projects/project2/posts/welcome/thumbnail.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../projects/project2/posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Welcome To A Safe Space For Understanding
-</h3>
-<div class="listing-subtitle">
 
 </div>
+<div class="listing-date">
+May 31, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="maps,R" data-listing-date-sort="1717473600000" data-listing-file-modified-sort="1717612262085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../projects/data-viz/2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Visualization 2
+</h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('updates'); return false;">
-updates
+<div class="listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+maps
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
 </div>
 </div>
-<a href="../../projects/project2/posts/welcome/index.html">
-<div class="listing-description">
-
-<b>“I Swear, You’re Not Stupid” </b>is a sanctuary for the intellectually curious and the perpetually befuddled alike. Nestled within my…
+<div class="card-text listing-description">
+Here is my interactive visualization using Observable.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../projects/project2/posts/welcome/index.html">
-<div class="listing-date">
-Apr 9, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Ligea Alexander
+
+</div>
+<div class="listing-date">
+Jun 4, 2024
+</div>
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

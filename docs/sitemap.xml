@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>ligea.alexander.com/about.html</loc>
-    <lastmod>2024-06-05T04:19:33.867Z</lastmod>
+    <lastmod>2024-06-05T20:56:26.431Z</lastmod>
   </url>
   <url>
-    <loc>ligea.alexander.com/projects/project2/about.html</loc>
-    <lastmod>2024-06-05T04:19:32.873Z</lastmod>
+    <loc>ligea.alexander.com/projects/data-viz/2.html</loc>
+    <lastmod>2024-06-05T20:56:25.573Z</lastmod>
   </url>
   <url>
-    <loc>ligea.alexander.com/projects/project2/posts/welcome/index.html</loc>
-    <lastmod>2024-06-05T04:19:31.523Z</lastmod>
+    <loc>ligea.alexander.com/projects/data-viz/all.html</loc>
+    <lastmod>2024-06-05T20:56:17.637Z</lastmod>
   </url>
   <url>
-    <loc>ligea.alexander.com/projects/p3-data-journalism.html</loc>
-    <lastmod>2024-06-05T04:19:30.332Z</lastmod>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/about.html</loc>
+    <lastmod>2024-06-05T20:56:14.453Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/welcome/index.html</loc>
+    <lastmod>2024-06-05T20:56:13.059Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/data-journalism.html</loc>
+    <lastmod>2024-06-05T20:56:11.821Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/all-about-regression/index.html</loc>
+    <lastmod>2024-06-05T20:56:12.422Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/index.html</loc>
+    <lastmod>2024-06-05T20:56:13.977Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/all-projects.html</loc>
-    <lastmod>2024-06-05T04:19:28.018Z</lastmod>
+    <lastmod>2024-06-05T20:56:15.014Z</lastmod>
   </url>
   <url>
-    <loc>ligea.alexander.com/projects/project1.html</loc>
-    <lastmod>2024-06-05T04:19:29.887Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/project2/posts/all-about-regression/index.html</loc>
-    <lastmod>2024-06-05T04:19:30.949Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/project2/index.html</loc>
-    <lastmod>2024-06-05T04:19:32.468Z</lastmod>
+    <loc>ligea.alexander.com/projects/data-viz/1.html</loc>
+    <lastmod>2024-06-05T20:56:25.164Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/index.html</loc>
-    <lastmod>2024-06-05T04:19:33.382Z</lastmod>
+    <lastmod>2024-06-05T20:56:26.015Z</lastmod>
   </url>
 </urlset>

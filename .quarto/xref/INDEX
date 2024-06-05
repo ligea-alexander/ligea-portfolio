@@ -1,53 +1,35 @@
 {
-  "projects/all-projects.qmd": {
-    "all-projects.html": "7e72e378"
-  },
-  "projects/project1.qmd": {
-    "project1.html": "bd45eb18"
-  },
-  "projects/p3-data-journalism.qmd": {
-    "p3-data-journalism.html": "cab440bb"
-  },
-  "projects/project2/posts/all-about-regression/index.qmd": {
-    "index.html": "69d619cb"
-  },
-  "projects/project2/posts/welcome/index.qmd": {
-    "index.html": "d38c7406"
-  },
-  "projects/project2/index.qmd": {
-    "index.html": "86577b4e"
-  },
-  "projects/project2/about.qmd": {
-    "about.html": "4747aa50"
-  },
-  "index.qmd": {
-    "index.html": "4afe2de0"
-  },
-  "about.qmd": {
-    "about.html": "9481e284"
-  },
-  "projects/data-viz/all.qmd": {
-    "all.html": "5ec56b1c"
-  },
-  "projects/data-viz/1.qmd": {
-    "1.html": "7a21bba4"
-  },
-  "projects/data-viz/2.qmd": {
-    "2.html": "35e55817"
-  },
   "projects/data-journalism.qmd": {
-    "data-journalism.html": "04be5a41"
+    "data-journalism.html": "10e0e523"
   },
   "projects/swear-youre-not-stupid/posts/all-about-regression/index.qmd": {
-    "index.html": "e647cc0e"
+    "index.html": "e5905087"
   },
   "projects/swear-youre-not-stupid/posts/welcome/index.qmd": {
-    "index.html": "80fdd71c"
+    "index.html": "c2c138c8"
   },
   "projects/swear-youre-not-stupid/index.qmd": {
-    "index.html": "5cc6824d"
+    "index.html": "ab238eb6"
   },
   "projects/swear-youre-not-stupid/about.qmd": {
-    "about.html": "b7ce9f5b"
+    "about.html": "993739ec"
+  },
+  "projects/all-projects.qmd": {
+    "all-projects.html": "cdb22be8"
+  },
+  "projects/data-viz/all.qmd": {
+    "all.html": "4ce2806a"
+  },
+  "projects/data-viz/1.qmd": {
+    "1.html": "4c680c27"
+  },
+  "projects/data-viz/2.qmd": {
+    "2.html": "533e9bb7"
+  },
+  "index.qmd": {
+    "index.html": "cee792c1"
+  },
+  "about.qmd": {
+    "about.html": "c6dd4a3d"
   }
 }
