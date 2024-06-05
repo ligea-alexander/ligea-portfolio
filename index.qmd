@@ -1,8 +1,8 @@
 ---
 title: "Home"
 title-block-banner: true
+image: images/italy.jpeg
 about:
-  image: images/italy.jpeg
   template: jolla
   image-width: 20em
   image-shape: round

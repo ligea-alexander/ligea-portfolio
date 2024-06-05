@@ -6,49 +6,8 @@ project:
     watch-inputs: true
     navigate: false
 
-website:
-  title: "Ligea Alexander"
-  site-url: ligea.alexander.com 
-  favicon: favicon.ico
-  page-navigation: true
-  search: 
-    location: navbar
-    type: overlay
-  navbar:
-    left:
-      - file: index.qmd
-        text: "Home"
-      - text: "Projects"
-        menu:
-          - file: projects/all-projects.qmd
-          - file: projects/project1.qmd
-          - file: projects/project2/index.qmd
-         
-    right:
-      - file: about.qmd
-        text: "About" 
-      - icon: github
-        href: https://github.com/ligea-alexander
-      - text: "Tableau Public"
-        # icon: fa-brands fa-tableau
-        href: https://public.tableau.com/app/profile/ligea.alexander
-      - icon: linkedin
-        href: https://linkedin.com/in/ligea-alexander
-      - icon: medium
-        href: https://medium.com/@ligea.alex
-        
-format:
-  html:
-    theme:
-      light: cosmo
-      dark: darkly
-      
-    css: styles.css
-    include-css: custom.css 
-includes:
-    in-header: |
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+metadata-files:
+  - _website.yml
 
-
-      
+execute:
+  freeze: auto
