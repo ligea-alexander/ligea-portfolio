@@ -31,5 +31,8 @@
   },
   "about.qmd": {
     "about.html": "c6dd4a3d"
+  },
+  "projects/data-viz/1-intervention-analysis.ipynb": {
+    "1-intervention-analysis.html": "878edb8d"
   }
 }
