@@ -32,7 +32,7 @@ View my work in data visualization and visual storytelling.
 
 ::: {.column width="55%"}
 
-[Continue...](/projects/data-journalism.qmd)
+[Continue...](/projects/data-journo/all.qmd)
 :::
 
 ::: {.column width="5%"}
