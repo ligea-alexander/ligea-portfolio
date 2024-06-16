@@ -18,7 +18,7 @@ links:
       href: mailto:ligea.alex@gmail.com
 ---
 
-## Ligea Alexander
+<!-- ## Ligea Alexander -->
 <ul class="no-bullets">
 <p>She is a human-centered designer based in NYC, NY.<p>
 <p>She is a burgeoning interactives designer/IxD.<p>

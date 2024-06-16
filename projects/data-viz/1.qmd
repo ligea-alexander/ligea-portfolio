@@ -1,5 +1,5 @@
 ---
-title: "Intervention Analysis"
+title: "Data Viz in a Corporate Setting: Case Study"
 date: 5/31/2024
 categories: ["insights", "python"]
 format:
@@ -8,9 +8,19 @@ format:
 jupyter: python3
 ---
 
-## Data Visualization in the Field
+## Insight through Data: Crafting Visual Narratives for Corporate Strategy
 
-Provide some context or introduction here...
+<b>Disclaimer:</b> All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.
+
+In my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations. In this case study I'll share a glimpse into how I transformed raw data from various departments into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. Here, I’ll share the methods we used to communicate effectively, and the real-world challenges and successes we encountered along the way.
+
+Each quarter, I set these goals for myself:
+
+<ul>
+<li><b>Show Org-Wide Performance:</b> Ensure strategic alignment with fiscal year objectives.</li>
+<li><b>Share Our Strategy for Improvement:</b> Highlight key initiatives and outcomes</li>
+<li><b>Delivering Actionable Insights:</b> Provide clear, impactful information to the board./li>
+</ul>
 
 ::: {.observable}
 <!-- // Observable notebook embed code or link here -->

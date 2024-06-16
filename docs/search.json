@@ -109,46 +109,39 @@
     "href": "projects/data-viz/all.html",
     "title": "Data Visualization and Information Design",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\nIntervention Analysis\n\n\n\ninsights\n\n\npython\n\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualization 2\n\n\n\nmaps\n\n\nR\n\n\n\n\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\nData Viz in a Corporate Setting: Case Study\n\n\n\ninsights\n\n\npython\n\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualization 2\n\n\n\nmaps\n\n\nR\n\n\n\n\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/data-viz/1.html",
     "href": "projects/data-viz/1.html",
-    "title": "Intervention Analysis",
+    "title": "Data Viz in a Corporate Setting: Case Study",
     "section": "",
-    "text": "Provide some context or introduction here…"
+    "text": "Disclaimer: All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\nIn my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations. In this case study I’ll share a glimpse into how I transformed raw data from various departments into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. Here, I’ll share the methods we used to communicate effectively, and the real-world challenges and successes we encountered along the way.\nEach quarter, I set these goals for myself:\n\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\n\n\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\n\n\nDelivering Actionable Insights: Provide clear, impactful information to the board./li&gt;"
   },
   {
-    "objectID": "projects/data-viz/1.html#data-visualization-in-the-field",
-    "href": "projects/data-viz/1.html#data-visualization-in-the-field",
-    "title": "Intervention Analysis",
+    "objectID": "projects/data-viz/1.html#insight-through-data-crafting-visual-narratives-for-corporate-strategy",
+    "href": "projects/data-viz/1.html#insight-through-data-crafting-visual-narratives-for-corporate-strategy",
+    "title": "Data Viz in a Corporate Setting: Case Study",
     "section": "",
-    "text": "Provide some context or introduction here…"
+    "text": "Disclaimer: All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\nIn my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations. In this case study I’ll share a glimpse into how I transformed raw data from various departments into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. Here, I’ll share the methods we used to communicate effectively, and the real-world challenges and successes we encountered along the way.\nEach quarter, I set these goals for myself:\n\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\n\n\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\n\n\nDelivering Actionable Insights: Provide clear, impactful information to the board./li&gt;"
   },
   {
     "objectID": "projects/data-viz/1.html#analysis",
     "href": "projects/data-viz/1.html#analysis",
-    "title": "Intervention Analysis",
+    "title": "Data Viz in a Corporate Setting: Case Study",
     "section": "Analysis",
     "text": "Analysis\nInclude any specific figures or outputs from the notebook:\n\nimport numpy as np"
   },
   {
     "objectID": "projects/data-viz/1.html#telling-the-story",
     "href": "projects/data-viz/1.html#telling-the-story",
-    "title": "Intervention Analysis",
+    "title": "Data Viz in a Corporate Setting: Case Study",
     "section": "Telling The Story",
     "text": "Telling The Story\nInclude the Datawrapper iframe here:"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ligea Alexander",
-    "section": "",
-    "text": "She is a human-centered designer based in NYC, NY.\n\n\nShe is a burgeoning interactives designer/IxD.\n\n\nShe is a multi-disciplinary visual storyteller.\n\n\nShe is a data-person.\n\n\nShe is an intermediate level German speaker.\n\n\nShe is a cat stewardess.\n\n\nShe is Trinidadian born and raised (and quite proud of that).\n\n\nShe is super excited to work with you!"
-  },
-  {
-    "objectID": "index.html#ligea-alexander",
-    "href": "index.html#ligea-alexander",
     "title": "Ligea Alexander",
     "section": "",
     "text": "She is a human-centered designer based in NYC, NY.\n\n\nShe is a burgeoning interactives designer/IxD.\n\n\nShe is a multi-disciplinary visual storyteller.\n\n\nShe is a data-person.\n\n\nShe is an intermediate level German speaker.\n\n\nShe is a cat stewardess.\n\n\nShe is Trinidadian born and raised (and quite proud of that).\n\n\nShe is super excited to work with you!"
