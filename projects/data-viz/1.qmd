@@ -11,41 +11,62 @@ toc: true
 
 ## Crafting Visual Narratives for Corporate Strategy
 
-:::{.callout-important}
+:::{.callout-important appearance="minimal"}
  All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.
 :::
 
-In my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations. 
+In my role as the Data Insights Specialist II on the Learning and Impact team at the Center for Employment Opportunities, I directed the overall strategy for each quarterly board report. I identified key performance indicators (KPIs) by analyzing data and aligning them with the strategic goals of the organization. I coordinated the narrative, deciding which insights to present, and shaped the story to highlight our achievements and areas for improvement. I'd communicate these insights through visualizations that were clear and impactful.
 
 Here, I'll share a glimpse into how I'd transform raw data [from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. 
 <!-- I’ll share the methods we used to communicate effectively, and the real-world challenges and successes me and the team encountered along the way. -->
 
 Each quarter, I set these goals for myself:
 
-<ul>
-<li><b>Show Org-Wide Performance:</b> Ensure strategic alignment with fiscal year objectives.</li>
-<li><b>Share Our Strategy for Improvement:</b> Highlight key initiatives and outcomes</li>
-<li><b>Delivering Actionable Insights:</b> Provide clear, impactful information to the board./li>
-</ul>
 
-## Handling the Data
+* **Show Org-Wide Performance:** Ensure strategic alignment with fiscal year objectives.
+* **Share Our Strategy for Improvement:** Highlight key initiatives and outcomes
+* **Delivering Actionable Insights:** Provide clear, impactful information to the board.
 
 
-::: {.observable}
-<!-- // Observable notebook embed code or link here -->
+## Wrangling the Data
+
+At the end of each quarter, I'd reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactivley engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.
+
+**The Data**
+
+Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points.
+
+::: {.grid}
+
+::: {.g-col-4}
+![Via G-chat: Quick messages containing key data points or updates.](the_data_1.webp)
 :::
 
+::: {.g-col-4}
+![Through Google Sheets: More structured data in spreadsheets shared across departments.](the_data_2.webp)
+:::
 
-## Analysis
-Include any specific figures or outputs from the notebook:
+::: {.g-col-4}
+![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](the_data_3.webp)
+:::
 
+:::
+
+Which I'd then process using my favourite: panadas
+
+Here's a typical cleaning workflow:
 
 ```{python}
 import numpy as np
+import pandas as pd
 ```
 
 
 
-## Telling The Story
-Include the Datawrapper iframe here:
+## Designing Clear Visuals
+
+
+
+## Final Product
+<!-- Include the Datawrapper iframe here: -->
 <!-- <iframe title="KPI Dashboard" aria-label="Dashboard" src="https://datawrapper.dwcdn.net/chartID/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe> -->

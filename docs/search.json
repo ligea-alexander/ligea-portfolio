@@ -109,35 +109,35 @@
     "href": "projects/data-viz/1.html",
     "title": "Insight through Data",
     "section": "",
-    "text": "Important\n\n\n\nAll data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\n\n\nIn my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations.\nHere, I’ll share a glimpse into how I’d transform raw data [from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. \nEach quarter, I set these goals for myself:\n\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\n\n\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\n\n\nDelivering Actionable Insights: Provide clear, impactful information to the board./li&gt;"
+    "text": "All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\n\n\n\nIn my role as the Data Insights Specialist II on the Learning and Impact team at the Center for Employment Opportunities, I directed the overall strategy for each quarterly board report. I identified key performance indicators (KPIs) by analyzing data and aligning them with the strategic goals of the organization. I coordinated the narrative, deciding which insights to present, and shaped the story to highlight our achievements and areas for improvement. I’d communicate these insights through visualizations that were clear and impactful.\nHere, I’ll share a glimpse into how I’d transform raw data [from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. \nEach quarter, I set these goals for myself:\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\nDelivering Actionable Insights: Provide clear, impactful information to the board."
   },
   {
     "objectID": "projects/data-viz/1.html#crafting-visual-narratives-for-corporate-strategy",
     "href": "projects/data-viz/1.html#crafting-visual-narratives-for-corporate-strategy",
     "title": "Insight through Data",
     "section": "",
-    "text": "Important\n\n\n\nAll data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\n\n\nIn my role as the Data Insights Specialist at the Center for Employment Opportunities, I led the development of KPI visuals and directed the overall strategy for each quarterly board report. My responsibilities ranged from deciding which insights to present and shaping the narrative, to designing the visualizations.\nHere, I’ll share a glimpse into how I’d transform raw data [from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. \nEach quarter, I set these goals for myself:\n\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\n\n\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\n\n\nDelivering Actionable Insights: Provide clear, impactful information to the board./li&gt;"
+    "text": "All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.\n\n\n\nIn my role as the Data Insights Specialist II on the Learning and Impact team at the Center for Employment Opportunities, I directed the overall strategy for each quarterly board report. I identified key performance indicators (KPIs) by analyzing data and aligning them with the strategic goals of the organization. I coordinated the narrative, deciding which insights to present, and shaped the story to highlight our achievements and areas for improvement. I’d communicate these insights through visualizations that were clear and impactful.\nHere, I’ll share a glimpse into how I’d transform raw data [from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. \nEach quarter, I set these goals for myself:\n\nShow Org-Wide Performance: Ensure strategic alignment with fiscal year objectives.\nShare Our Strategy for Improvement: Highlight key initiatives and outcomes\nDelivering Actionable Insights: Provide clear, impactful information to the board."
   },
   {
-    "objectID": "projects/data-viz/1.html#handling-the-data",
-    "href": "projects/data-viz/1.html#handling-the-data",
+    "objectID": "projects/data-viz/1.html#wrangling-the-data",
+    "href": "projects/data-viz/1.html#wrangling-the-data",
     "title": "Insight through Data",
-    "section": "Handling the Data",
-    "text": "Handling the Data"
+    "section": "Wrangling the Data",
+    "text": "Wrangling the Data\nAt the end of each quarter, I’d reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactivley engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.\nThe Data\nUsually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points.\n\n\n\n\n\nVia G-chat: Quick messages containing key data points or updates.\n\n\n\n\n\n\n\nThrough Google Sheets: More structured data in spreadsheets shared across departments.\n\n\n\n\n\n\n\nInside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.\n\n\n\n\nWhich I’d then process using my favourite: panadas\nHere’s a typical cleaning workflow:\n\nimport numpy as np\nimport pandas as pd"
   },
   {
-    "objectID": "projects/data-viz/1.html#analysis",
-    "href": "projects/data-viz/1.html#analysis",
+    "objectID": "projects/data-viz/1.html#designing-clear-visuals",
+    "href": "projects/data-viz/1.html#designing-clear-visuals",
     "title": "Insight through Data",
-    "section": "Analysis",
-    "text": "Analysis\nInclude any specific figures or outputs from the notebook:\n\nimport numpy as np"
+    "section": "Designing Clear Visuals",
+    "text": "Designing Clear Visuals"
   },
   {
-    "objectID": "projects/data-viz/1.html#telling-the-story",
-    "href": "projects/data-viz/1.html#telling-the-story",
+    "objectID": "projects/data-viz/1.html#final-product",
+    "href": "projects/data-viz/1.html#final-product",
     "title": "Insight through Data",
-    "section": "Telling The Story",
-    "text": "Telling The Story\nInclude the Datawrapper iframe here:"
+    "section": "Final Product",
+    "text": "Final Product"
   },
   {
     "objectID": "index.html",
