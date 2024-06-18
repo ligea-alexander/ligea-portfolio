@@ -92,7 +92,9 @@ df.columns = df.columns.str.lower()
 
 
 ## Designing Clear Visuals
+After spending significant time with the data through pandas—cleaning, pivoting, and experimenting with basic summary visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is what I call the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should grasp what a chart or graph communicates within that short time frame. This principle contrasts with more abstract data visualizations, which, while beautiful and engaging, cater to a different audience. Artists like Federica Fragipane and Alberto Cairo, who I admire greatly, often take artistic liberties that suit their intended audiences.
 
+In my case, since the visualizations are intended for board-level presentations, I avoid overly complex or abstract visuals. The iteration process, therefore, tends to be straightforward—simple sketches with a few lines and shapes. I prefer to use pencil and paper for this phase. After extensive screen time, it feels refreshing and more tangible to connect with the work physically.
 
 
 ## Final Product
