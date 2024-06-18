@@ -37,7 +37,7 @@ At the end of each quarter, I'd reach out to various departments to gather updat
 
 **The Data**
 
-Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points.
+Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points. I would then download these into .csv files and process them using my favorite tool: pandas.
 
 ::: {.grid}
 
@@ -55,9 +55,12 @@ Usually, these updates came back to me as rudimentary figures, spreadsheets, or 
 
 :::
 
-Which I'd then download into .csv files and process using my favourite: pandas
 
-One quarter we shared insights from 
+In addition to incorporating relevant program updates, we also included findings from the Learning and Impact team's internal analyses. One quarter, we included insights derived from an evaluation of one of our intervention methods. These insights revealed specific characteristics and intervention dosages that significantly increased the likelihood of success for our participants.
+
+"Likelihood"—there’s a term you'll often hear in data science. Within the Learning and Impact team and in discussions across departments, terms like probabilities and likelihoods were straightforward to discuss, thanks to the context we could provide. However, translating these and other statistical terms accurately into language and visuals for the board—without the benefit of interactive dialogue—posed a unique challenge.
+
+In the code blocks that follow, which I've anonymized for confidentiality, I'll demonstrate how I transformed the insights from our intervention analysis into visuals for our board report. The data cleaning, processing, and manipulation steps shown below are routine practices I used to prepare the data points received from various departments. These steps were crucial for converting raw data, whether received through G-chat, Google Sheets, or emails, into clear, impactful board-level visual presentations.
 
 ```{python}
 # Setting Up Environment
@@ -77,7 +80,7 @@ df.dtypes
 ```
 ```{python}
 df.columns = df.columns.str.lower()
-df[[date]] = pd.to_datetime(df[date])
+# df[[date]] = pd.to_datetime(df[date])
 ```
 
 ```{python}

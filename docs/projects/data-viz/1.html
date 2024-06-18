@@ -245,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="wrangling-the-data">Wrangling the Data</h2>
 <p>At the end of each quarter, I’d reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactivley engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.</p>
 <p><strong>The Data</strong></p>
-<p>Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points.</p>
+<p>Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points. I would then download these into .csv files and process them using my favorite tool: pandas.</p>
 <div class="grid">
 <div class="g-col-4">
 <div class="quarto-figure quarto-figure-center">
@@ -272,8 +272,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Which I’d then download into .csv files and process using my favourite: pandas</p>
-<p>Here’s a typical cleaning workflow:</p>
+<p>One quarter we included insights from an analysis we did on one of our intervention methods. Basically, we conducted a series of analyses to gain deeper understanding of what was driving our success. What came out of that was a set of characteristics, dosage ranges of interventions were increased the likelihood of success. Among ourselves on the Learning and Impact team and between departments we could easily talk about likelihood and probabilities especially when we’re able to add more context but communicating probabilities and likelihood to board members on paper without the ability to dive into deeper conversation to tease out confusion is different. How does one visualizae clearly ranges and likelihood and dosages? My process for cleaning, summarizing and manipulating the results of these analyses is what I’d usually do to process data shared from different departments so I’ll use this process as example for how I’d prepare data ppoints received for visualization.</p>
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting Up Environment</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -285,7 +284,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="14">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 
 
@@ -336,8 +335,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.columns <span class="op">=</span> df.columns.<span class="bu">str</span>.lower()</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># df[[date]] = pd.to_datetime(df[date])</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<pre><code>Site       object
+Stage 1     int64
+Stage 2     int64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.columns <span class="op">=</span> df.columns.<span class="bu">str</span>.lower()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># df[[date]] = pd.to_datetime(df[date])</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="designing-clear-visuals" class="level2">
