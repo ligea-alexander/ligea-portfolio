@@ -7,8 +7,8 @@ format:
     code-fold: false
 jupyter: python3
 execute:
-  freeze: true
-  # enabled: false
+  freeze: auto # means re-render only when source changes
+  enabled: false
 toc: true
 ---
 
