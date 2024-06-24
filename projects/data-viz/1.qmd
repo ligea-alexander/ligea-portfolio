@@ -92,10 +92,9 @@ df.columns = df.columns.str.lower()
 
 
 ## Designing Clear Visuals
-After spending significant time with the data through pandas—cleaning, pivoting, and experimenting with basic summary visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is what I call the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should grasp what a chart or graph communicates within that short time frame. This principle contrasts with more abstract data visualizations, which, while beautiful and engaging, cater to a different audience. Artists like Federica Fragipane and Alberto Cairo, who I admire greatly, often take artistic liberties that suit their intended audiences.
+After spending time with the data through—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This principle contrasts with more abstract data visualizations, which, while beautiful and engaging, cater to a different audience. Artists like Federica Fragipane and Alberto Cairo, who I admire greatly, often take artistic liberties that suit their intended audiences.
 
-In my case, since the visualizations are intended for board-level presentations, I avoid overly complex or abstract visuals. The iteration process, therefore, tends to be straightforward—simple sketches with a few lines and shapes. I prefer to use pencil and paper for this phase. After extensive screen time, it feels refreshing and more tangible to connect with the work physically.
-
+For board presentations, I focus on straightforward designs, avoiding overly complex or abstract visuals. Sketching with pencil and paper after extensive screen time helps me connect physically with my work, making the creative process more tangible and refreshing.
 
 ## Final Product
 <!-- Include the Datawrapper iframe here: -->
