@@ -4,12 +4,14 @@ date: 5/31/2024
 categories: ["insights", "python"]
 format:
   html:
+    css: styles.css
     code-fold: false
 jupyter: python3
 execute:
-  freeze: auto # means re-render only when source changes
-  enabled: false
+  freeze: false # means re-render only when source changes
+  enabled: true
 toc: true
+thumbnail: wrangling_data.png
 ---
 
 ## Crafting Visual Narratives for Corporate Strategy
@@ -42,15 +44,15 @@ Usually, these updates came back to me as rudimentary figures, spreadsheets, or 
 ::: {.grid}
 
 ::: {.g-col-4}
-![Via G-chat: Quick messages containing key data points or updates.](the_data_1.webp)
+![Via G-chat: Quick messages containing key data points or updates.](laptop_gchat.png)
 :::
 
 ::: {.g-col-4}
-![Through Google Sheets: More structured data in spreadsheets shared across departments.](the_data_2.webp)
+![Through Google Sheets: More structured data in spreadsheets shared across departments.](files_in_the_wind.png)
 :::
 
 ::: {.g-col-4}
-![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](the_data_3.webp)
+![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](laptop_email.png)
 :::
 
 :::
@@ -67,32 +69,85 @@ In the code blocks that follow, which I've anonymized for confidentiality, I'll 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+```
+```{python}
 # Read in Data
-df = pd.read_csv("q3_program_data.csv")
+fy23_df = pd.read_csv("anonymized_fy24_data.csv")
+fy24_df = pd.read_csv("anonymized_fy23_data.csv")
 ```
 
 ```{python}
-df.head()
+fy23_df.head()
 ```
 ```{python}
-df.dtypes
-```
-```{python}
-df.columns = df.columns.str.lower()
-# df[[date]] = pd.to_datetime(df[date])
+fy23_df.dtypes
+fy24_df.dtypes
 ```
 
 ```{python}
+def process_data(df, date_col, drop_col):
+  # Convert date field to datetime
+  df[date_col] = pd.to_datetime(df[date_col])
 
+  # Drop unneccessary columns
+  df = df.drop([drop_col], axis = 1)
 
+  # Convert column names to lowercase
+  df.columns = df.columns.str.lower()
+  
+  return df
+```
+```{python}
+cleaned_fy23 = process_data(fy23_df, 'Start Date', 'Client Name')
+cleaned_fy24 = process_data(fy24_df, 'Start Date', 'Client Name')
+```
+
+```{python}
+cleaned_fy23.head()
+```
+```{python}
+merged_df = pd.merge(cleaned_fy23, cleaned_fy24, how= 'outer')
+merged_df
+```
+
+```{python}
+def get_fiscal_year(date):
+  if date.month >=7:
+    return date.year + 1
+  else:
+      return date.year
+```
+
+```{python}
+merged_df['fiscal year'] = merged_df['start date'].apply(get_fiscal_year)
+merged_df.head()
+```
+```{python}
+merged_df['fiscal year'].unique()
+```
+
+```{python}
+merged_df = merged_df[merged_df['fiscal year'].isin([2023, 2024])]
+merged_df
+```
+
+```{python}
 
 ```
+
+```{python}
+```
+
+```{python}
+```
+
 
 
 
 ## Designing Clear Visuals
-After spending time with the data through—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This principle contrasts with more abstract data visualizations, which, while beautiful and engaging, cater to a different audience. Artists like Federica Fragipane and Alberto Cairo, who I admire greatly, often take artistic liberties that suit their intended audiences.
+After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.
+
+<!-- sketches -->
 
 For board presentations, I focus on straightforward designs, avoiding overly complex or abstract visuals. Sketching with pencil and paper after extensive screen time helps me connect physically with my work, making the creative process more tangible and refreshing.
 
