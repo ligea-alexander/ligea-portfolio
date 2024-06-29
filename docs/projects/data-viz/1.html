@@ -100,6 +100,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -221,6 +224,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<!-- <p class="card-img-top">
+  <img src="projects/data-viz/wrangling_data.png" alt="Custom Thumbnail" class="thumbnail-image card-img">
+</p> -->
 <section id="crafting-visual-narratives-for-corporate-strategy" class="level2">
 <h2 class="anchored" data-anchor-id="crafting-visual-narratives-for-corporate-strategy">Crafting Visual Narratives for Corporate Strategy</h2>
 <div class="callout callout-style-simple callout-important no-icon">
@@ -284,150 +290,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in Data</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>fy23_df <span class="op">=</span> pd.read_csv(<span class="st">"anonymized_fy24_data.csv"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>fy24_df <span class="op">=</span> pd.read_csv(<span class="st">"anonymized_fy23_data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df1 <span class="op">=</span> pd.read_csv(<span class="st">"anonymized_all.csv"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> pd.read_csv(<span class="st">"anonymized_fy24_only.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>fy23_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Unique Identifier</th>
-<th data-quarto-table-cell-role="th">Start Date</th>
-<th data-quarto-table-cell-role="th">Client Name</th>
-<th data-quarto-table-cell-role="th">Job ID</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>581013</td>
-<td>9/25/23</td>
-<td>581013 Record</td>
-<td>job-193451</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>583586</td>
-<td>7/17/23</td>
-<td>583586 Record</td>
-<td>job-198299</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>585047</td>
-<td>7/11/23</td>
-<td>585047 Record</td>
-<td>job-198331</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>576444</td>
-<td>7/9/23</td>
-<td>576444 Record</td>
-<td>job-198365</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>585401</td>
-<td>9/18/23</td>
-<td>585401 Record</td>
-<td>job-198436</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_df(df, date_col, drop_col):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    df[date_col] <span class="op">=</span> pd.to_datetime(df[date_col])</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.drop([drop_col], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    df.columns <span class="op">=</span> df.columns.<span class="bu">str</span>.lower()</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>cleaned_df1 <span class="op">=</span> clean_df(df1,<span class="st">'Start Date'</span>, <span class="st">'Client Name'</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>cleaned_df2 <span class="op">=</span> clean_df(df2,<span class="st">'Start Date'</span>, <span class="st">'Client Name'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fy23_df.dtypes</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>fy24_df.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
-<pre><code>Unique Identifier     int64
-Start Date           object
-Client Name          object
-Job ID               object
-dtype: object</code></pre>
-</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fiscal_year(date):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> date.month <span class="op">&gt;=</span><span class="dv">7</span>:</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> date.year <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> date.year</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>cleaned_df1[<span class="st">'fiscal year'</span>] <span class="op">=</span> cleaned_df1[<span class="st">'start date'</span>].<span class="bu">apply</span>(fiscal_year)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>cleaned_df2[<span class="st">'fiscal year'</span>] <span class="op">=</span> cleaned_df2[<span class="st">'start date'</span>].<span class="bu">apply</span>(fiscal_year)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_data(df, date_col, drop_col):</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert date field to datetime</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  df[date_col] <span class="op">=</span> pd.to_datetime(df[date_col])</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Drop unneccessary columns</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  df <span class="op">=</span> df.drop([drop_col], axis <span class="op">=</span> <span class="dv">1</span>)</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert column names to lowercase</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  df.columns <span class="op">=</span> df.columns.<span class="bu">str</span>.lower()</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check FYs in dataset</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>cleaned_df1[<span class="st">'fiscal year'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<pre><code>array([2021, 2022, 2023, 2024])</code></pre>
+</div>
 </div>
 <div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cleaned_fy23 <span class="op">=</span> process_data(fy23_df, <span class="st">'Start Date'</span>, <span class="st">'Client Name'</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>cleaned_fy24 <span class="op">=</span> process_data(fy24_df, <span class="st">'Start Date'</span>, <span class="st">'Client Name'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cleaned_previous <span class="op">=</span> cleaned_df1[cleaned_df1[<span class="st">'fiscal year'</span>].isin([<span class="dv">2024</span>])]</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaned_previous.head()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>cleaned_fy23.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">unique identifier</th>
-<th data-quarto-table-cell-role="th">start date</th>
-<th data-quarto-table-cell-role="th">job id</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>581013</td>
-<td>2023-09-25</td>
-<td>job-193451</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>583586</td>
-<td>2023-07-17</td>
-<td>job-198299</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>585047</td>
-<td>2023-07-11</td>
-<td>job-198331</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>576444</td>
-<td>2023-07-09</td>
-<td>job-198365</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>585401</td>
-<td>2023-09-18</td>
-<td>job-198436</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>previous_weekly_performance <span class="op">=</span> (</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  cleaned_previous</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  .groupby([<span class="st">'fiscal year'</span>, pd.Grouper(key<span class="op">=</span><span class="st">'start date'</span>, freq<span class="op">=</span><span class="st">'W'</span>)]).size()</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  .reset_index(name <span class="op">=</span> <span class="st">'previous_weekly_performance'</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># previous_weekly_performance</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(cleaned_fy23, cleaned_fy24, how<span class="op">=</span> <span class="st">'outer'</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>merged_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>previous_weekly_performance[<span class="st">'cumulative_performance'</span>] <span class="op">=</span> (</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  previous_weekly_performance</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  .groupby(<span class="st">'fiscal year'</span>)[<span class="st">'previous_weekly_performance'</span>]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  .cumsum()</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>previous_weekly_performance.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
 <div>
 
@@ -436,94 +348,124 @@ dtype: object</code></pre>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">unique identifier</th>
+<th data-quarto-table-cell-role="th">fiscal year</th>
 <th data-quarto-table-cell-role="th">start date</th>
-<th data-quarto-table-cell-role="th">job id</th>
+<th data-quarto-table-cell-role="th">previous_weekly_performance</th>
+<th data-quarto-table-cell-role="th">cumulative_performance</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">0</td>
-<td>581013</td>
-<td>2023-09-25</td>
-<td>job-193451</td>
+<td>2024</td>
+<td>2023-07-02</td>
+<td>15</td>
+<td>15</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
-<td>583586</td>
-<td>2023-07-17</td>
-<td>job-198299</td>
+<td>2024</td>
+<td>2023-07-09</td>
+<td>77</td>
+<td>92</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
-<td>585047</td>
-<td>2023-07-11</td>
-<td>job-198331</td>
+<td>2024</td>
+<td>2023-07-16</td>
+<td>99</td>
+<td>191</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">3</td>
-<td>576444</td>
-<td>2023-07-09</td>
-<td>job-198365</td>
+<td>2024</td>
+<td>2023-07-23</td>
+<td>71</td>
+<td>262</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">4</td>
-<td>585401</td>
-<td>2023-09-18</td>
-<td>job-198436</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11324</td>
-<td>449040</td>
-<td>2023-04-10</td>
-<td>job-204880</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">11325</td>
-<td>608068</td>
-<td>2023-06-08</td>
-<td>job-204992</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11326</td>
-<td>525290</td>
-<td>2023-03-05</td>
-<td>job-205041</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">11327</td>
-<td>596824</td>
-<td>2023-06-29</td>
-<td>job-205790</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11328</td>
-<td>562783</td>
-<td>2023-07-16</td>
-<td>job-198623</td>
+<td>2024</td>
+<td>2023-07-30</td>
+<td>72</td>
+<td>334</td>
 </tr>
 </tbody>
 </table>
 
-<p>11329 rows × 3 columns</p>
 </div>
 </div>
 </div>
 <div class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_fiscal_year(date):</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> date.month <span class="op">&gt;=</span><span class="dv">7</span>:</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> date.year <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> date.year</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>current_weekly_performance <span class="op">=</span> (</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  cleaned_df2</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  .groupby([<span class="st">'fiscal year'</span>, pd.Grouper(key<span class="op">=</span><span class="st">'start date'</span>, freq<span class="op">=</span><span class="st">'W'</span>)]).size()</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  .reset_index(name <span class="op">=</span> <span class="st">'current_weekly_performance'</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>current_weekly_performance[<span class="st">'current_cumulative_performance'</span>]<span class="op">=</span> (</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  current_weekly_performance</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  .groupby(<span class="st">'fiscal year'</span>)[<span class="st">'current_weekly_performance'</span>]</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  .cumsum()</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>current_weekly_performance.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="9">
+<div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">fiscal year</th>
+<th data-quarto-table-cell-role="th">start date</th>
+<th data-quarto-table-cell-role="th">current_weekly_performance</th>
+<th data-quarto-table-cell-role="th">current_cumulative_performance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>2024</td>
+<td>2023-07-02</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>2024</td>
+<td>2023-07-09</td>
+<td>77</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>2024</td>
+<td>2023-07-16</td>
+<td>98</td>
+<td>190</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>2024</td>
+<td>2023-07-23</td>
+<td>72</td>
+<td>262</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>2024</td>
+<td>2023-07-30</td>
+<td>72</td>
+<td>334</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
 </div>
 <div class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>merged_df[<span class="st">'fiscal year'</span>] <span class="op">=</span> merged_df[<span class="st">'start date'</span>].<span class="bu">apply</span>(get_fiscal_year)</span>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(previous_weekly_performance, current_weekly_performance, how <span class="op">=</span> <span class="st">'outer'</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>merged_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="10">
 <div>
@@ -533,166 +475,90 @@ dtype: object</code></pre>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">unique identifier</th>
-<th data-quarto-table-cell-role="th">start date</th>
-<th data-quarto-table-cell-role="th">job id</th>
 <th data-quarto-table-cell-role="th">fiscal year</th>
+<th data-quarto-table-cell-role="th">start date</th>
+<th data-quarto-table-cell-role="th">previous_weekly_performance</th>
+<th data-quarto-table-cell-role="th">cumulative_performance</th>
+<th data-quarto-table-cell-role="th">current_weekly_performance</th>
+<th data-quarto-table-cell-role="th">current_cumulative_performance</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">0</td>
-<td>581013</td>
-<td>2023-09-25</td>
-<td>job-193451</td>
 <td>2024</td>
+<td>2023-07-02</td>
+<td>15</td>
+<td>15</td>
+<td>15</td>
+<td>15</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
-<td>583586</td>
-<td>2023-07-17</td>
-<td>job-198299</td>
 <td>2024</td>
+<td>2023-07-09</td>
+<td>77</td>
+<td>92</td>
+<td>77</td>
+<td>92</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
-<td>585047</td>
-<td>2023-07-11</td>
-<td>job-198331</td>
 <td>2024</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>576444</td>
-<td>2023-07-09</td>
-<td>job-198365</td>
-<td>2024</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>585401</td>
-<td>2023-09-18</td>
-<td>job-198436</td>
-<td>2024</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>merged_df[<span class="st">'fiscal year'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="11">
-<pre><code>array([2024, 2021, 2022, 2023])</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> merged_df[merged_df[<span class="st">'fiscal year'</span>].isin([<span class="dv">2023</span>, <span class="dv">2024</span>])]</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>merged_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="12">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">unique identifier</th>
-<th data-quarto-table-cell-role="th">start date</th>
-<th data-quarto-table-cell-role="th">job id</th>
-<th data-quarto-table-cell-role="th">fiscal year</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>581013</td>
-<td>2023-09-25</td>
-<td>job-193451</td>
-<td>2024</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>583586</td>
-<td>2023-07-17</td>
-<td>job-198299</td>
-<td>2024</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>585047</td>
-<td>2023-07-11</td>
-<td>job-198331</td>
-<td>2024</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>576444</td>
-<td>2023-07-09</td>
-<td>job-198365</td>
-<td>2024</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>585401</td>
-<td>2023-09-18</td>
-<td>job-198436</td>
-<td>2024</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11324</td>
-<td>449040</td>
-<td>2023-04-10</td>
-<td>job-204880</td>
-<td>2023</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">11325</td>
-<td>608068</td>
-<td>2023-06-08</td>
-<td>job-204992</td>
-<td>2023</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11326</td>
-<td>525290</td>
-<td>2023-03-05</td>
-<td>job-205041</td>
-<td>2023</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">11327</td>
-<td>596824</td>
-<td>2023-06-29</td>
-<td>job-205790</td>
-<td>2023</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">11328</td>
-<td>562783</td>
 <td>2023-07-16</td>
-<td>job-198623</td>
+<td>99</td>
+<td>191</td>
+<td>98</td>
+<td>190</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
 <td>2024</td>
+<td>2023-07-23</td>
+<td>71</td>
+<td>262</td>
+<td>72</td>
+<td>262</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>2024</td>
+<td>2023-07-30</td>
+<td>72</td>
+<td>334</td>
+<td>72</td>
+<td>334</td>
 </tr>
 </tbody>
 </table>
 
-<p>6673 rows × 4 columns</p>
 </div>
 </div>
 </div>
 </section>
 <section id="designing-clear-visuals" class="level2">
 <h2 class="anchored" data-anchor-id="designing-clear-visuals">Designing Clear Visuals</h2>
-<p>After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is the “30-second rule” (sometimes it’s more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.</p>
+<p>After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board.</p>
+<div class="quarto-embed-nb-cell">
+<div class="cell quarto-layout-panel" data-scrolled="true" data-execution_count="16">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output cell-output-display quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div id="fig-line-chart" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="1_files/figure-html/fig-line-chart-output-1.png" class="img-fluid figure-img" alt="Density plot of bill depth by species."></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Gentoo penguins tend to have thinner bills,</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p>Marginal distributions of bill dimensions</p>
+</div>
+</div>
+</div>
+<a class="quarto-notebook-link" id="nblink-1" href="1-intervention-analysis.ipynb.html">Source: 1-intervention-analysis.ipynb</a></div>
+<p>One best practice I adhere to in my visualization work is the “30-second rule” (sometimes it’s more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.</p>
 <!-- sketches -->
 <p>For board presentations, I focus on straightforward designs, avoiding overly complex or abstract visuals. Sketching with pencil and paper after extensive screen time helps me connect physically with my work, making the creative process more tangible and refreshing.</p>
 </section>

@@ -1,0 +1,14 @@
+/* Ensures the thumbnail image fits well */
+.thumbnail-image.card-img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover;
+}
+
+/* Additional styles (if any) */
+.thumbnails {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}

@@ -2,17 +2,22 @@
 title: "Insight through Data"
 date: 5/31/2024
 categories: ["insights", "python"]
+thumbnail-image: "wrangling_data.png"
 format:
   html:
     css: styles.css
     code-fold: false
 jupyter: python3
+notebook-links: inline
 execute:
-  freeze: false # means re-render only when source changes
+  freeze: auto
   enabled: true
 toc: true
 thumbnail: wrangling_data.png
 ---
+<!-- <p class="card-img-top">
+  <img src="projects/data-viz/wrangling_data.png" alt="Custom Thumbnail" class="thumbnail-image card-img">
+</p> -->
 
 ## Crafting Visual Narratives for Corporate Strategy
 
@@ -72,80 +77,85 @@ import matplotlib.pyplot as plt
 ```
 ```{python}
 # Read in Data
-fy23_df = pd.read_csv("anonymized_fy24_data.csv")
-fy24_df = pd.read_csv("anonymized_fy23_data.csv")
+df1 = pd.read_csv("anonymized_all.csv")
+df2 = pd.read_csv("anonymized_fy24_only.csv")
+```
+```{python}
+def clean_df(df, date_col, drop_col):
+    df[date_col] = pd.to_datetime(df[date_col])
+    df = df.drop([drop_col], axis = 1)
+    df.columns = df.columns.str.lower()
+    
+    return df
+
+cleaned_df1 = clean_df(df1,'Start Date', 'Client Name')
+cleaned_df2 = clean_df(df2,'Start Date', 'Client Name')
 ```
 
 ```{python}
-fy23_df.head()
-```
-```{python}
-fy23_df.dtypes
-fy24_df.dtypes
-```
-
-```{python}
-def process_data(df, date_col, drop_col):
-  # Convert date field to datetime
-  df[date_col] = pd.to_datetime(df[date_col])
-
-  # Drop unneccessary columns
-  df = df.drop([drop_col], axis = 1)
-
-  # Convert column names to lowercase
-  df.columns = df.columns.str.lower()
-  
-  return df
-```
-```{python}
-cleaned_fy23 = process_data(fy23_df, 'Start Date', 'Client Name')
-cleaned_fy24 = process_data(fy24_df, 'Start Date', 'Client Name')
+def fiscal_year(date):
+    if date.month >=7:
+        return date.year + 1
+    else:
+        return date.year
+    
+cleaned_df1['fiscal year'] = cleaned_df1['start date'].apply(fiscal_year)
+cleaned_df2['fiscal year'] = cleaned_df2['start date'].apply(fiscal_year)
 ```
 
 ```{python}
-cleaned_fy23.head()
-```
-```{python}
-merged_df = pd.merge(cleaned_fy23, cleaned_fy24, how= 'outer')
-merged_df
+# Check FYs in dataset
+cleaned_df1['fiscal year'].unique()
 ```
 
 ```{python}
-def get_fiscal_year(date):
-  if date.month >=7:
-    return date.year + 1
-  else:
-      return date.year
+cleaned_previous = cleaned_df1[cleaned_df1['fiscal year'].isin([2024])]
+# cleaned_previous.head()
 ```
 
 ```{python}
-merged_df['fiscal year'] = merged_df['start date'].apply(get_fiscal_year)
+previous_weekly_performance = (
+  cleaned_previous
+  .groupby(['fiscal year', pd.Grouper(key='start date', freq='W')]).size()
+  .reset_index(name = 'previous_weekly_performance')
+)
+# previous_weekly_performance
+```
+
+```{python}
+previous_weekly_performance['cumulative_performance'] = (
+  previous_weekly_performance
+  .groupby('fiscal year')['previous_weekly_performance']
+  .cumsum()
+)
+previous_weekly_performance.head()
+```
+
+```{python}
+current_weekly_performance = (
+  cleaned_df2
+  .groupby(['fiscal year', pd.Grouper(key='start date', freq='W')]).size()
+  .reset_index(name = 'current_weekly_performance')
+)
+current_weekly_performance['current_cumulative_performance']= (
+  current_weekly_performance
+  .groupby('fiscal year')['current_weekly_performance']
+  .cumsum()
+)
+current_weekly_performance.head()
+```
+
+```{python}
+merged_df = pd.merge(previous_weekly_performance, current_weekly_performance, how = 'outer')
 merged_df.head()
 ```
-```{python}
-merged_df['fiscal year'].unique()
-```
-
-```{python}
-merged_df = merged_df[merged_df['fiscal year'].isin([2023, 2024])]
-merged_df
-```
-
-```{python}
-
-```
-
-```{python}
-```
-
-```{python}
-```
-
-
-
 
 ## Designing Clear Visuals
-After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board. One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.
+After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board.
+
+{{< embed 1-intervention-analysis.ipynb#fig-line-chart >}}
+
+One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should can quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.
 
 <!-- sketches -->
 

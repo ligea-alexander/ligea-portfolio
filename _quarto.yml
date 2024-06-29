@@ -8,6 +8,3 @@ project:
 
 metadata-files:
   - _website.yml
-
-execute:
-  freeze: false
