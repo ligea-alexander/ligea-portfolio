@@ -38,5 +38,8 @@
   },
   "projects/data-journo/all.qmd": {
     "all.html": "b093523a"
+  },
+  "docs/projects/data-viz/1-intervention-analysis.ipynb": {
+    "1-intervention-analysis.html": "2898a23a"
   }
 }
