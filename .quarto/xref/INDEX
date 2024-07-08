@@ -41,5 +41,11 @@
   },
   "docs/projects/data-viz/1-intervention-analysis.ipynb": {
     "1-intervention-analysis.html": "2898a23a"
+  },
+  "projects/data-viz/footer.qmd": {
+    "footer.html": "e1d7abe4"
+  },
+  "footer.qmd": {
+    "footer.html": "95b2fe6c"
   }
 }

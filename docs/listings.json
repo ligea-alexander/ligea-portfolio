@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/projects/swear-youre-not-stupid/index.html",
-    "items": [
-      "/projects/swear-youre-not-stupid/posts/all-about-regression/index.html",
-      "/projects/swear-youre-not-stupid/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/projects/data-viz/all.html",
     "items": [
       "/projects/data-viz/1.html",
       "/projects/data-viz/2.html"
+    ]
+  },
+  {
+    "listing": "/projects/swear-youre-not-stupid/index.html",
+    "items": [
+      "/projects/swear-youre-not-stupid/posts/all-about-regression/index.html",
+      "/projects/swear-youre-not-stupid/posts/welcome/index.html"
     ]
   }
 ]

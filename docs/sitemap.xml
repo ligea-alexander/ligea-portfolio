@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>ligea.alexander.com/about.html</loc>
-    <lastmod>2024-07-08T21:33:47.453Z</lastmod>
+    <lastmod>2024-07-08T22:29:28.495Z</lastmod>
   </url>
   <url>
-    <loc>ligea.alexander.com/projects/data-viz/2.html</loc>
-    <lastmod>2024-07-08T21:33:46.275Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/data-viz/1-intervention-analysis.html</loc>
-    <lastmod>2024-07-08T21:33:36.837Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/data-journo/all.html</loc>
-    <lastmod>2024-07-08T21:33:32.253Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/about.html</loc>
-    <lastmod>2024-07-08T21:33:31.269Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/welcome/index.html</loc>
-    <lastmod>2024-07-08T21:33:29.959Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/all-about-regression/index.html</loc>
-    <lastmod>2024-07-08T21:33:29.069Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/index.html</loc>
-    <lastmod>2024-07-08T21:33:30.845Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/all-projects.html</loc>
-    <lastmod>2024-07-08T21:33:31.756Z</lastmod>
-  </url>
-  <url>
-    <loc>ligea.alexander.com/projects/data-viz/all.html</loc>
-    <lastmod>2024-07-08T21:33:35.581Z</lastmod>
+    <loc>ligea.alexander.com/docs/projects/data-viz/1-intervention-analysis.html</loc>
+    <lastmod>2024-07-08T22:29:27.184Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/data-viz/1.html</loc>
-    <lastmod>2024-07-08T21:33:45.818Z</lastmod>
+    <lastmod>2024-07-08T22:30:28.154Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/data-viz/all.html</loc>
+    <lastmod>2024-07-08T22:30:20.916Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/all-projects.html</loc>
+    <lastmod>2024-07-08T22:29:08.668Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/index.html</loc>
+    <lastmod>2024-07-08T22:29:07.627Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/all-about-regression/index.html</loc>
+    <lastmod>2024-07-08T22:29:05.826Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/posts/welcome/index.html</loc>
+    <lastmod>2024-07-08T22:29:06.618Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/swear-youre-not-stupid/about.html</loc>
+    <lastmod>2024-07-08T22:29:08.036Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/data-journo/all.html</loc>
+    <lastmod>2024-07-08T22:29:09.058Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/data-viz/1-intervention-analysis.html</loc>
+    <lastmod>2024-07-08T22:29:13.533Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/data-viz/2.html</loc>
+    <lastmod>2024-07-08T22:29:24.858Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/index.html</loc>
-    <lastmod>2024-07-08T21:33:46.947Z</lastmod>
+    <lastmod>2024-07-08T22:29:27.740Z</lastmod>
   </url>
 </urlset>

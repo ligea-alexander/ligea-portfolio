@@ -30,7 +30,7 @@ In my role as the Data Insights Specialist II on the Learning and Impact team at
 Here, I'll share a glimpse into how I'd transform raw data [usually obtained from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. 
 <!-- I’ll share the methods we used to communicate effectively, and the real-world challenges and successes me and the team encountered along the way. -->
 
-Each quarter, I set these goals for myself:
+Each quarter, I'd set these goals for myself:
 
 
 * **Show Org-Wide Performance:** Ensure strategic alignment with fiscal year objectives.
@@ -40,7 +40,7 @@ Each quarter, I set these goals for myself:
 
 ## Wrangling the Data
 
-At the end of each quarter, I'd reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactivley engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.
+At the end of each quarter, I'd reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactively engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.
 
 **The Data**
 
@@ -79,11 +79,18 @@ import matplotlib.pyplot as plt
 df1 = pd.read_csv("anonymized_all.csv")
 df2 = pd.read_csv("anonymized_fy24_only.csv")
 ```
+
 ```{python}
+# First few rows of raw data
+df1.head()
+df2.head()
+```
+```{python}
+# Cleaning and transforming the data
 def clean_df(df, date_col, drop_col):
     df[date_col] = pd.to_datetime(df[date_col])
-    df = df.drop([drop_col], axis = 1)
-    df.columns = df.columns.str.lower()
+    df = df.drop([drop_col], axis = 1) # Drops Unnecessary Columns
+    df.columns = df.columns.str.lower() # Standardize Column Names
     
     return df
 
@@ -92,7 +99,7 @@ cleaned_df2 = clean_df(df2,'Start Date', 'Client Name')
 ```
 
 ```{python}
-def fiscal_year(date):
+def fiscal_year(date): # Fiscal Year Calculation
     if date.month >=7:
         return date.year + 1
     else:
@@ -188,8 +195,10 @@ Below are some examples of the final visualizations I have created for corporate
 </div>
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
-
 :::
 :::
 
 <!-- This section not only demonstrates the final output of my visualization processes but also underscores my ability to translate complex data into clear, decision-driving graphics. -->
+
+
+**I’m looking for work.** You can view my other works on [GitHub](https://github.com/your-username) and connect with me on [LinkedIn](https://www.linkedin.com/in/your-username).
