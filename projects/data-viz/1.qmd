@@ -14,6 +14,7 @@ execute:
   enabled: true
 toc: true
 thumbnail: wrangling_data.png
+page-navigation: true
 ---
 <p class="thumbnail-hide">
   <img src="wrangling_data.png" alt="Custom Thumbnail">
@@ -200,5 +201,11 @@ Below are some examples of the final visualizations I have created for corporate
 
 <!-- This section not only demonstrates the final output of my visualization processes but also underscores my ability to translate complex data into clear, decision-driving graphics. -->
 
+<br>
+<br>
 
-**I’m looking for work.** You can view my other works on [GitHub](https://github.com/your-username) and connect with me on [LinkedIn](https://www.linkedin.com/in/your-username).
+\newpage
+
+**I’m looking for work.** Connect with me on [LinkedIn](https://www.linkedin.com/in/ligea-alexander/).
+---
+ [Next Post](2.qmd)

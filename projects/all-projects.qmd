@@ -50,7 +50,7 @@ View my work in data visualization and visual storytelling.
 ::: {.column width="55%"}
 This is a blog I started to demystify the often-intimidating world of data science, analytics, and visualization for professionals bridging the gap between academic theory and practical application. 'I Swear, You're Not Stupid' offers a collection of insights, learnings, and interactive examples to not only enhance understanding but to rebuild confidence in your expertise. It's a journey from curiosity to clarity, aimed at empowering you to navigate the complexities of data with ease and assurance.
 <br>
-[Continue...](projects/swear-youre-not-stupid)
+[Continue...](/projects/swear-youre-not-stupid)
 :::
 
 ::: {.column width="5%"}
