@@ -14,7 +14,6 @@ execute:
   enabled: true
 toc: true
 thumbnail: wrangling_data.png
-page-navigation: true
 ---
 <p class="thumbnail-hide">
   <img src="wrangling_data.png" alt="Custom Thumbnail">
@@ -67,7 +66,7 @@ In addition to incorporating relevant program updates, we also included findings
 
 "Likelihood"—there’s a term you'll often hear in data science. Within the Learning and Impact team and in discussions across departments, terms like probabilities and likelihoods were straightforward to discuss, thanks to the context we could provide. However, translating these and other statistical terms accurately into language and visuals for the board—without the benefit of interactive dialogue—posed a unique challenge.
 
-In the **code blocks that follow**, which I've anonymized for confidentiality, I'll demonstrate how I transformed the insights from our intervention analysis into visuals for our board report. The data cleaning, processing, and manipulation steps shown below are routine practices I used to prepare the data points received from various departments. These steps were crucial for converting raw data, whether received through G-chat, Google Sheets, or emails, into clear, impactful board-level visual presentations.
+In the **code blocks that follow**, which I've anonymized for confidentiality, I'll briefly demonstrate how I transformed data into visuals for our board updates. The data cleaning, processing, and manipulation steps shown below are routine practices I used to prepare the data points received from various departments. These steps were crucial for converting raw data, whether received through G-chat, Google Sheets, or emails, into clear, impactful board-level visual presentations.
 
 ```{python}
 # Setting Up Environment
@@ -199,13 +198,13 @@ Below are some examples of the final visualizations I have created for corporate
 :::
 :::
 
-<!-- This section not only demonstrates the final output of my visualization processes but also underscores my ability to translate complex data into clear, decision-driving graphics. -->
+
 
 <br>
 <br>
 
-\newpage
+Thanks for reading! 
+<br>
 
-**I’m looking for work.** Connect with me on [LinkedIn](https://www.linkedin.com/in/ligea-alexander/).
 ---
  [Next Post](2.qmd)

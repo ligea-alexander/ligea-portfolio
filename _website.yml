@@ -41,6 +41,7 @@ format:
         - custom-dark.scss
     include-css: 
       - styles.css
+    include-after-body: projects/footer.qmd
       
 includes:
     in-header: 

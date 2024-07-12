@@ -1,7 +1,17 @@
 ---
 title: "Visualization 3"
-date: 6/4/2024
+date: 6/17/2024
 categories: ["maps", "R"]
+format:
+  html:
+    css: styles.css
+    code-fold: false
+jupyter: python3
+notebook-links: inline
+execute:
+  freeze: false
+  enabled: true
+toc: true
 ---
 [Previous Post](2.qmd) 
  
