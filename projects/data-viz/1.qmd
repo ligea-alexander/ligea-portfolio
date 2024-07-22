@@ -46,19 +46,14 @@ At the end of each quarter, I'd reach out to various departments to gather updat
 
 Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points. I would then download these into .csv files and process them using my favorite tool: pandas.
 
-::: {.grid}
-::: {.g-col-4}
-![Via G-chat: Quick messages containing key data points or updates.](laptop_gchat.png)
-:::
+::: {#fig-data-collection layout-nrow=1}
+![Via G-chat: Quick messages containing key data points or updates.](laptop_gchat.png){#fig-g-chat}
 
-::: {.g-col-4}
-![Through Google Sheets: More structured data in spreadsheets shared across departments.](files_in_the_wind.png)
-:::
+![Through Google Sheets: More structured data in spreadsheets shared across departments.](files_in_the_wind.png){#fig-g-sheets}
 
-::: {.g-col-4}
-![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](laptop_email.png)
-:::
+![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](laptop_email.png){#fig-email}
 
+Illustrations by [Kristin Sandgren-Jolain](https://www.instagram.com/studio.ksj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 :::
 
 
@@ -159,7 +154,7 @@ merged_df = pd.merge(previous_weekly_performance, current_weekly_performance, ho
 ## Designing Clear Visuals
 After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board.
 
-For the quarterly board presentation that used the anonymized code blocks introduced earlier, I constructed the two charts below using the resulting `{python} merged_df`. Given the available variables, focusing on temporal dynamics and comparative metrics provides a valuable direction to uncover significant trends and irregularities to highlight in the final product.
+For the quarterly board presentation that used the anonymized code blocks introduced earlier, I constructed the two charts below using the resulting `merged_df`. Given the available variables, focusing on temporal dynamics and comparative metrics provides a valuable direction to uncover significant trends and irregularities to highlight in the final product.
 
 {{< embed 1-intervention-analysis.ipynb#fig-line-chart >}}
 
@@ -183,7 +178,7 @@ Below are some examples of the final visualizations I have created for corporate
 
 ::: {.grid}
 ::: {.g-col-4}
-![](intervention_region.png)
+![Interventions](intervention_region.png)
 :::
 
 ::: {.g-col-8}
