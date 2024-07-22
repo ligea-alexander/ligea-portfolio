@@ -55,5 +55,8 @@
   },
   "projects/footer.qmd": {
     "footer.html": "6a208f42"
+  },
+  "docs/projects/data-viz/1-intervention-analysis.out.ipynb": {
+    "1-intervention-analysis.out.html": "17744db5"
   }
 }

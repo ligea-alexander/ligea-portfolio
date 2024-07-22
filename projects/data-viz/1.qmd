@@ -53,7 +53,7 @@ Usually, these updates came back to me as rudimentary figures, spreadsheets, or 
 
 ![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](laptop_email.png){#fig-email}
 
-Illustrations by [Kristin Sandgren-Jolain](https://www.instagram.com/studio.ksj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+Data Sharing Methods Across Departments; Illustrations by [Kristin Sandgren-Jolain](https://www.instagram.com/studio.ksj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 :::
 
 
@@ -176,12 +176,16 @@ With these principles in mind....
 ## Final Product
 Below are some examples of the final visualizations I have created for corporate board presentations. These visuals are drawn from various projects, each tailored to address specific strategic questions. From demonstrating engagement levels across regions to highlighting the efficacy of strategic efforts over time, these visuals represent the culmination of thorough data analysis and creative design.
 
-::: {.grid}
-::: {.g-col-4}
-![Interventions](intervention_region.png)
+{{< pagebreak >}}
+
+![All data shown is illustrative and has been modified to maintain confidentiality.](intervention_region.png)
+
+::: {.column-margin}
+**Intervention Visualization:** This chart illustrates regional engagement levels following strategic interventions. Each number represents engagement scores before and after initiatives aimed at enhancing interaction effectiveness.
 :::
 
-::: {.g-col-8}
+<br>
+
 <div style="width: 100%; height: 390px; overflow: hidden; position: relative;">
   <iframe title="[ Insert title here ]" aria-label="Interactive line chart" id="datawrapper-chart-NAVAA" 
           src="https://datawrapper.dwcdn.net/NAVAA/1/" scrolling="no" frameborder="0" 
@@ -190,10 +194,10 @@ Below are some examples of the final visualizations I have created for corporate
 </div>
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
-:::
-:::
 
-
+::: {.column-margin}
+**Performance Trend Chart** The line graph depicts overall performance trends over several months, highlighting the impact of strategic decisions on outcomes. Key moments, like the significant improvement marked in the chart, are pivotal discussion points in strategy meetings.
+:::
 
 <br>
 <br>
