@@ -46,7 +46,7 @@ format:
   html:
     theme:
       light: 
-        - cosmo
+        - cosmo.scss
         - custom-light.scss
       dark: 
         - darkly
