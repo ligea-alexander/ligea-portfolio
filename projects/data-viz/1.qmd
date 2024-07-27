@@ -171,7 +171,7 @@ For board presentations, I prioritize straightforward designs and avoid overly c
 
 :::
 
-With these principles in mind.... 
+With these principles in mind I refine and enhance the clarity of the data presentation to produce final visuals. 
 
 ## Final Product
 Below are some examples of the final visualizations I have created for corporate board presentations. These visuals are drawn from various projects, each tailored to address specific strategic questions. From demonstrating engagement levels across regions to highlighting the efficacy of strategic efforts over time, these visuals represent the culmination of thorough data analysis and creative design.
@@ -181,7 +181,7 @@ Below are some examples of the final visualizations I have created for corporate
 ![All data shown is illustrative and has been modified to maintain confidentiality.](intervention_region.png)
 
 ::: {.column-margin}
-**Intervention Visualization:** This chart illustrates regional engagement levels following strategic interventions. Each number represents engagement scores before and after initiatives aimed at enhancing interaction effectiveness.
+**Intervention Visualization:** This chart illustrates regional engagement levels following strategic interventions. Each number represents the number interactions per intervention type aimed at enhancing interaction effectiveness.
 :::
 
 <br>
@@ -196,7 +196,7 @@ Below are some examples of the final visualizations I have created for corporate
 </script>
 
 ::: {.column-margin}
-**Performance Trend Chart** The line graph depicts overall performance trends over several months, highlighting the impact of strategic decisions on outcomes. Key moments, like the significant improvement marked in the chart, are pivotal discussion points in strategy meetings.
+**Performance Trend Chart** The line graph depicts the effectiveness of strategic efforts, showing a notable increase in outcomes following specific interventions. Key moments, like the significant improvement marked in the chart, are pivotal discussion points in strategy meetings.
 :::
 
 <br>

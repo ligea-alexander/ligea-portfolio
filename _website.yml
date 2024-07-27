@@ -4,6 +4,19 @@ website:
   favicon: favicon.ico
   image: images/italy.jpeg
   page-navigation: true
+  page-footer:
+    center: 
+      - text: "Enjoyed this content? Share it with your network!"
+      # - text: "License"
+      #   href: license.qmd
+      # - text: "Trademark"
+      #   href: trademark.qmd
+    left: 
+      - text: "© 2024 Ligea Alexander. All rights reserved."
+    right: "[Email](mailto:ligea.alex@gmail.com) | [GitHub](https://github.com/ligea-alexander) | [LinkedIn](https://www.linkedin.com/in/ligea-alexander/)"
+    border: true
+    background: "#e6e6ff"
+    foreground: "black"    # Black text color
   search: 
     location: navbar
     type: overlay
@@ -15,8 +28,7 @@ website:
         menu:
           - file: projects/all-projects.qmd
           - file: projects/data-viz/all.qmd
-          - file: projects/swear-youre-not-stupid/index.qmd 
-         
+          - file: projects/swear-youre-not-stupid/index.qmd    
     right:
       - file: about.qmd
         text: "About" 
@@ -41,7 +53,7 @@ format:
         - custom-dark.scss
     include-css: 
       - styles.css
-    include-after-body: projects/footer.qmd
+    # include-after-body: projects/footer.qmd
       
 includes:
     in-header: 

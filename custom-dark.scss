@@ -6,7 +6,8 @@
   /*-- scss:defaults --*/
   $h2-font-size: 1.6rem !default;
   $headings-font-weight: 500 !default;
-  
+  $web-font-path: false;  // disable Google Fonts
+
   /*-- scss:rules --*/
   body {
     font-family: 'Arial', sans-serif;
@@ -39,4 +40,4 @@
   .navbar a:hover {
     color: deeppink;
   }
-  
+
