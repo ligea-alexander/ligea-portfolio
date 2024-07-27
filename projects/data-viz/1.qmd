@@ -201,7 +201,12 @@ Below are some examples of the final visualizations I have created for corporate
 
 <br>
 <br>
-Thanks for reading! 
+
+<div style="text-align: center;">
+  **Thanks for reading :)**
+</div>
+
+
 <br>
 
 ---
