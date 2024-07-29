@@ -23,13 +23,13 @@ listing:
     grid-columns: 3
     contents:
       - title: "[The Cost of Sunlight](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)"
-        description: "Link to the project or additional details can be placed here."
+        description: "A unique angle on rent pricing and illuminated the impact of environmental factors on real estate."
         image: images/test.png
       - title: "[Cellar Defenders](https://ligea-alexander.github.io/cellar-defenders/)"
-        description: "Link to the project or additional details can be placed here."
+        description: "Explores the world of affordable wines that deliver high quality without a hefty price tag, ideal for millennials"
         image: images/millinneal on the chase.png
       - title: "[Manhattan is the safest place to bike in NYC. What about the rest of New York?](https://biking-safety-io.vercel.app)"
-        description: "Link to the project or additional details can be placed here."
+        description: "Disparities in bike lane availability across NYC neighborhoods with differing ethnicities and socioeconomic statuses, demonstrate the importance of spatial equity."
         image: images/nyc_spatial_equity.png
 ---
 
@@ -85,28 +85,11 @@ listing:
 </style>
 
 <br>
+
+<hr style="border: 1px solid #ddd; margin: 20px 0;">
 <br>
 
-<!-- <p>Latest Work</p> -->
-
-<!-- Grid of Latest Work -->
-
-<!-- :::{.grid}
-:::{.g-col-4}
-[![Cost of Sunlight](images/test.png)](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)
-**The Cost of Sunlight**
-:::
-
-:::{.g-col-4}
-[![Cellar Defenders](images/millinneal on the chase.png)](https://ligea-alexander.github.io/cellar-defenders/)
-**Cellar Defenders**
-:::
-
-:::{.g-col-4}
-[![NYC Spatial Equity](images/nyc_spatial_equity.png)](https://biking-safety-io.vercel.app)
-**Manhattan is the safest place to bike in NYC. What about the rest of New York?**
-::: -->
-
+<p style="font-size: 1.5em; color: grey; text-align: left; margin-top: 20px;">Latest Work</p>
 
 :::{#latest-work}
 :::
