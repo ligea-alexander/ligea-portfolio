@@ -16,35 +16,82 @@ links:
     - icon: envelope
       text: Contact me
       href: mailto:ligea.alex@gmail.com
+format:
+  html:
+    css: styles.css
 ---
 
-<!-- ## Ligea Alexander -->
-<ul class="no-bullets">
-<p>She is a human-centered designer based in NYC, NY.<p>
-<p>She is a burgeoning interactives designer/IxD.<p>
-<p>She is a multi-disciplinary visual storyteller. <p>
-<p>She is a data-person.<p>
-<p>She is an intermediate level German speaker.<p>
-<p>She is a cat stewardess. <p>
-<p>She is Trinidadian born and raised (and quite proud of that).<p>
-<p><strong>She is super excited to work with you!</strong><p>
-</ul>
-<br>
+<!-- Include the Typed.js library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- HTML element for displaying the text -->
+<div id="typed-text-container" style="width: 100%; text-align: center;">
+  <span id="typed-text"></span>
+</div>
+
+<!-- Initialize Typed.js -->
+<script>
+  var typed = new Typed('#typed-text', {
+    strings: [
+      "She is a multi-disciplinary visual storyteller based in NYC.",
+      // "She is a human-centered designer based in NYC.",
+      "She is a data-person.",
+      "She is a burgeoning interactives designer/IxD.",
+      "She is an intermediate level German speaker.",
+      "She is Trinidadian born and raised (and quite proud of that).",
+      "She is super excited to work with you!"
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|',
+    autoInsertCss: true
+  });
+</script>
+
+<!-- CSS to ensure the cursor stays inline with the text -->
+<style>
+  #typed-text-container {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .typed-cursor {
+    display: inline;
+    font-size: inherit;
+    color: inherit;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
 <br>
 <br>
 
-::: {.grid}
+**Latest Work**
 
-<!-- ::: {.g-col-md-6}
-Stuff
+<!-- Grid of Latest Work -->
 
+:::{.grid}
+:::{.g-col-4}
+[![Cost of Sunlight](images/test.png)](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)
+**The Cost of Sunlight**
 :::
 
-::: {.g-col-md-6}
-## Blogs
-Click [here](project2/welcome/index.qmd) to play more in the playground.
-
-::: -->
-
+:::{.g-col-4}
+[![Cellar Defenders](images/millinneal on the chase.png)](https://ligea-alexander.github.io/cellar-defenders/)
+**Cellar Defenders**
 :::
 
+:::{.g-col-4}
+[![NYC Spatial Equity](images/nyc_spatial_equity.png)](https://biking-safety-io.vercel.app)
+**Manhattan is the safest place to bike in NYC. What about the rest of New York?**
+:::
+:::
