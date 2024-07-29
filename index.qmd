@@ -16,9 +16,21 @@ links:
     - icon: envelope
       text: Contact me
       href: mailto:ligea.alex@gmail.com
-format:
-  html:
-    css: styles.css
+listing:
+  - id: latest-work
+    type: grid
+    max-items: 6
+    grid-columns: 3
+    contents:
+      - title: "[The Cost of Sunlight](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)"
+        description: "Link to the project or additional details can be placed here."
+        image: images/test.png
+      - title: "[Cellar Defenders](https://ligea-alexander.github.io/cellar-defenders/)"
+        description: "Link to the project or additional details can be placed here."
+        image: images/millinneal on the chase.png
+      - title: "[Manhattan is the safest place to bike in NYC. What about the rest of New York?](https://biking-safety-io.vercel.app)"
+        description: "Link to the project or additional details can be placed here."
+        image: images/nyc_spatial_equity.png
 ---
 
 <!-- Include the Typed.js library -->
@@ -75,11 +87,11 @@ format:
 <br>
 <br>
 
-**Latest Work**
+<!-- <p>Latest Work</p> -->
 
 <!-- Grid of Latest Work -->
 
-:::{.grid}
+<!-- :::{.grid}
 :::{.g-col-4}
 [![Cost of Sunlight](images/test.png)](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)
 **The Cost of Sunlight**
@@ -93,5 +105,8 @@ format:
 :::{.g-col-4}
 [![NYC Spatial Equity](images/nyc_spatial_equity.png)](https://biking-safety-io.vercel.app)
 **Manhattan is the safest place to bike in NYC. What about the rest of New York?**
-:::
+::: -->
+
+
+:::{#latest-work}
 :::
