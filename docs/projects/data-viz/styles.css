@@ -1,0 +1,4 @@
+.thumbnail-hide img {
+  display: none;
+  /*This hides the image in the blog but might affect how crawlers pick the thumbnail*/
+}
