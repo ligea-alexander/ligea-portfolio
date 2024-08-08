@@ -24,12 +24,13 @@ website:
     left:
       - file: index.qmd
         text: "Ligea Alexander"
-      - text: "Works"
-        href: projects/all-projects.qmd
-        # menu:
-        #   - file: projects/all-projects.qmd
-        #   - file: projects/data-viz/all.qmd
-        #   - file: projects/swear-youre-not-stupid/index.qmd    
+      - text: "Work"
+        # href: projects/all-projects.qmd
+        menu:
+          - file: projects/all-projects.qmd
+          # - file: projects/data-viz/all.qmd
+          # - file: projects/swear-youre-not-stupid/index.qmd    
+          - text: "Playground"
     right:
       - file: about.qmd
         text: "About" 
