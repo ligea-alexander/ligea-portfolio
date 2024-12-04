@@ -4,6 +4,7 @@ title: "My Projects"
 #   echo: false
 page-layout: full
 title-block-banner: true
+description: "Below is a list of my projects"
 format:
   html:
     css: ../styles/project-styles.css
@@ -15,7 +16,7 @@ listing:
       - all-work/pathway-pal
 ---
 
-Below is a list of my projects:
+
 
 <br>
 
