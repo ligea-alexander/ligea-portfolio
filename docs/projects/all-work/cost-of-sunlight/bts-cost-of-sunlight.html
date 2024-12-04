@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-06-06">
+<meta name="description" content="LEDE Project 2 - A cost-benefit analysis of solar energy adoption.">
 
-<title>I Swear, You’re Not Stupid</title>
+<title>The Cost of Sunlight</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../favicon.ico" rel="icon">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,72 +70,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -145,25 +87,25 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/all-projects.html"> 
+    <a class="nav-link" href="../../../projects/all-projects.html"> 
 <span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/case-studies.html"> 
+    <a class="nav-link" href="../../../projects/case-studies.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/playground/playground.html"> 
+    <a class="nav-link" href="../../../projects/playground/playground.html"> 
 <span class="menu-text"><em>Playground</em></span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -198,122 +140,66 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">I Swear, You’re Not Stupid</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data analytics">data analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div><div class="category" data-category="updates">updates <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Cost of Sunlight</h1>
+</div>
+
+<div>
+  <div class="description">
+    LEDE Project 2 - A cost-benefit analysis of solar energy adoption.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 6, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p>For project 2 we were instructed to “stretch our skills a little bit more”. For each project we’re allowed only 2 weeks to complete. In these past 2 weeks we’ve learned scraping, ai2html, a little D3 on top of pandas, Altair, elements of visual design and storytelling. Unfortunately, I was not able to turn my project around by the two week deadline. Though I definitely did improve from the previous project- which I completed in 3 days. Despite being more prepared I faced several roadblocks. Ai2html wouldn’t work, the svg I used as a base to work off from took a little longer to re-illustrate, and I forgot I didn’t actually know CSS that would help bring the story to life (for Project 1 I used a combination of borrowing from previous students and ChatGPT). So instead, here’s this painstaking review -a postmortem- of my process (including when I hit a wall) of Project 2.</p>
+<section id="the-idea" class="level2">
+<h2 class="anchored" data-anchor-id="the-idea">The Idea</h2>
+<p>With only 2 weeks, determined not to spend too much time in the data collection phase but knowing I wanted to specifically put my scraping skills to the test, I resolved that scraping data from Zillow would be challenging enough. The discussion about rent in NYC is a topic of importance to me. But I wanted to do something a little different than what’s been discussed ad nauseam (include link about high rent in NYC). I thought about what’s important to me when it comes to looking for a place to live but is usually inaccessible or would put me in a rental bracket that’s higher than I can afford. Alas, sunlight. If you scroll through Facebook groups and craigslist posts for the apartment hopper, posts almost always (though not always the case) start with “Bright”, “North-facing” (to imply gets a lot of sunlight) or “Sunny”.</p>
+</section>
+<section id="getting-the-data-and-narrowing-the-scope" class="level2">
+<h2 class="anchored" data-anchor-id="getting-the-data-and-narrowing-the-scope">Getting the Data and Narrowing the Scope</h2>
+<p>With a rough idea in mind, I took to researching how exactly one could calculate or guesstimate how much sunlight an apartment would get. To my luck, the real estate company Localize.city had just what I needed. Data scientists working with the company just as aware of the value of apartment sun exposure as I was, using a combination of GIS, 3D analysis and a python library called PySolar developed an algorithm which allows them to advertise the degree of sun exposure apartments listed on their website get. I attended mentorship with Kai Teoh with what I’d found, with the intention to scrape Localize.city’s webpage. However, the site has rate blocking which quickly detects if someone (like a student practicing scraping) is scraping their website. Kai had a solution. He gave me an introduction to accessing undocumented api’s using cUrl and sent me off to test it. While I was a little disappointed that I would not get to put my new scraping skills to use I was relieved I could rely on my API skills gained 2 weeks prior and get ahead in my data processing. But I was unsuccessful and after a second check-in with Kai, we realized we definitely could not make calls to the api. Instead I would have to copy the XHR api feed for each search result page into a text file (I used Sublime) and save it as a json.</p>
+<ul>
+<li>With only 1 ½ week left and determined not to relive Project 1’s experience, I started cutting, no, slashing the fat.</li>
+<li>Instead of all of NYC -&gt; Brookyln</li>
+<li>Instead of all of Brooklyn -&gt; Prospect Park (an area quadrangled by contrasting wealth groups).</li>
+<li>Instead of all apartment types -&gt; only those of a certain size</li>
+</ul>
+<p>The resulting 13 pages weren’t ideal but were hopefully enough to tell a story or delivery insights about the relationship between sun exposure and rental prices.</p>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="data science,data analytics,r,python" data-listing-date-sort="1712700000000" data-listing-file-modified-sort="1721605079042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<div class="thumbnail">
-<p><a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external"></a></p><a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external">
-<p><img loading="lazy" src="../../projects/swear-youre-not-stupid/posts/all-about-regression/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external">All About Regression</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
-data science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data analytics'); return false;">
-data analytics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
-r
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-</div>
-<div class="listing-description">
-<a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external">There’s tons to learn about regression, but I’ll just give you a quick overview. <br></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../projects/swear-youre-not-stupid/posts/all-about-regression/index.html" class="no-external">
-<div class="listing-date">
-Apr 10, 2024
-</div>
-<div class="listing-author">
-Ligea Alexander
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="updates" data-listing-date-sort="1712613600000" data-listing-file-modified-sort="1721605079042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail">
-<p><a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external"></a></p><a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external">
-<p><img loading="lazy" src="../../projects/swear-youre-not-stupid/posts/welcome/thumbnail.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external">Welcome To A Safe Space For Understanding</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('updates'); return false;">
-updates
-</div>
-</div>
-<div class="listing-description">
-<a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external">
-<b>“I Swear, You’re Not Stupid” </b>is a sanctuary for the intellectually curious and the perpetually befuddled alike. Nestled within my portfolio, this blog is a vibrant…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../projects/swear-youre-not-stupid/posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Apr 9, 2024
-</div>
-<div class="listing-author">
-Ligea Alexander
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

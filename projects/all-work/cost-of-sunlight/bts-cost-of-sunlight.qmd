@@ -1,0 +1,35 @@
+---
+title: The Cost of Sunlight
+date: 6/6/2023
+toc: false
+fields: [image, date, title, reading-time, description] 
+description: "LEDE Project 2 - A cost-benefit analysis of solar energy adoption."
+projectLink: "https://example.com/sunlight-cost"
+code: "https://github.com/username/sunlight-cost"
+languages:
+  - Python
+  - Tableau
+thumbnail: cost-of-sunlight.png
+---
+
+
+For project 2 we were instructed to “stretch our skills a little bit more”. For each project we're allowed only 2 weeks to complete. In these past 2 weeks we've learned scraping, ai2html, a little D3 on top of pandas, Altair, elements of visual design and storytelling.
+Unfortunately, I was not able to turn my project around by the two week deadline. Though I definitely did improve from the previous project- which I completed in 3 days. Despite being more prepared I faced several roadblocks. Ai2html wouldn't work, the svg I used as a base to work off from took a little longer to re-illustrate, and I forgot I didn't actually know CSS that would help bring the story to life (for Project 1 I used a combination of borrowing from previous students and ChatGPT). So instead, here's this painstaking review -a postmortem- of my process (including when I hit a wall) of Project 2.
+
+## The Idea 
+
+With only 2 weeks, determined not to spend too much time in the data collection phase but knowing I wanted to specifically put my scraping skills to the test, I resolved that scraping data from Zillow would be challenging enough. The discussion about rent in NYC is a topic of importance to me. But I wanted to do something a little different than what's been discussed ad nauseam (include link about high rent in NYC). I thought about what's important to me when it comes to looking for a place to live but is usually inaccessible or would put me in a rental bracket that's higher than I can afford. Alas, sunlight. If you scroll through Facebook groups and craigslist posts for the apartment hopper, posts almost always (though not always the case) start with “Bright”, “North-facing” (to imply gets a lot of sunlight) or “Sunny”.
+
+## Getting the Data and Narrowing the Scope 
+With a rough idea in mind, I took to researching how exactly one could calculate or guesstimate how much sunlight an apartment would get. To my luck, the real estate company Localize.city had just what I needed. Data scientists working with the company just as aware of the value of apartment sun exposure as I was, using a combination of GIS, 3D analysis and a python library called PySolar developed an algorithm which allows them to advertise the degree of sun exposure apartments listed on their website get.
+I attended mentorship with Kai Teoh with what I'd found, with the intention to scrape Localize.city's webpage. However, the site has rate blocking which quickly detects if someone (like a student practicing scraping) is scraping their website. Kai had a solution. He gave me an introduction to accessing undocumented api's using cUrl and sent me off to test it. While I was a little disappointed that I would not get to put my new scraping skills to use I was relieved I could rely on my API skills gained 2 weeks prior and get ahead in my data processing.
+But I was unsuccessful and after a second check-in with Kai, we realized we definitely could not make calls to the api. Instead I would have to copy the XHR api feed for each search result page into a text file (I used Sublime) and save it as a json.
+
+* With only 1 ½ week left and determined not to relive Project 1's experience, I started cutting, no, slashing the fat.
+* Instead of all of NYC -> Brookyln
+* Instead of all of Brooklyn -> Prospect Park (an area quadrangled by contrasting wealth groups).
+* Instead of all apartment types -> only those of a certain size
+
+The resulting 13 pages weren't ideal but were hopefully enough to tell a story or delivery insights about the relationship between sun exposure and rental prices.
+
+## Analysis
