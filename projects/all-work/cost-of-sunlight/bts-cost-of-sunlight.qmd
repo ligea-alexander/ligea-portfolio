@@ -3,12 +3,13 @@ title: The Cost of Sunlight
 date: 6/6/2023
 toc: false
 fields: [image, date, title, reading-time, description] 
-description: "LEDE Project 2 - A cost-benefit analysis of solar energy adoption."
+description: "LEDE Project 2: A cost-benefit analysis of solar energy adoption."
 projectLink: "https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN"
 code: "https://github.com/ligea-alexander/cost-of-sunlight-story"
 languages:
   - Python
-  - Tableau
+  - Altair
+  - ai2html
 thumbnail: cost-of-sunlight.png
 ---
 

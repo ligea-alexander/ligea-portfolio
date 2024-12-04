@@ -3,13 +3,14 @@ title: I Built An Enterprise ChatBot!
 # date: 6/17/2024
 # toc: false
 # fields: [image, date, title, reading-time, description] 
-description: "A cost-benefit analysis of solar energy adoption."
-projectLink: "https://example.com/sunlight-cost"
-code: "https://github.com/username/sunlight-cost"
+description: "An interactive tool that offers users answers to common questions about training schedules, services, and resources available through NEST."
+projectLink: "https://pathwaypal.streamlit.app"
+code: "https://github.com/ligea-alexander/pathwaypal_chatbot"
 languages:
   - Python
-  - Tableau
-thumbnail: cost-of-sunlight.png
+  - Elasticsearch
+  - AI
+thumbnail: pathwaypal-app.png
 ---
 
 Lorem ipsum Vivamus tincidunt nisi a suscipit consequat. Praesent eget convallis neque, ac scelerisque eros. Integer aliquet, elit et tempor convallis, sem libero tincidunt dolor, vitae tempor magna quam at nisi. Sed elementum ac tortor at fringilla. Aliquam et urna congue, tincidunt ipsum quis, congue nisl. Phasellus non sem massa.
