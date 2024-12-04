@@ -1,0 +1,14 @@
+---
+title: "RhetVIZ"
+date: 12/3/2024
+categories: ["data visualization", "theory"]
+format:
+  html:
+    css: rhet-viz-styles.css
+thumbnail-image: rhetviz.png
+thumbnail: rhetviz.png
+---
+<p class="thumbnail-hide">
+  <img src="rhetviz.png" alt="Custom Thumbnail">
+</p>
+
