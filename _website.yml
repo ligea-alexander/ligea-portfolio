@@ -32,10 +32,7 @@ website:
         file: index.qmd
       - text: "Work"
         href: projects/all-projects.qmd
-        # menu:
-        #   - file: projects/all-projects.qmd
-        #   # - file: projects/data-viz/all.qmd
-        #   # - file: projects/swear-youre-not-stupid/index.qmd  
+        # menu: 
       - text: "Blog"
         href: projects/blog.qmd
       - text: "*Playground*"

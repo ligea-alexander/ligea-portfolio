@@ -13,9 +13,6 @@ listing:
 #     author: "{Harlow,Tristan}*"
 ---
 
-<!-- [<<Back to All Projects](projects/all-projects.qmd) -->
-
-
 :::{#data-viz-blog}
 :::
 
