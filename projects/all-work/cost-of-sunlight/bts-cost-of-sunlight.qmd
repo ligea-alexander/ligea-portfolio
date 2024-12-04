@@ -4,8 +4,8 @@ date: 6/6/2023
 toc: false
 fields: [image, date, title, reading-time, description] 
 description: "LEDE Project 2 - A cost-benefit analysis of solar energy adoption."
-projectLink: "https://example.com/sunlight-cost"
-code: "https://github.com/username/sunlight-cost"
+projectLink: "https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN"
+code: "https://github.com/ligea-alexander/cost-of-sunlight-story"
 languages:
   - Python
   - Tableau
