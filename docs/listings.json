@@ -2,10 +2,10 @@
   {
     "listing": "/projects/case-studies.html",
     "items": [
-      "/projects/case-studies/corporate-visualizations/corporate-viz.html",
-      "/projects/case-studies/mapping-with-MapBox/3.html",
-      "/projects/case-studies/mapping-with-R/2.html",
-      "/projects/case-studies/corporate-visualizations/1-intervention-analysis.html"
+      "/projects/blog/corporate-visualizations/corporate-viz.html",
+      "/projects/blog/mapping-with-MapBox/3.html",
+      "/projects/blog/mapping-with-R/2.html",
+      "/projects/blog/corporate-visualizations/1-intervention-analysis.html"
     ]
   },
   {

@@ -1,8 +1,9 @@
 ---
-pagetitle: "My Projects"
+title: "My Projects"
 # execute:
 #   echo: false
 page-layout: full
+title-block-banner: true
 format:
   html:
     css: ../styles/project-styles.css

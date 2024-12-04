@@ -36,8 +36,8 @@ website:
         #   - file: projects/all-projects.qmd
         #   # - file: projects/data-viz/all.qmd
         #   # - file: projects/swear-youre-not-stupid/index.qmd  
-      - text: "Case Studies"
-        href: projects/case-studies.qmd
+      - text: "Blog"
+        href: projects/blog.qmd
       - text: "*Playground*"
         href: projects/playground/playground.qmd
 

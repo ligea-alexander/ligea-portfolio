@@ -1,9 +1,10 @@
 ---
-title: "Case Studies"
+title: "Blog"
 title-block-banner: true
+description: I enjoy writing about tools I've tried and sharing that knowledge with fellow learners.
 listing:
   id: data-viz-blog
-  contents: case-studies
+  contents: blog
   type: grid
   categories: true
   sort-ui: [date]
