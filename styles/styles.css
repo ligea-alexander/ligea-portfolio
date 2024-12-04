@@ -1,0 +1,35 @@
+/* Center all images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnails {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+ul.no-bullets {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#data-viz-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}

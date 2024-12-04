@@ -1,0 +1,15 @@
+project:
+  type: website
+  preview:
+    port: 4200
+    browser: false
+    watch-inputs: true
+    navigate: false
+# format:
+#   html:
+#     execute:
+#       echo: false
+
+metadata-files:
+  - _website.yml
+  

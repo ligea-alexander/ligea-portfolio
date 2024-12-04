@@ -1,0 +1,56 @@
+---
+title: "Ligea Alexander"
+image: images/office.jpeg
+navbar:
+     pinned: false
+about:
+    template: broadside
+---
+
+<!-- :::{#hero-heading} -->
+
+Ligea is a data analyst with 10+ years experience. She is passionate about utilizing her skills in data analysis, visualization, and storytelling to investigate and illustrate complex social, political, and economic issues.
+
+<!-- ::: -->
+
+:::{.panel-tabset}
+
+## Experience
+
+Freelance | Data Journalist | 2024 - present
+
+Freelance | Writer | 2023 - present
+
+Center for Employment Opportunities | Data Insights Specialist | 2019 - present
+
+## Skills
+**Artificial Intelligence**
+
+**Data Analysis**
+
+**Data Visualization**
+
+**Python** | pandas, numpy
+
+**R** | tidy, 
+
+**JavaScript** | p5.js, 
+
+## Additional Skills
+
+Social issues, community violence, gun violence, justice-involved, AI ethics
+
+:::
+
+:::{.panel-tabset}
+
+## Education
+
+Columbia University | New York, NY <br>
+LEDE Program, Data Journalism| 2023
+
+Maryland Institute College of Art | Baltimore, MD <br>
+MPS Data Analytics and Visualization | 2020 - 2023
+
+
+:::

@@ -1,0 +1,84 @@
+
+// /* Import the Google Font */
+// @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Jacquard+12&display=swap');
+
+/* Import Mango Grotesque font */
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../ligea-portfolio/fonts/MangoGrotesque-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../ligea-portfolio/fonts/MangoGrotesque-Regular.woff') format('woff'); /* Older Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-- scss:functions --*/
+@function colorToRGB($color) {
+    @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color) + ")";
+  }
+  
+  /*-- scss:defaults --*/
+  $h2-font-size: 1.6rem !default;
+  $headings-font-weight: 500 !default;
+  $web-font-path: false;  // disable Google Fonts
+  
+/*-- scss:mixins --*/
+  @mixin custom-font-size($size) {
+    font-size: $size;
+  }
+  
+/*-- scss:rules --*/
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  h1{
+    font-family: 'Mango Grotesque', serif;
+    font-size: xx-large;
+  }
+
+ h2, h3, h4, h5, h6 {
+    color: #333;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+  }
+  
+  a {
+    color: #9e1791;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e9de0af2;
+  }
+
+/* Navbar Customization */
+.navbar {
+  height: 100px;  /* Adjust the height as needed */
+  background-color: #e9de0af2;
+}
+
+
+.navbar .site-title {
+  font-size: 10rem;  /* Larger font size for title */
+  color: #ffffff;
+}
+
+.navbar .menu-item {
+  padding: 0 15px;
+}
+
+.navbar a:hover {
+    color: rgb(163, 151, 14);
+  }
+  
+
+@media (max-width: 758px) {
+  .navbar {
+    padding: 0 10px;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+}

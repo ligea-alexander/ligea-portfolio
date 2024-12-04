@@ -1,0 +1,208 @@
+---
+title: "Insight through Data"
+date: 5/31/2024
+categories: ["insights", "python"]
+thumbnail-image: "wrangling_data.png"
+format:
+  html:
+    css: corp-viz-styles.css
+    code-fold: false
+jupyter: python3
+notebook-links: inline
+execute:
+  freeze: false
+  enabled: true
+toc: true
+thumbnail: wrangling_data.png
+---
+<p class="thumbnail-hide">
+  <img src="wrangling_data.png" alt="Custom Thumbnail">
+</p>
+
+## Crafting Visual Narratives for Corporate Strategy
+
+:::{.callout-important appearance="minimal"}
+ All data in this case study is anonymized to protect confidentiality. Details have been altered, but the depicted processes and insights are accurately represented.
+:::
+
+In my role as the Data Insights Specialist II on the Learning and Impact team at the Center for Employment Opportunities, I directed the overall strategy for each quarterly board report. I identified key performance indicators (KPIs) by analyzing data and aligning them with the strategic goals of the organization. I coordinated the narrative, deciding which insights to present, and shaped the story to highlight our achievements and areas for improvement. I'd communicate these insights through visualizations that were clear and impactful.
+
+Here, I'll share a glimpse into how I'd transform raw data [usually obtained from various departments] into engaging visual stories that inform strategic and operational decisions. It’s all about turning complex data into clear, useful insights, even for those who aren’t familiar with data science or statistical jargon. 
+<!-- I’ll share the methods we used to communicate effectively, and the real-world challenges and successes me and the team encountered along the way. -->
+
+Each quarter, I'd set these goals for myself:
+
+
+* **Show Org-Wide Performance:** Ensure strategic alignment with fiscal year objectives.
+* **Share Our Strategy for Improvement:** Highlight key initiatives and outcomes
+* **Delivering Actionable Insights:** Provide clear, impactful information to the board.
+
+
+## Wrangling the Data
+
+At the end of each quarter, I'd reach out to various departments to gather updates on programs and activities. As the Data Insights Specialist II, I stayed informed on organizational activities year-round, as our team was heavily involved in evaluations and research. Proactively engaging with pilots, program performance, evaluations, research, and analyses allowed me to know exactly what to ask for when compiling the board report, ensuring relevant insights were included.
+
+**The Data**
+
+Usually, these updates came back to me as rudimentary figures, spreadsheets, or dashboards from which I’d pull data points. I would then download these into .csv files and process them using my favorite tool: pandas.
+
+::: {#fig-data-collection layout-nrow=1}
+![Via G-chat: Quick messages containing key data points or updates.](laptop_gchat.png){#fig-g-chat}
+
+![Through Google Sheets: More structured data in spreadsheets shared across departments.](files_in_the_wind.png){#fig-g-sheets}
+
+![Inside Emails: Often, data came embedded within the text of an email, requiring careful extraction and verification.](laptop_email.png){#fig-email}
+
+Data Sharing Methods Across Departments; Illustrations by [Kristin Sandgren-Jolain](https://www.instagram.com/studio.ksj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+:::
+
+
+In addition to incorporating relevant program updates, we also included findings from the Learning and Impact team's internal analyses. One quarter, we included insights derived from an evaluation of one of our intervention methods. These insights revealed specific characteristics and intervention dosages that significantly increased the likelihood of success for our participants.
+
+"Likelihood"—there’s a term you'll often hear in data science. Within the Learning and Impact team and in discussions across departments, terms like probabilities and likelihoods were straightforward to discuss, thanks to the context we could provide. However, translating these and other statistical terms accurately into language and visuals for the board—without the benefit of interactive dialogue—posed a unique challenge.
+
+In the **code blocks that follow**, which I've anonymized for confidentiality, I'll briefly demonstrate how I transformed data into visuals for our board updates. The data cleaning, processing, and manipulation steps shown below are routine practices I used to prepare the data points received from various departments. These steps were crucial for converting raw data, whether received through G-chat, Google Sheets, or emails, into clear, impactful board-level visual presentations.
+
+```{python}
+# Setting Up Environment
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+```{python}
+# Read in Data
+df1 = pd.read_csv("anonymized_all.csv")
+df2 = pd.read_csv("anonymized_fy24_only.csv")
+```
+
+```{python}
+# First few rows of raw data
+df1.head()
+df2.head()
+```
+```{python}
+# Cleaning and transforming the data
+def clean_df(df, date_col, drop_col):
+    df[date_col] = pd.to_datetime(df[date_col])
+    df = df.drop([drop_col], axis = 1) # Drops Unnecessary Columns
+    df.columns = df.columns.str.lower() # Standardize Column Names
+    
+    return df
+
+cleaned_df1 = clean_df(df1,'Start Date', 'Client Name')
+cleaned_df2 = clean_df(df2,'Start Date', 'Client Name')
+```
+
+```{python}
+def fiscal_year(date): # Fiscal Year Calculation
+    if date.month >=7:
+        return date.year + 1
+    else:
+        return date.year
+    
+cleaned_df1['fiscal year'] = cleaned_df1['start date'].apply(fiscal_year)
+cleaned_df2['fiscal year'] = cleaned_df2['start date'].apply(fiscal_year)
+```
+
+```{python}
+# Check FYs in dataset
+cleaned_df1['fiscal year'].unique()
+```
+
+```{python}
+cleaned_previous = cleaned_df1[cleaned_df1['fiscal year'].isin([2024])]
+# cleaned_previous.head()
+```
+
+```{python}
+previous_weekly_performance = (
+  cleaned_previous
+  .groupby(['fiscal year', pd.Grouper(key='start date', freq='W')]).size()
+  .reset_index(name = 'previous_weekly_performance')
+)
+# previous_weekly_performance
+```
+
+```{python}
+previous_weekly_performance['cumulative_performance'] = (
+  previous_weekly_performance
+  .groupby('fiscal year')['previous_weekly_performance']
+  .cumsum()
+)
+previous_weekly_performance.head()
+```
+
+```{python}
+current_weekly_performance = (
+  cleaned_df2
+  .groupby(['fiscal year', pd.Grouper(key='start date', freq='W')]).size()
+  .reset_index(name = 'current_weekly_performance')
+)
+current_weekly_performance['current_cumulative_performance']= (
+  current_weekly_performance
+  .groupby('fiscal year')['current_weekly_performance']
+  .cumsum()
+)
+# current_weekly_performance.head()
+```
+
+```{python}
+merged_df = pd.merge(previous_weekly_performance, current_weekly_performance, how = 'outer')
+# merged_df.head()
+```
+
+## Designing Clear Visuals
+After extensive data manipulation—cleaning, pivoting, and generating initial visuals like bar charts—I begin to see potential ways to make the data understandable for the board.
+
+For the quarterly board presentation that used the anonymized code blocks introduced earlier, I constructed the two charts below using the resulting `merged_df`. Given the available variables, focusing on temporal dynamics and comparative metrics provides a valuable direction to uncover significant trends and irregularities to highlight in the final product.
+
+{{< embed 1-intervention-analysis.ipynb#fig-line-chart >}}
+
+Now, with some initial visualizations created, I can focus on refining and enhancing the clarity of the data presentation and insight delivery. One best practice I adhere to in my visualization work is the "30-second rule" (sometimes it's more like 2 minutes). The idea is that viewers should quickly grasp the intent of a chart or graph. This contrasts with the more abstract visualizations by my favoured artists like Federica Fragipane and Alberto Cairo, who target a different audience.
+
+For board presentations, I prioritize straightforward designs and avoid overly complex or abstract visuals. Sketching with pencil and paper after extensive screen time helps me push the boundaries of basic charts just enough to enhance clarity without becoming too abstract. This physical connection with my work makes the creative process more tangible and refreshing. It allows me to identify where strategic annotations, adjustments to bar charts, or repositioning elements in a scatterplot can significantly improve the visual clarity and effectiveness.
+
+::: {layout-ncol=3}
+![Sketch 1: An early concept for communicating demographic breakdown.](sketch_1.JPG)
+
+![Sketch 2: A rough layout; I use simple lines and directional arrows to indicate movement.](sketch_2.JPG)
+
+![Sketch 3: When clarity and speed are key, humbling myself to use versatile bar charts is best.](sketch_3.JPG)
+
+:::
+
+With these principles in mind I refine and enhance the clarity of the data presentation to produce final visuals. 
+
+## Final Product
+Below are some examples of the final visualizations I have created for corporate board presentations. These visuals are drawn from various projects, each tailored to address specific strategic questions. From demonstrating engagement levels across regions to highlighting the efficacy of strategic efforts over time, these visuals represent the culmination of thorough data analysis and creative design.
+
+{{< pagebreak >}}
+
+![All data shown is illustrative and has been modified to maintain confidentiality.](intervention_region.png)
+
+::: {.column-margin}
+**Intervention Visualization:** This chart illustrates regional engagement levels following strategic interventions. Each number represents the number interactions per intervention type aimed at enhancing interaction effectiveness.
+:::
+
+<br>
+
+<div style="width: 100%; height: 390px; overflow: hidden; position: relative;">
+  <iframe title="[ Insert title here ]" aria-label="Interactive line chart" id="datawrapper-chart-NAVAA" 
+          src="https://datawrapper.dwcdn.net/NAVAA/1/" scrolling="no" frameborder="0" 
+          style="width: 0; min-width: 100% !important; border: none; background: #FFFFFF; height: 410px; position: absolute; top: 0;" 
+          height="410" data-external="1"></iframe>
+</div>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+::: {.column-margin}
+**Performance Trend Chart** The line graph depicts the effectiveness of strategic efforts, showing a notable increase in outcomes following specific interventions. Key moments, like the significant improvement marked in the chart, are pivotal discussion points in strategy meetings.
+:::
+
+<br>
+
+<div style="text-align: center;">
+  **Thanks for reading :)**
+</div>
+---
+ [Next Post](2.qmd)

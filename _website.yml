@@ -1,0 +1,78 @@
+website:
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** Site still being built."
+    type: primary
+    position: below-navbar
+  # title: "Ligea Alexander"
+  site-url: ligea.alexander.com 
+  favicon: favicon.ico
+  image: images/italy.jpeg
+  page-navigation: true
+  page-footer:
+    center: 
+      - text: "Enjoyed this content? Share it with your network!"
+      # - text: "License"
+      #   href: license.qmd
+      # - text: "Trademark"
+      #   href: trademark.qmd
+    left: 
+      - text: "© 2024 Ligea Alexander. All rights reserved."
+    right: "[Email](mailto:ligea.alex@gmail.com) | [GitHub](https://github.com/ligea-alexander) | [LinkedIn](https://www.linkedin.com/in/ligea-alexander/)"
+    border: true
+    background: "#e6e6ff"
+    foreground: "black"    
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Work"
+        href: projects/all-projects.qmd
+        # menu:
+        #   - file: projects/all-projects.qmd
+        #   # - file: projects/data-viz/all.qmd
+        #   # - file: projects/swear-youre-not-stupid/index.qmd  
+      - text: "Case Studies"
+        href: projects/case-studies.qmd
+      - text: "*Playground*"
+        href: projects/playground/playground.qmd
+
+    right:
+      - file: about.qmd
+        text: "About" 
+      - icon: github
+        href: https://github.com/ligea-alexander
+      - text: "Tableau Public"
+        icon: fa-brands fa-tableau
+        href: https://public.tableau.com/app/profile/ligea.alexander
+      - icon: linkedin
+        href: https://linkedin.com/in/ligea-alexander
+      - icon: medium
+        href: https://medium.com/@ligea.alex
+        
+format:
+  html:
+    theme:
+      light: 
+        - styles/cosmo.scss
+        - styles/custom-light.scss
+      dark: 
+        - darkly
+        - styles/custom-dark.scss
+      # light: [flatly, custom.scss]// another way to write this
+      # dark: [darkly, custom-dark.scss] 
+    include-css: 
+      - styles/styles.css
+    # include-after-body: projects/footer.qmd
+      
+includes:
+    in-header: 
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+      

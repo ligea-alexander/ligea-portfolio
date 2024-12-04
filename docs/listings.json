@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/projects/case-studies.html",
+    "items": [
+      "/projects/case-studies/corporate-visualizations/corporate-viz.html",
+      "/projects/case-studies/mapping-with-MapBox/3.html",
+      "/projects/case-studies/mapping-with-R/2.html",
+      "/projects/case-studies/corporate-visualizations/1-intervention-analysis.html"
+    ]
+  },
+  {
+    "listing": "/projects/all-projects.html",
+    "items": [
+      "/projects/all-work/pathway-pal/pathwaypal-chatbot.html",
+      "/projects/all-work/cost-of-sunlight/cost-of-sunlight.html"
+    ]
+  },
+  {
+    "listing": "/projects/swear-youre-not-stupid/index.html",
+    "items": [
+      "/projects/swear-youre-not-stupid/posts/all-about-regression/index.html",
+      "/projects/swear-youre-not-stupid/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  }
+]

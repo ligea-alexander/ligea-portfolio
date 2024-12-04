@@ -1,0 +1,94 @@
+---
+title: "Ligea Alexander"
+title-block-banner: false
+image: images/italy.jpeg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: round
+links:
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/ligeaalexander
+    - icon: github
+      text: Github
+      href: https://github.com/ligeaalexander/
+    - icon: envelope
+      text: Contact me
+      href: mailto:ligea.alex@gmail.com
+listing:
+  - id: latest-work
+    type: grid
+    max-items: 6
+    grid-columns: 3
+    contents:
+      - title: "[The Cost of Sunlight](https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN)"
+        description: "A unique angle on rent pricing and illuminated the impact of environmental factors on real estate."
+        image: images/cost-of-sunlight.png
+      - title: "[Cellar Defenders](https://ligea-alexander.github.io/cellar-defenders/)"
+        description: "Explores the world of affordable wines that deliver high quality without a hefty price tag, ideal for millennials"
+        image: images/millinneal on the chase.png
+      - title: "[Manhattan is the safest place to bike in NYC. What about the rest of New York?](https://biking-safety-io.vercel.app)"
+        description: "Disparities in bike lane availability across NYC neighborhoods with differing ethnicities and socioeconomic statuses, demonstrate the importance of spatial equity."
+        image: images/nyc_spatial_equity.png
+---
+
+<!-- Include the Typed.js library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- HTML element for displaying the text -->
+<div id="typed-text-container" style="width: 100%; text-align: center;">
+  <span id="typed-text"></span>
+</div>
+
+<!-- Initialize Typed.js -->
+<script>
+  var typed = new Typed('#typed-text', {
+    strings: [
+      "She is a multi-disciplinary visual storyteller based in NYC.",
+      // "She is a human-centered designer based in NYC.",
+      "She is a data-person.",
+      "She is a burgeoning interactives designer/IxD.",
+      "She is an intermediate level German speaker.",
+      "She is Trinidadian born and raised (and quite proud of that).",
+      "She is super excited to work with you!"
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|',
+    autoInsertCss: true
+  });
+</script>
+
+<!-- CSS to ensure the cursor stays inline with the text -->
+<style>
+  #typed-text-container {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .typed-cursor {
+    display: inline;
+    font-size: inherit;
+    color: inherit;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+<br>
+
+<hr style="border: 1px solid #ddd; margin: 20px 0;">
+
+<p style="font-size: 1.5em; color: grey; text-align: left; margin-top: 20px;">Latest Work</p>
+
+:::{#latest-work}
+:::

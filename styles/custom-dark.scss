@@ -1,0 +1,43 @@
+/*-- scss:functions --*/
+@function colorToRGB($color) {
+    @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color) + ")";
+  }
+  
+  /*-- scss:defaults --*/
+  $h2-font-size: 1.6rem !default;
+  $headings-font-weight: 500 !default;
+  $web-font-path: false;  // disable Google Fonts
+
+  /*-- scss:rules --*/
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ddd;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ddd;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, .3);
+  }
+  
+  a {
+    color: deeppink;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightpink;
+  }
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    color: deeppink;
+  }
+

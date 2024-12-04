@@ -1,0 +1,21 @@
+---
+title: "Case Studies"
+title-block-banner: true
+listing:
+  id: data-viz-blog
+  contents: case-studies
+  type: grid
+  categories: true
+  sort-ui: [date]
+  page-size: 36
+#   include:
+#     author: "{Harlow,Tristan}*"
+---
+
+<!-- [<<Back to All Projects](projects/all-projects.qmd) -->
+
+
+:::{#data-viz-blog}
+:::
+
+

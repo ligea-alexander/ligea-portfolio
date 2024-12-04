@@ -1,0 +1,17 @@
+---
+title: I Built An Enterprise ChatBot!
+# date: 6/17/2024
+# toc: false
+# fields: [image, date, title, reading-time, description] 
+description: "A cost-benefit analysis of solar energy adoption."
+projectLink: "https://example.com/sunlight-cost"
+code: "https://github.com/username/sunlight-cost"
+languages:
+  - Python
+  - Tableau
+thumbnail: cost-of-sunlight.png
+---
+
+Lorem ipsum Vivamus tincidunt nisi a suscipit consequat. Praesent eget convallis neque, ac scelerisque eros. Integer aliquet, elit et tempor convallis, sem libero tincidunt dolor, vitae tempor magna quam at nisi. Sed elementum ac tortor at fringilla. Aliquam et urna congue, tincidunt ipsum quis, congue nisl. Phasellus non sem massa.
+
+Donec quis interdum sem. Mauris ut arcu erat. Sed nisl tellus, consectetur ut tincidunt id, porttitor vel sapien. Pellentesque in lorem vitae sem euismod interdum. Phasellus fermentum consectetur velit. Duis purus diam, mattis vitae dui et, egestas tincidunt nisl. Pellentesque placerat fermentum purus eget pulvinar. Ut fringilla placerat leo, id luctus ipsum elementum non. Suspendisse accumsan metus non dolor blandit vehicula. Nulla sit amet sodales ipsum.

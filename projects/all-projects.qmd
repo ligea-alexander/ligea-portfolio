@@ -1,0 +1,22 @@
+---
+pagetitle: "My Projects"
+# execute:
+#   echo: false
+page-layout: full
+format:
+  html:
+    css: ../styles/project-styles.css
+listing:
+  - id: listing-projects
+    template: ejs/projects.ejs
+    contents: 
+      - all-work/cost-of-sunlight/
+      - all-work/pathway-pal
+---
+
+Below is a list of my projects:
+
+<br>
+
+::: {#listing-projects}
+:::
