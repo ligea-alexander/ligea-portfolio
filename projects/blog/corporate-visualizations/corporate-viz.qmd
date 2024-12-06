@@ -205,4 +205,4 @@ Below are some examples of the final visualizations I have created for corporate
   **Thanks for reading :)**
 </div>
 ---
- [Next Post](2.qmd)
+ [Next Post](rhetviz.qmd)

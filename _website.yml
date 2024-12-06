@@ -19,7 +19,8 @@ website:
       #   href: trademark.qmd
     left: 
       - text: "© 2024 Ligea Alexander. All rights reserved."
-    right: "[Email](mailto:ligea.alex@gmail.com) | [GitHub](https://github.com/ligea-alexander) | [LinkedIn](https://www.linkedin.com/in/ligea-alexander/)"
+    right: "[Email](mailto:&#108;&#105;&#103;&#101;&#97;&#46;&#97;&#108;&#101;&#120;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;)
+ | [GitHub](https://github.com/ligea-alexander) | [LinkedIn](https://www.linkedin.com/in/ligea-alexander/)"
     border: true
     background: "#e6e6ff"
     foreground: "black"    

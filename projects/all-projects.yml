@@ -1,8 +1,0 @@
-- title: "New Haven Temperatures"
-  description: "An interactive visualization exploring temperature trends over the decades."
-  projectLink: "https://example.com/new-haven-temp"
-  code: "https://github.com/username/new-haven-temp"
-  languages:
-    - R
-    - JavaScript
-  btspath: "articles/"
