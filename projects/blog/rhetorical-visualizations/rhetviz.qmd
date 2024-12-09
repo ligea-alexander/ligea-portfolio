@@ -12,3 +12,21 @@ thumbnail: rhetviz.png
   <img src="rhetviz.png" alt="Custom Thumbnail">
 </p>
 
+Start with the Audience
+
+When I attended MICA, whenever we would be instructed to work on a data visualization assignment, the first thing that we'd promoted to do was to think and ask "who is your audience" The audience paints the narrative. 
+I started my data visualization career while working at a non-profit that was always careful about what was communicated. As I continued to advance in my data viz career, I saw the evolution in just how important data visualization and information design professionals are.
+
+This past summer, I had the opportunity to join Enrico Bertini’s inaugural Rhetorical Visualization course. Over five weeks, our cohort explored the theory and practice of creating visualizations that don’t just inform but resonate with their intended audience. Through weekly discussions, hands-on exercises, and thought-provoking lessons, we unpacked the nuances of how visualizations convey messages and shape interpretations.
+
+Rhetorical visualization goes beyond aesthetics or clarity—it’s about the messaging. As Enrico puts it, it examines “the role in the messages a visualization conveys and the inferences one can make.” This idea—how our design decisions influence audience understanding—was a recurring theme throughout the course and challenged me to think more critically about my work.
+
+One of the most impactful lessons for me was the concept of framing. As Enrico emphasized, data doesn’t speak for itself. This might sound surprising, especially since many of us have heard the phrase tossed around casually in workplaces or even in the media. But the act of visualizing data—choosing what to include, exclude, and how to present it—inevitably shapes a narrative. This realization was both humbling and empowering.
+Framing taught me that no visualization is ever completely neutral. Every chart carries the weight of its creator’s decisions, from the scale of the axes to the title we give it. Even something as seemingly straightforward as a bar chart can convey vastly different messages depending on these choices. This pushed me to think critically about my own work: What narrative am I shaping? And is it aligned with the truth I want to convey?
+
+These lessons hit home when thinking about high-stakes visualizations—charts about climate change, election results, or pandemics like COVID-19. In these scenarios, where misinformation can have far-reaching consequences, rhetorical visualization becomes a critical skill. It’s not just about making data clear; it’s about ensuring it’s truthful and responsibly framed.
+
+Enrico’s course was, at its core, a call to action: to create data visualizations with integrity and to develop the habit of scrutinizing our work and that of others. As practitioners, we hold immense responsibility in shaping how people interpret data. This course sharpened my ability to reason with data effectively and reinforced the idea that there is always a frame—whether we acknowledge it or not.
+
+Taking this course felt like an exercise in due diligence for any data visualization professional—a deep dive into the ethics of our work. It was a reminder that every decision we make, from data collection to visual design, carries weight. By applying the principles of rhetorical visualization, we can create visuals that don’t just inform but resonate with integrity and purpose.
+
