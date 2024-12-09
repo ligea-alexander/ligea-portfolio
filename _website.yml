@@ -2,7 +2,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "**Alert** Site still being built."
+    content: "**Alert** This website is a work in progress, coded by me as I explore and learn Quarto. Thank you for visiting!"
     type: primary
     position: below-navbar
   # title: "Ligea Alexander"
