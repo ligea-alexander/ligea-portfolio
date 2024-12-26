@@ -1,58 +1,58 @@
 ```{=html}
 
 <div class="project-cards">
-
   <% for (const item of items) { %>
-    <!-- Make the whole card clickable by wrapping it in a link -->
-    <a href="<%- item.projectLink %>" class="project-card-link">
-      <div class="project-card">
 
-        <!-- Card Header: Title on the Left, Code Icon on the Right -->
-        <div class="card-header d-flex justify-content-between align-items-center">
-          <div class="card-title">
-            <%= item.title %>
-          </div>
-          <% if (item.code) { %>
-            <div class="card-code">
-              <i class="bi bi-code-square"></i> <!-- Bootstrap code-square icon -->
-            </div>
-            <% } %>
+    <!-- Instead of <a> around the whole card, use a <div> with onclick -->
+    <div class="project-card" onclick="window.location.href='<%- item.projectLink %>'" style="cursor: pointer;">
+      <!-- Card Header: Title on the Left, Code Icon on the Right -->
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <div class="card-title">
+          <%= item.title %>
         </div>
 
-        <!-- Thumbnail Image -->
-        <% if (item.thumbnail) { %>
-          <div class="card-thumbnail">
-            <img src="<%- item.path.replace(/[^/]+\.qmd$/, '') %><%- item.thumbnail %>"
-              alt="<%- item.title %> Thumbnail">
+        <% if (item.code) { %>
+          <!-- Code Icon Link -->
+          <div class="card-code" onclick="event.stopPropagation()">
+            <a href="<%- item.code %>" target="_blank">
+              <i class="bi bi-code-square"></i>
+            </a>
           </div>
           <% } %>
-
-            <!-- Description -->
-            <div class="card-description">
-              <%- item.description %>
-            </div>
-
-            <!-- Languages and Tools -->
-            <div class="card-tools">
-              <% if (item.languages) { %>
-                <span class="tools">
-                  <% item.languages.forEach(function(lang) { %>
-                    <span class="tool-item"><%- lang %></span>
-                    <% }); %>
-                </span>
-                <% } %>
-            </div>
-
-            <!-- BTS Section -->
-            <div class="card-bts">
-              <a href="<%- item.path %>">Read Behind The Scenes (BTS)</a>
-            </div>
-
       </div>
-    </a>
-    <% } %>
 
+      <!-- Thumbnail Image -->
+      <% if (item.thumbnail) { %>
+        <div class="card-thumbnail">
+          <img src="<%- item.path.replace(/[^/]+\.qmd$/, '') %><%- item.thumbnail %>" alt="<%- item.title %> Thumbnail">
+        </div>
+        <% } %>
+
+          <!-- Description -->
+          <div class="card-description">
+            <%- item.description %>
+          </div>
+
+          <!-- Languages and Tools -->
+          <div class="card-tools">
+            <% if (item.languages) { %>
+              <span class="tools">
+                <% item.languages.forEach(function(lang) { %>
+                  <span class="tool-item"><%- lang %></span>
+                  <% }); %>
+              </span>
+              <% } %>
+          </div>
+
+          <!-- BTS Section (if you don't want it to navigate to projectLink) -->
+          <div class="card-bts" onclick="event.stopPropagation()">
+            <a href="<%- item.path %>">Read Behind The Scenes (BTS)</a>
+          </div>
+    </div>
+
+    <% } %>
 </div>
+
 
 
 ```

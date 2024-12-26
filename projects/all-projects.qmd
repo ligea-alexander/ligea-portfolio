@@ -16,8 +16,6 @@ listing:
       - all-work/pathway-pal
 ---
 
-
-
 <br>
 
 ::: {#listing-projects}

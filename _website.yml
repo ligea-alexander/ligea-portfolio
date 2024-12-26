@@ -63,6 +63,7 @@ format:
         - styles/custom-dark.scss
       # light: [flatly, custom.scss]// another way to write this
       # dark: [darkly, custom-dark.scss] 
+    bootstrap-icons: true
     include-css: 
       - styles/styles.css
     # include-after-body: projects/footer.qmd
