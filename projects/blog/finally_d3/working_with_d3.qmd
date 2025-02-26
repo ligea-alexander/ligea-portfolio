@@ -24,7 +24,8 @@ At least I'll have proof of my D3.js baby steps— before I (hopefully) evolve i
 
 # First, the data…
 
-Finding German election results data turned out to be more challenging than I expected. Unlike the U.S., where sites like data.gov or census.gov house historical election data in an easily accessible way, Germany doesn’t seem to have a single, central repository for this information. I don’t know if this is tied to EU privacy laws, but it raises some interesting questions...
+Finding German election results data turned out to be more challenging than I expected. Unlike the U.S., where sites like data.gov or census.gov house historical election data in an easily accessible way, Germany doesn’t seem to have a single, central repository for this information. I don’t know if this is tied to EU privacy laws, but it raises some interesting questions:
+
 - Without a publicly accessible and centralized historical record, how can the general public verify past election results? If no official record exists, what prevents someone from rewriting history—say, a local newspaper publishing fraudulent electoral results—making it difficult for citizens to fact-check?
 - On a broader scale, what about international organizations, researchers, or corporations? Are they expected to keep track of this information independently? And if one agency documents data at a summary level while another records it granularly, how do people reconcile what actually happened? What does that mean for historical accuracy and transparency?
 
@@ -86,9 +87,9 @@ For this, I’m using D3.js, a JavaScript library that’s powerful for creating
 ## Choosing the Right Charts
 Since I’m trying to decode Germany’s political landscape, I decided to visualize:
 
-📊 Vote share trends over time → To see how party popularity has shifted across different elections.
-🗺 A choropleth map → To understand how support for different parties varies across German states.
-📉 Polling data before the elections → To compare predictions vs. actual results.
+* 📊 Vote share trends over time → To see how party popularity has shifted across different elections.
+* 🗺 A choropleth map → To understand how support for different parties varies across German states.
+* 📉 Polling data before the elections → To compare predictions vs. actual results.
 
 Each of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in.
 

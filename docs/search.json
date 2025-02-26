@@ -67,7 +67,7 @@
     "href": "projects/blog/finally_d3/working_with_d3.html#choosing-the-right-charts",
     "title": "My D3 Journey",
     "section": "Choosing the Right Charts",
-    "text": "Choosing the Right Charts\nSince I’m trying to decode Germany’s political landscape, I decided to visualize:\n📊 Vote share trends over time → To see how party popularity has shifted across different elections. 🗺 A choropleth map → To understand how support for different parties varies across German states. 📉 Polling data before the elections → To compare predictions vs. actual results.\nEach of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in."
+    "text": "Choosing the Right Charts\nSince I’m trying to decode Germany’s political landscape, I decided to visualize:\n\n📊 Vote share trends over time → To see how party popularity has shifted across different elections.\n🗺 A choropleth map → To understand how support for different parties varies across German states.\n📉 Polling data before the elections → To compare predictions vs. actual results.\n\nEach of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in."
   },
   {
     "objectID": "projects/all-projects.html",
