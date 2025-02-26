@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>ligea.alexander.com/about.html</loc>
-    <lastmod>2024-07-29T06:54:16.761Z</lastmod>
+    <lastmod>2025-02-14T08:57:46.634Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/docs/projects/blog/corporate-visualizations/1-intervention-analysis.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>ligea.alexander.com/projects/blog.html</loc>
-    <lastmod>2024-12-06T10:03:03.595Z</lastmod>
+    <lastmod>2024-12-06T10:03:03.000Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/all-work/pathway-pal/pathwaypal-chatbot.html</loc>
@@ -18,19 +18,27 @@
   </url>
   <url>
     <loc>ligea.alexander.com/projects/blog/rhetorical-visualizations/rhetviz.html</loc>
-    <lastmod>2024-12-16T10:59:41.568Z</lastmod>
+    <lastmod>2024-12-16T10:59:41.000Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/blog/corporate-visualizations/corporate-viz.html</loc>
     <lastmod>2024-12-09T23:24:25.257Z</lastmod>
   </url>
   <url>
+    <loc>ligea.alexander.com/projects/blog/finally_d3/ojs-test.html</loc>
+    <lastmod>2025-02-24T13:16:33.760Z</lastmod>
+  </url>
+  <url>
     <loc>ligea.alexander.com/projects/all-projects.html</loc>
-    <lastmod>2024-12-26T12:49:36.772Z</lastmod>
+    <lastmod>2024-12-26T13:17:33.000Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/playground/playground.html</loc>
     <lastmod>2024-10-25T08:41:33.385Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/blog/finally_d3/working_with_d3.html</loc>
+    <lastmod>2025-02-26T13:46:52.946Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/projects/blog/corporate-visualizations/1-intervention-analysis.html</loc>
@@ -46,10 +54,18 @@
   </url>
   <url>
     <loc>ligea.alexander.com/docs/projects/blog/corporate-visualizations/1-intervention-analysis.out.html</loc>
-    <lastmod>2024-12-09T23:25:09.582Z</lastmod>
+    <lastmod>2024-12-26T12:50:52.535Z</lastmod>
   </url>
   <url>
     <loc>ligea.alexander.com/index.html</loc>
-    <lastmod>2024-12-26T12:16:09.085Z</lastmod>
+    <lastmod>2024-12-26T12:16:09.000Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/blog/finally_d3/data/analysis.html</loc>
+    <lastmod>2025-02-24T09:59:31.426Z</lastmod>
+  </url>
+  <url>
+    <loc>ligea.alexander.com/projects/all-work/decoding-german-politics/story.html</loc>
+    <lastmod>2025-02-26T10:49:03.000Z</lastmod>
   </url>
 </urlset>
