@@ -1,0 +1,94 @@
+---
+title: 'My D3 Journey'
+date: 2/13/25
+categories: ['d3.js', 'observable', data visualization"]
+format:
+  html:
+    css: d3_styles.css
+thumbnail-image:
+thumbnail:
+toc: true
+---
+<p class="thumbnail-hide">
+  <img src="placeholder.jpg" alt="Custom Thumbnail">
+</p>
+
+ In my recent deep dive into the German political landscape (which you can read about here), I worked with electoral data to create my first D3.js charts- marking the beginning of my hands-on experience with D3. I want to share the process behind it.
+
+This is **not** a step-by-step tutorial (well, maybe parts of it will be useful to someone just starting with D3— or not). It's really just me documenting my process. And hey, maybe a year from now, I’ll look back at my code, shake my head and wonder:
+
+- "Why did I write it that way?"
+- "Why did I take the long route when there was a simpler solution?"
+
+At least I'll have proof of my D3.js baby steps— before I (hopefully) evolve into a D3 and data viz engineering beast.
+
+# First, the data…
+
+Finding German election results data turned out to be more challenging than I expected. Unlike the U.S., where sites like data.gov or census.gov house historical election data in an easily accessible way, Germany doesn’t seem to have a single, central repository for this information. I don’t know if this is tied to EU privacy laws, but it raises some interesting questions...
+- Without a publicly accessible and centralized historical record, how can the general public verify past election results? If no official record exists, what prevents someone from rewriting history—say, a local newspaper publishing fraudulent electoral results—making it difficult for citizens to fact-check?
+- On a broader scale, what about international organizations, researchers, or corporations? Are they expected to keep track of this information independently? And if one agency documents data at a summary level while another records it granularly, how do people reconcile what actually happened? What does that mean for historical accuracy and transparency?
+
+Just some thoughts. 
+
+That said, maybe there *is* a centralized place that I simply overlooked. But I really had to dig— and in doing so, I found past election results by state on www.wahlrecht.de. From what I can tell, this site is run by peers and data enthusiasts to serve precisely the purpose I was concerned about: documenting election history.
+
+To ensure accuracy, I cross-referenced the data with reported figures from multiple local and major German news outlets. And honestly, the fact that I even had to do that only reinforces my concerns about how election data is stored, reported, and made accessible.
+
+:::{.panel-tabset}
+### Data Extraction
+
+I used **Python, Playwright, and Pandas** to scrape election results from [wahlrecht.de](https://www.wahlrecht.de).  
+
+```python
+from playwright.sync_api import sync_playwright
+import pandas as pd
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page()
+    page.goto("https://www.wahlrecht.de")
+    html_content = page.content()
+    browser.close()
+
+# Process the extracted HTML with pandas
+df = pd.read_html(html_content)[0]
+df.head()
+
+```
+This allowed me to collect election results for all 16 German states efficiently.
+
+
+### Data Transformation
+
+Once I had the raw data, I used Pandas to clean and structure it for visualization.
+
+```python
+df["Year"] = df["Date"].str.extract(r'(\d{4})').astype(int)
+df = df.pivot_table(index="Year", columns="Party", values="Votes", aggfunc="sum")
+
+```
+### Prep for D3
+
+To get the data D3-ready, I converted it to JSON format.
+
+```python
+df.to_json("german_elections.json", orient="records")
+
+```
+:::
+
+# Now for the Fun Part: Making the Charts
+
+Now that I’ve gathered and cleaned the election data, it’s time to turn it into something visual. Numbers and tables can only tell us so much—patterns, trends, and shifts become clearer when we map them out.
+
+For this, I’m using D3.js, a JavaScript library that’s powerful for creating dynamic and interactive data visualizations. While I’ve used D3 before in scrollytelling with Scrollama, this is my first time building pure, standalone D3 charts from scratch—no frameworks, no shortcuts. Just me, JavaScript, and the unforgiving beauty of SVGs.
+
+## Choosing the Right Charts
+Since I’m trying to decode Germany’s political landscape, I decided to visualize:
+
+📊 Vote share trends over time → To see how party popularity has shifted across different elections.
+🗺 A choropleth map → To understand how support for different parties varies across German states.
+📉 Polling data before the elections → To compare predictions vs. actual results.
+
+Each of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in.
+

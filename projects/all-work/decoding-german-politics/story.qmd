@@ -1,0 +1,25 @@
+---
+title: Decoding German Politics
+date: 2/10/2025
+toc: false
+fields: [image, date, title, reading-time, description] 
+description: story
+projectLink: "https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN"
+code: "https://github.com/ligea-alexander/cost-of-sunlight-story"
+languages:
+  - D3.js
+  - Python
+thumbnail: cost-of-sunlight.png
+
+---
+
+
+After a month of deep-diving into JavaScript theory, I can finally say I feel confident enough to start using D3. Sure, I've dabbled before—mostly in scrollytelling with Scrollama—but I've never worked with pure vanilla D3. And before I move on to Svelte, I need to get my footing here first.
+
+Currently I'm in Germany and a snap-election is around the corner so I figured I'd use a German dataset. It took me a while to understand the complexities of US politics (which, at this point, might not even matter anymore given how things are unraveling). Now, in a new country, I find myself back at square one—trying to decode a whole new political system.
+
+Lately, I keep hearing people talk about the AfD gaining popularity, always with a sense of worry and frustration. Protests are popping up, especially in the lead-up to the elections, and I'm still trying to figure out where I stand in all of this. Which parties align with my views? Who should I be rooting for? Friends have made it clear that the AfD is "bad," but beyond that, I don't know much.
+
+Over coffee the other day, I was venting about how bleak things feel politically—both in the US and here—and a friend reassured me, “At least in Hamburg, the Green Party is strong.” That threw me. Up until that moment, I'd only heard of the AfD, CDU, and SPD—but the Green Party? I had no clue they were even relevant here.
+
+So, what better way to practice D3 than by visualizing German election data? If I'm going to build charts, I might as well learn something in the process.

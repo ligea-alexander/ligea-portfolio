@@ -38,10 +38,15 @@
     font-size: xx-large;
   }
 
- h2, h3, h4, h5, h6 {
-    color: #333;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+  h2{
+    font-family: 'Mango Grotesque', serif;
+    font-size: x-large; 
   }
+
+//  h2, h3, h4, h5, h6 {
+//     color: #333;
+//     text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+//   }
   
   a {
     color: #9e1791;

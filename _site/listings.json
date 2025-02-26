@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/projects/blog.html",
+    "items": [
+      "/projects/blog/corporate-visualizations/corporate-viz.html",
+      "/projects/blog/finally_d3/working_with_d3.html",
+      "/projects/blog/rhetorical-visualizations/rhetviz.html",
+      "/projects/blog/finally_d3/data/analysis.html",
+      "/projects/blog/corporate-visualizations/1-intervention-analysis.html"
+    ]
+  },
+  {
+    "listing": "/projects/all-projects.html",
+    "items": [
+      "/projects/all-work/pathway-pal/pathwaypal-chatbot.html",
+      "/projects/all-work/cost-of-sunlight/bts-cost-of-sunlight.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  }
+]

@@ -36,6 +36,11 @@ Center for Employment Opportunities | Data Insights Specialist | 2019 - present
 
 **JavaScript** | p5.js, 
 
+Data Visualization & Storytelling → Not just static charts, but interactive and engaging experiences.
+Insight-Driven Journalism & Research → Making sense of complex topics through data.
+UX & Information Design → Building tools and experiences that help people interpret information.
+Strategic Thinking → You don’t just analyze data; you consider its business and societal impact.
+
 ## Additional Skills
 
 Social issues, community violence, gun violence, justice-involved, AI ethics
