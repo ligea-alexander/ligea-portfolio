@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scraping</title>
+<title>Data Extraction/ Scraping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -184,7 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Scraping</h1>
+<h1 class="title">Data Extraction/ Scraping</h1>
 </div>
 
 
@@ -1530,7 +1530,238 @@ Length: 120, dtype: object</code></pre>
 </div>
 </div>
 <div id="dd38d29e-b80d-423a-9592-e6025b9af618" class="cell" data-execution_count="36">
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>cleaned_full_long_df.to_csv(<span class="st">"test.csv"</span>, index <span class="op">=</span> <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaned_full_long_df.to_csv("test.csv", index = False)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="bd79cac9-b1a9-4135-a135-88ccdc7f70ae" class="cell" data-scrolled="true" data-execution_count="43">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>percent_votes <span class="op">=</span> cleaned_full_long_df[cleaned_full_long_df[<span class="st">"stattype"</span>]<span class="op">==</span><span class="st">"%"</span>].reset_index(drop <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>percent_votes</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="co"># percent_votes.to_csv("percentage_votes.csv", index = False)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="43">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">state</th>
+<th data-quarto-table-cell-role="th">party</th>
+<th data-quarto-table-cell-role="th">year</th>
+<th data-quarto-table-cell-role="th">stattype</th>
+<th data-quarto-table-cell-role="th">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Hessen</td>
+<td>CDU</td>
+<td>1946</td>
+<td>%</td>
+<td>0.309</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Hessen</td>
+<td>SPD</td>
+<td>1946</td>
+<td>%</td>
+<td>0.427</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Hessen</td>
+<td>FDP</td>
+<td>1946</td>
+<td>%</td>
+<td>0.157</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>Hessen</td>
+<td>GRÜNE</td>
+<td>1946</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>Hessen</td>
+<td>DIE LINKE</td>
+<td>1946</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3755</td>
+<td>Schleswig-Holstein</td>
+<td>DP³</td>
+<td>2022</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3756</td>
+<td>Schleswig-Holstein</td>
+<td>KPD/DKP¹</td>
+<td>2022</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3757</td>
+<td>Schleswig-Holstein</td>
+<td>REP</td>
+<td>2022</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3758</td>
+<td>Schleswig-Holstein</td>
+<td>DVU</td>
+<td>2022</td>
+<td>%</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3759</td>
+<td>Schleswig-Holstein</td>
+<td>Sonstige</td>
+<td>2022</td>
+<td>%</td>
+<td>0.038</td>
+</tr>
+</tbody>
+</table>
+
+<p>3760 rows × 5 columns</p>
+</div>
+</div>
+</div>
+<div id="174c7f55-3062-4c01-a94a-88aef05bbd0a" class="cell" data-execution_count="44">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>seats_won <span class="op">=</span> cleaned_full_long_df[cleaned_full_long_df[<span class="st">"stattype"</span>]<span class="op">==</span><span class="st">"Sitze"</span>].reset_index(drop <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>seats_won</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="co"># seats_won.to_csv("seats_won.csv", index = False)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="44">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">state</th>
+<th data-quarto-table-cell-role="th">party</th>
+<th data-quarto-table-cell-role="th">year</th>
+<th data-quarto-table-cell-role="th">stattype</th>
+<th data-quarto-table-cell-role="th">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Hessen</td>
+<td>CDU</td>
+<td>1946</td>
+<td>Sitze</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Hessen</td>
+<td>SPD</td>
+<td>1946</td>
+<td>Sitze</td>
+<td>38</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Hessen</td>
+<td>FDP</td>
+<td>1946</td>
+<td>Sitze</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>Hessen</td>
+<td>GRÜNE</td>
+<td>1946</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>Hessen</td>
+<td>DIE LINKE</td>
+<td>1946</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3755</td>
+<td>Schleswig-Holstein</td>
+<td>DP³</td>
+<td>2022</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3756</td>
+<td>Schleswig-Holstein</td>
+<td>KPD/DKP¹</td>
+<td>2022</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3757</td>
+<td>Schleswig-Holstein</td>
+<td>REP</td>
+<td>2022</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3758</td>
+<td>Schleswig-Holstein</td>
+<td>DVU</td>
+<td>2022</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">3759</td>
+<td>Schleswig-Holstein</td>
+<td>Sonstige</td>
+<td>2022</td>
+<td>Sitze</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+
+<p>3760 rows × 5 columns</p>
+</div>
+</div>
 </div>
 </section>
 <section id="analysis" class="level2">

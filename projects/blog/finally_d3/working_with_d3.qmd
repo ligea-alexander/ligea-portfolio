@@ -1,7 +1,7 @@
 ---
 title: 'My D3 Journey'
 date: 2/13/25
-categories: ['d3.js', 'observable', data visualization"]
+categories: ['d3.js', 'observable', 'data visualization']
 format:
   html:
     css: d3_styles.css
@@ -38,26 +38,40 @@ To ensure accuracy, I cross-referenced the data with reported figures from multi
 :::{.panel-tabset}
 ### Data Extraction
 
-I used **Python, Playwright, and Pandas** to scrape election results from [wahlrecht.de](https://www.wahlrecht.de).  
+To collect election results for all 16 German states efficiently, I turned to web scraping.
+
+I used `Playwright` (to automate browsing to fetch the raw HTML from multiple pages), `BeautifulSoup` (to parse the tables and extract relevant election data) and `Pandas` to clean and structure the scraped election results from [wahlrecht.de](https://www.wahlrecht.de) for analysis.  
 
 ```python
-from playwright.sync_api import sync_playwright
+ffrom playwright.async_api import async_playwright
+from bs4 import BeautifulSoup
 import pandas as pd
 
-with sync_playwright() as p:
-    browser = p.chromium.launch()
-    page = browser.new_page()
-    page.goto("https://www.wahlrecht.de")
-    html_content = page.content()
-    browser.close()
+BASE_URL = "https://www.wahlrecht.de/ergebnisse/index.htm" 
 
-# Process the extracted HTML with pandas
-df = pd.read_html(html_content)[0]
-df.head()
+async def scrape_election_results():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
+        await page.goto(BASE_URL)
+
+        soup = BeautifulSoup(await page.content(), "html.parser")
+        tables = soup.find_all("table", class_="border")
+
+        election_data = []
+        for row in tables[1].find_all("tr")[1:]:
+            cols = [col.get_text(strip=True) for col in row.find_all("td")]
+            if cols:
+                election_data.append(cols)
+        # Some pages had nested headers or inconsistent structures, requiring custom logic 
+        # to build MultiIndex columns in Pandas.
+        df = pd.DataFrame(election_data)
+        df.to_csv("german_elections.csv", index=False)
+    
+    return df
 
 ```
-This allowed me to collect election results for all 16 German states efficiently.
-
+Parsing the tables on each state's page was tricky since some headers spanned multiple rows and columns, requiring custom logic to build MultiIndex columns in Pandas and maintain consistency across datasets.
 
 ### Data Transformation
 
@@ -80,16 +94,15 @@ df.to_json("german_elections.json", orient="records")
 
 # Now for the Fun Part: Making the Charts
 
-Now that I’ve gathered and cleaned the election data, it’s time to turn it into something visual. Numbers and tables can only tell us so much—patterns, trends, and shifts become clearer when we map them out.
+Numbers and tables can only tell us so much— patterns, trends, and shifts become clearer when we visualize them out.
 
-For this, I’m using D3.js, a JavaScript library that’s powerful for creating dynamic and interactive data visualizations. While I’ve used D3 before in scrollytelling with Scrollama, this is my first time building pure, standalone D3 charts from scratch—no frameworks, no shortcuts. Just me, JavaScript, and the unforgiving beauty of SVGs.
+D3.js is powerful for creating dynamic and interactive data visualizations. While I’ve used D3 before in scrollytelling with Scrollama, this is my first time building pure, standalone D3 charts from scratch! Just me, JavaScript, and the unforgiving beauty of SVGs.
 
 ## Choosing the Right Charts
 Since I’m trying to decode Germany’s political landscape, I decided to visualize:
 
-* 📊 Vote share trends over time → To see how party popularity has shifted across different elections.
-* 🗺 A choropleth map → To understand how support for different parties varies across German states.
-* 📉 Polling data before the elections → To compare predictions vs. actual results.
+* Vote share trends over time → To see how party popularity has shifted across different elections.
+* A choropleth map → To understand how support for different parties varies across German states.
 
 Each of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in.
 

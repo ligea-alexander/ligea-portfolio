@@ -199,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="quarto-categories">
     <div class="quarto-category">d3.js</div>
     <div class="quarto-category">observable</div>
-    <div class="quarto-category">data visualization”</div>
+    <div class="quarto-category">data visualization</div>
   </div>
   </div>
 
@@ -247,21 +247,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Data Extraction</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data Transformation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Prep for D3</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>I used <strong>Python, Playwright, and Pandas</strong> to scrape election results from <a href="https://www.wahlrecht.de">wahlrecht.de</a>.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> playwright.sync_api <span class="im">import</span> sync_playwright</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> sync_playwright() <span class="im">as</span> p:</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    browser <span class="op">=</span> p.chromium.launch()</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    page <span class="op">=</span> browser.new_page()</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    page.goto(<span class="st">"https://www.wahlrecht.de"</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    html_content <span class="op">=</span> page.content()</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    browser.close()</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Process the extracted HTML with pandas</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_html(html_content)[<span class="dv">0</span>]</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This allowed me to collect election results for all 16 German states efficiently.</p>
+<p>To collect election results for all 16 German states efficiently, I turned to web scraping.</p>
+<p>I used <code>Playwright</code> (to automate browsing to fetch the raw HTML from multiple pages), <code>BeautifulSoup</code> (to parse the tables and extract relevant election data) and <code>Pandas</code> to clean and structure the scraped election results from <a href="https://www.wahlrecht.de">wahlrecht.de</a> for analysis.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ffrom playwright.async_api <span class="im">import</span> async_playwright</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>BASE_URL <span class="op">=</span> <span class="st">"https://www.wahlrecht.de/ergebnisse/index.htm"</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="cf">async</span> <span class="kw">def</span> scrape_election_results():</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">async</span> <span class="cf">with</span> async_playwright() <span class="im">as</span> p:</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        browser <span class="op">=</span> <span class="cf">await</span> p.chromium.launch(headless<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        page <span class="op">=</span> <span class="cf">await</span> browser.new_page()</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">await</span> page.goto(BASE_URL)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        soup <span class="op">=</span> BeautifulSoup(<span class="cf">await</span> page.content(), <span class="st">"html.parser"</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        tables <span class="op">=</span> soup.find_all(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"border"</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>        election_data <span class="op">=</span> []</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> row <span class="kw">in</span> tables[<span class="dv">1</span>].find_all(<span class="st">"tr"</span>)[<span class="dv">1</span>:]:</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>            cols <span class="op">=</span> [col.get_text(strip<span class="op">=</span><span class="va">True</span>) <span class="cf">for</span> col <span class="kw">in</span> row.find_all(<span class="st">"td"</span>)]</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> cols:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                election_data.append(cols)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Some pages had nested headers or inconsistent structures, requiring custom logic </span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="co"># to build MultiIndex columns in Pandas.</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> pd.DataFrame(election_data)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        df.to_csv(<span class="st">"german_elections.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Parsing the tables on each state’s page was tricky since some headers spanned multiple rows and columns, requiring custom logic to build MultiIndex columns in Pandas and maintain consistency across datasets.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Once I had the raw data, I used Pandas to clean and structure it for visualization.</p>
@@ -277,15 +291,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="now-for-the-fun-part-making-the-charts" class="level1">
 <h1>Now for the Fun Part: Making the Charts</h1>
-<p>Now that I’ve gathered and cleaned the election data, it’s time to turn it into something visual. Numbers and tables can only tell us so much—patterns, trends, and shifts become clearer when we map them out.</p>
-<p>For this, I’m using D3.js, a JavaScript library that’s powerful for creating dynamic and interactive data visualizations. While I’ve used D3 before in scrollytelling with Scrollama, this is my first time building pure, standalone D3 charts from scratch—no frameworks, no shortcuts. Just me, JavaScript, and the unforgiving beauty of SVGs.</p>
+<p>Numbers and tables can only tell us so much— patterns, trends, and shifts become clearer when we visualize them out.</p>
+<p>D3.js is powerful for creating dynamic and interactive data visualizations. While I’ve used D3 before in scrollytelling with Scrollama, this is my first time building pure, standalone D3 charts from scratch! Just me, JavaScript, and the unforgiving beauty of SVGs.</p>
 <section id="choosing-the-right-charts" class="level2">
 <h2 class="anchored" data-anchor-id="choosing-the-right-charts">Choosing the Right Charts</h2>
 <p>Since I’m trying to decode Germany’s political landscape, I decided to visualize:</p>
 <ul>
-<li>📊 Vote share trends over time → To see how party popularity has shifted across different elections.</li>
-<li>🗺 A choropleth map → To understand how support for different parties varies across German states.</li>
-<li>📉 Polling data before the elections → To compare predictions vs.&nbsp;actual results.</li>
+<li>Vote share trends over time → To see how party popularity has shifted across different elections.</li>
+<li>A choropleth map → To understand how support for different parties varies across German states.</li>
 </ul>
 <p>Each of these charts will build on the dataset I processed earlier, with some tweaks along the way. Let’s dive in.</p>
 

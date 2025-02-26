@@ -1,0 +1,3761 @@
+state,party,year,stattype,value
+Hessen,CDU,1946,%,0.309
+Hessen,SPD,1946,%,0.42700000000000005
+Hessen,FDP,1946,%,0.157
+Hessen,GRÜNE,1946,%,
+Hessen,DIE LINKE,1946,%,
+Hessen,PIRATEN,1946,%,
+Hessen,AfD,1946,%,
+Hessen,REP,1946,%,
+Hessen,KPD/DKP¹,1946,%,0.107
+Hessen,NPD,1946,%,
+Hessen,GB/BHE,1946,%,
+Hessen,Sonstige,1946,%,
+Hessen,CDU,1950,%,0.188
+Hessen,SPD,1950,%,0.444
+Hessen,FDP,1950,%,0.318
+Hessen,GRÜNE,1950,%,
+Hessen,DIE LINKE,1950,%,
+Hessen,PIRATEN,1950,%,
+Hessen,AfD,1950,%,
+Hessen,REP,1950,%,
+Hessen,KPD/DKP¹,1950,%,0.047
+Hessen,NPD,1950,%,
+Hessen,GB/BHE,1950,%,
+Hessen,Sonstige,1950,%,0.003
+Hessen,CDU,1954,%,0.24100000000000002
+Hessen,SPD,1954,%,0.426
+Hessen,FDP,1954,%,0.205
+Hessen,GRÜNE,1954,%,
+Hessen,DIE LINKE,1954,%,
+Hessen,PIRATEN,1954,%,
+Hessen,AfD,1954,%,
+Hessen,REP,1954,%,
+Hessen,KPD/DKP¹,1954,%,0.034
+Hessen,NPD,1954,%,
+Hessen,GB/BHE,1954,%,0.077
+Hessen,Sonstige,1954,%,0.017
+Hessen,CDU,1958,%,0.32
+Hessen,SPD,1958,%,0.469
+Hessen,FDP,1958,%,0.095
+Hessen,GRÜNE,1958,%,
+Hessen,DIE LINKE,1958,%,
+Hessen,PIRATEN,1958,%,
+Hessen,AfD,1958,%,
+Hessen,REP,1958,%,
+Hessen,KPD/DKP¹,1958,%,
+Hessen,NPD,1958,%,
+Hessen,GB/BHE,1958,%,0.07400000000000001
+Hessen,Sonstige,1958,%,0.042
+Hessen,CDU,1962,%,0.28800000000000003
+Hessen,SPD,1962,%,0.508
+Hessen,FDP,1962,%,0.114
+Hessen,GRÜNE,1962,%,
+Hessen,DIE LINKE,1962,%,
+Hessen,PIRATEN,1962,%,
+Hessen,AfD,1962,%,
+Hessen,REP,1962,%,
+Hessen,KPD/DKP¹,1962,%,
+Hessen,NPD,1962,%,
+Hessen,GB/BHE,1962,%,0.063
+Hessen,Sonstige,1962,%,0.027000000000000003
+Hessen,CDU,1966,%,0.264
+Hessen,SPD,1966,%,0.51
+Hessen,FDP,1966,%,0.10400000000000001
+Hessen,GRÜNE,1966,%,
+Hessen,DIE LINKE,1966,%,
+Hessen,PIRATEN,1966,%,
+Hessen,AfD,1966,%,
+Hessen,REP,1966,%,
+Hessen,KPD/DKP¹,1966,%,
+Hessen,NPD,1966,%,0.079
+Hessen,GB/BHE,1966,%,0.043
+Hessen,Sonstige,1966,%,
+Hessen,CDU,1970,%,0.397
+Hessen,SPD,1970,%,0.45899999999999996
+Hessen,FDP,1970,%,0.10099999999999999
+Hessen,GRÜNE,1970,%,
+Hessen,DIE LINKE,1970,%,
+Hessen,PIRATEN,1970,%,
+Hessen,AfD,1970,%,
+Hessen,REP,1970,%,
+Hessen,KPD/DKP¹,1970,%,0.012
+Hessen,NPD,1970,%,0.03
+Hessen,GB/BHE,1970,%,
+Hessen,Sonstige,1970,%,0.001
+Hessen,CDU,1974,%,0.473
+Hessen,SPD,1974,%,0.43200000000000005
+Hessen,FDP,1974,%,0.07400000000000001
+Hessen,GRÜNE,1974,%,
+Hessen,DIE LINKE,1974,%,
+Hessen,PIRATEN,1974,%,
+Hessen,AfD,1974,%,
+Hessen,REP,1974,%,
+Hessen,KPD/DKP¹,1974,%,0.009000000000000001
+Hessen,NPD,1974,%,0.01
+Hessen,GB/BHE,1974,%,
+Hessen,Sonstige,1974,%,0.002
+Hessen,CDU,1978,%,0.46
+Hessen,SPD,1978,%,0.44299999999999995
+Hessen,FDP,1978,%,0.066
+Hessen,GRÜNE,1978,%,0.02
+Hessen,DIE LINKE,1978,%,
+Hessen,PIRATEN,1978,%,
+Hessen,AfD,1978,%,
+Hessen,REP,1978,%,
+Hessen,KPD/DKP¹,1978,%,0.004
+Hessen,NPD,1978,%,0.004
+Hessen,GB/BHE,1978,%,
+Hessen,Sonstige,1978,%,0.003
+Hessen,CDU,1982,%,0.456
+Hessen,SPD,1982,%,0.428
+Hessen,FDP,1982,%,0.031
+Hessen,GRÜNE,1982,%,0.08
+Hessen,DIE LINKE,1982,%,
+Hessen,PIRATEN,1982,%,
+Hessen,AfD,1982,%,
+Hessen,REP,1982,%,
+Hessen,KPD/DKP¹,1982,%,0.004
+Hessen,NPD,1982,%,
+Hessen,GB/BHE,1982,%,
+Hessen,Sonstige,1982,%,0.001
+Hessen,CDU,1983,%,0.39399999999999996
+Hessen,SPD,1983,%,0.462
+Hessen,FDP,1983,%,0.076
+Hessen,GRÜNE,1983,%,0.059000000000000004
+Hessen,DIE LINKE,1983,%,
+Hessen,PIRATEN,1983,%,
+Hessen,AfD,1983,%,
+Hessen,REP,1983,%,
+Hessen,KPD/DKP¹,1983,%,0.003
+Hessen,NPD,1983,%,
+Hessen,GB/BHE,1983,%,
+Hessen,Sonstige,1983,%,0.005
+Hessen,CDU,1987,%,0.42100000000000004
+Hessen,SPD,1987,%,0.402
+Hessen,FDP,1987,%,0.078
+Hessen,GRÜNE,1987,%,0.094
+Hessen,DIE LINKE,1987,%,
+Hessen,PIRATEN,1987,%,
+Hessen,AfD,1987,%,
+Hessen,REP,1987,%,
+Hessen,KPD/DKP¹,1987,%,0.003
+Hessen,NPD,1987,%,
+Hessen,GB/BHE,1987,%,
+Hessen,Sonstige,1987,%,0.002
+Hessen,CDU,1991,%,0.402
+Hessen,SPD,1991,%,0.408
+Hessen,FDP,1991,%,0.07400000000000001
+Hessen,GRÜNE,1991,%,0.08800000000000001
+Hessen,DIE LINKE,1991,%,
+Hessen,PIRATEN,1991,%,
+Hessen,AfD,1991,%,
+Hessen,REP,1991,%,0.017
+Hessen,KPD/DKP¹,1991,%,
+Hessen,NPD,1991,%,
+Hessen,GB/BHE,1991,%,
+Hessen,Sonstige,1991,%,0.027999999999999997
+Hessen,CDU,1995,%,0.392
+Hessen,SPD,1995,%,0.38
+Hessen,FDP,1995,%,0.07400000000000001
+Hessen,GRÜNE,1995,%,0.11199999999999999
+Hessen,DIE LINKE,1995,%,
+Hessen,PIRATEN,1995,%,
+Hessen,AfD,1995,%,
+Hessen,REP,1995,%,0.02
+Hessen,KPD/DKP¹,1995,%,
+Hessen,NPD,1995,%,
+Hessen,GB/BHE,1995,%,
+Hessen,Sonstige,1995,%,0.019
+Hessen,CDU,1999,%,0.434
+Hessen,SPD,1999,%,0.39399999999999996
+Hessen,FDP,1999,%,0.051
+Hessen,GRÜNE,1999,%,0.07200000000000001
+Hessen,DIE LINKE,1999,%,
+Hessen,PIRATEN,1999,%,
+Hessen,AfD,1999,%,
+Hessen,REP,1999,%,0.027000000000000003
+Hessen,KPD/DKP¹,1999,%,
+Hessen,NPD,1999,%,
+Hessen,GB/BHE,1999,%,
+Hessen,Sonstige,1999,%,0.022000000000000002
+Hessen,CDU,2003,%,0.488
+Hessen,SPD,2003,%,0.29100000000000004
+Hessen,FDP,2003,%,0.079
+Hessen,GRÜNE,2003,%,0.10099999999999999
+Hessen,DIE LINKE,2003,%,
+Hessen,PIRATEN,2003,%,
+Hessen,AfD,2003,%,
+Hessen,REP,2003,%,0.013000000000000001
+Hessen,KPD/DKP¹,2003,%,
+Hessen,NPD,2003,%,
+Hessen,GB/BHE,2003,%,
+Hessen,Sonstige,2003,%,0.028999999999999998
+Hessen,CDU,2008,%,0.368
+Hessen,SPD,2008,%,0.36700000000000005
+Hessen,FDP,2008,%,0.094
+Hessen,GRÜNE,2008,%,0.075
+Hessen,DIE LINKE,2008,%,0.051
+Hessen,PIRATEN,2008,%,
+Hessen,AfD,2008,%,
+Hessen,REP,2008,%,0.01
+Hessen,KPD/DKP¹,2008,%,
+Hessen,NPD,2008,%,0.009000000000000001
+Hessen,GB/BHE,2008,%,
+Hessen,Sonstige,2008,%,0.025
+Hessen,CDU,2009,%,0.37200000000000005
+Hessen,SPD,2009,%,0.237
+Hessen,FDP,2009,%,0.162
+Hessen,GRÜNE,2009,%,0.13699999999999998
+Hessen,DIE LINKE,2009,%,0.054000000000000006
+Hessen,PIRATEN,2009,%,0.005
+Hessen,AfD,2009,%,
+Hessen,REP,2009,%,0.006
+Hessen,KPD/DKP¹,2009,%,
+Hessen,NPD,2009,%,0.009000000000000001
+Hessen,GB/BHE,2009,%,
+Hessen,Sonstige,2009,%,0.018000000000000002
+Hessen,CDU,2013,%,0.38299999999999995
+Hessen,SPD,2013,%,0.307
+Hessen,FDP,2013,%,0.05
+Hessen,GRÜNE,2013,%,0.111
+Hessen,DIE LINKE,2013,%,0.052000000000000005
+Hessen,PIRATEN,2013,%,0.019
+Hessen,AfD,2013,%,0.040999999999999995
+Hessen,REP,2013,%,0.003
+Hessen,KPD/DKP¹,2013,%,
+Hessen,NPD,2013,%,0.011000000000000001
+Hessen,GB/BHE,2013,%,
+Hessen,Sonstige,2013,%,0.023
+Hessen,CDU,2018,%,0.27
+Hessen,SPD,2018,%,0.198
+Hessen,FDP,2018,%,0.075
+Hessen,GRÜNE,2018,%,0.198
+Hessen,DIE LINKE,2018,%,0.063
+Hessen,PIRATEN,2018,%,0.004
+Hessen,AfD,2018,%,0.131
+Hessen,REP,2018,%,
+Hessen,KPD/DKP¹,2018,%,
+Hessen,NPD,2018,%,0.002
+Hessen,GB/BHE,2018,%,
+Hessen,Sonstige,2018,%,0.059000000000000004
+Hessen,CDU,2023,%,0.34600000000000003
+Hessen,SPD,2023,%,0.151
+Hessen,FDP,2023,%,0.05
+Hessen,GRÜNE,2023,%,0.14800000000000002
+Hessen,DIE LINKE,2023,%,0.031
+Hessen,PIRATEN,2023,%,0.003
+Hessen,AfD,2023,%,0.184
+Hessen,REP,2023,%,
+Hessen,KPD/DKP¹,2023,%,0.001
+Hessen,NPD,2023,%,
+Hessen,GB/BHE,2023,%,
+Hessen,Sonstige,2023,%,0.086
+Bayern,CSU,1946,%,0.523
+Bayern,SPD,1946,%,0.28600000000000003
+Bayern,FDP,1946,%,0.055999999999999994
+Bayern,GRÜNE,1946,%,
+Bayern,REP,1946,%,
+Bayern,ödp/ÖDP,1946,%,
+Bayern,FW,1946,%,
+Bayern,AfD,1946,%,
+Bayern,DIE LINKE,1946,%,
+Bayern,KPD/DKP¹,1946,%,0.061
+Bayern,DRP/NPD²,1946,%,
+Bayern,GB/BHE,1946,%,
+Bayern,WAV,1946,%,0.07400000000000001
+Bayern,BP,1946,%,
+Bayern,PIRATEN,1946,%,
+Bayern,Sonstige,1946,%,
+Bayern,CSU,1950,%,0.27399999999999997
+Bayern,SPD,1950,%,0.28
+Bayern,FDP,1950,%,0.071
+Bayern,GRÜNE,1950,%,
+Bayern,REP,1950,%,
+Bayern,ödp/ÖDP,1950,%,
+Bayern,FW,1950,%,
+Bayern,AfD,1950,%,
+Bayern,DIE LINKE,1950,%,
+Bayern,KPD/DKP¹,1950,%,0.019
+Bayern,DRP/NPD²,1950,%,
+Bayern,GB/BHE,1950,%,0.12300000000000001
+Bayern,WAV,1950,%,0.027999999999999997
+Bayern,BP,1950,%,0.179
+Bayern,PIRATEN,1950,%,
+Bayern,Sonstige,1950,%,0.026000000000000002
+Bayern,CSU,1954,%,0.38
+Bayern,SPD,1954,%,0.281
+Bayern,FDP,1954,%,0.07200000000000001
+Bayern,GRÜNE,1954,%,
+Bayern,REP,1954,%,
+Bayern,ödp/ÖDP,1954,%,
+Bayern,FW,1954,%,
+Bayern,AfD,1954,%,
+Bayern,DIE LINKE,1954,%,
+Bayern,KPD/DKP¹,1954,%,0.021
+Bayern,DRP/NPD²,1954,%,
+Bayern,GB/BHE,1954,%,0.102
+Bayern,WAV,1954,%,
+Bayern,BP,1954,%,0.132
+Bayern,PIRATEN,1954,%,
+Bayern,Sonstige,1954,%,0.012
+Bayern,CSU,1958,%,0.456
+Bayern,SPD,1958,%,0.308
+Bayern,FDP,1958,%,0.055999999999999994
+Bayern,GRÜNE,1958,%,
+Bayern,REP,1958,%,
+Bayern,ödp/ÖDP,1958,%,
+Bayern,FW,1958,%,
+Bayern,AfD,1958,%,
+Bayern,DIE LINKE,1958,%,
+Bayern,KPD/DKP¹,1958,%,
+Bayern,DRP/NPD²,1958,%,0.004
+Bayern,GB/BHE,1958,%,0.086
+Bayern,WAV,1958,%,
+Bayern,BP,1958,%,0.081
+Bayern,PIRATEN,1958,%,
+Bayern,Sonstige,1958,%,0.009000000000000001
+Bayern,CSU,1962,%,0.475
+Bayern,SPD,1962,%,0.353
+Bayern,FDP,1962,%,0.059000000000000004
+Bayern,GRÜNE,1962,%,
+Bayern,REP,1962,%,
+Bayern,ödp/ÖDP,1962,%,
+Bayern,FW,1962,%,
+Bayern,AfD,1962,%,
+Bayern,DIE LINKE,1962,%,
+Bayern,KPD/DKP¹,1962,%,
+Bayern,DRP/NPD²,1962,%,
+Bayern,GB/BHE,1962,%,0.051
+Bayern,WAV,1962,%,
+Bayern,BP,1962,%,0.048
+Bayern,PIRATEN,1962,%,
+Bayern,Sonstige,1962,%,0.013999999999999999
+Bayern,CSU,1966,%,0.48100000000000004
+Bayern,SPD,1966,%,0.358
+Bayern,FDP,1966,%,0.051
+Bayern,GRÜNE,1966,%,
+Bayern,REP,1966,%,
+Bayern,ödp/ÖDP,1966,%,
+Bayern,FW,1966,%,
+Bayern,AfD,1966,%,
+Bayern,DIE LINKE,1966,%,
+Bayern,KPD/DKP¹,1966,%,
+Bayern,DRP/NPD²,1966,%,0.07400000000000001
+Bayern,GB/BHE,1966,%,
+Bayern,WAV,1966,%,
+Bayern,BP,1966,%,0.034
+Bayern,PIRATEN,1966,%,
+Bayern,Sonstige,1966,%,0.001
+Bayern,CSU,1970,%,0.564
+Bayern,SPD,1970,%,0.33299999999999996
+Bayern,FDP,1970,%,0.055
+Bayern,GRÜNE,1970,%,
+Bayern,REP,1970,%,
+Bayern,ödp/ÖDP,1970,%,
+Bayern,FW,1970,%,
+Bayern,AfD,1970,%,
+Bayern,DIE LINKE,1970,%,
+Bayern,KPD/DKP¹,1970,%,0.004
+Bayern,DRP/NPD²,1970,%,0.028999999999999998
+Bayern,GB/BHE,1970,%,
+Bayern,WAV,1970,%,
+Bayern,BP,1970,%,0.015
+Bayern,PIRATEN,1970,%,
+Bayern,Sonstige,1970,%,
+Bayern,CSU,1974,%,0.621
+Bayern,SPD,1974,%,0.302
+Bayern,FDP,1974,%,0.052000000000000005
+Bayern,GRÜNE,1974,%,
+Bayern,REP,1974,%,
+Bayern,ödp/ÖDP,1974,%,
+Bayern,FW,1974,%,
+Bayern,AfD,1974,%,
+Bayern,DIE LINKE,1974,%,
+Bayern,KPD/DKP¹,1974,%,0.004
+Bayern,DRP/NPD²,1974,%,0.011000000000000001
+Bayern,GB/BHE,1974,%,
+Bayern,WAV,1974,%,
+Bayern,BP,1974,%,0.008
+Bayern,PIRATEN,1974,%,
+Bayern,Sonstige,1974,%,0.003
+Bayern,CSU,1978,%,0.591
+Bayern,SPD,1978,%,0.314
+Bayern,FDP,1978,%,0.062
+Bayern,GRÜNE,1978,%,0.018000000000000002
+Bayern,REP,1978,%,
+Bayern,ödp/ÖDP,1978,%,
+Bayern,FW,1978,%,
+Bayern,AfD,1978,%,
+Bayern,DIE LINKE,1978,%,
+Bayern,KPD/DKP¹,1978,%,0.003
+Bayern,DRP/NPD²,1978,%,0.006
+Bayern,GB/BHE,1978,%,
+Bayern,WAV,1978,%,
+Bayern,BP,1978,%,0.004
+Bayern,PIRATEN,1978,%,
+Bayern,Sonstige,1978,%,0.001
+Bayern,CSU,1982,%,0.583
+Bayern,SPD,1982,%,0.319
+Bayern,FDP,1982,%,0.035
+Bayern,GRÜNE,1982,%,0.046
+Bayern,REP,1982,%,
+Bayern,ödp/ÖDP,1982,%,0.004
+Bayern,FW,1982,%,
+Bayern,AfD,1982,%,
+Bayern,DIE LINKE,1982,%,
+Bayern,KPD/DKP¹,1982,%,0.002
+Bayern,DRP/NPD²,1982,%,0.006
+Bayern,GB/BHE,1982,%,
+Bayern,WAV,1982,%,
+Bayern,BP,1982,%,0.005
+Bayern,PIRATEN,1982,%,
+Bayern,Sonstige,1982,%,0.004
+Bayern,CSU,1986,%,0.5579999999999999
+Bayern,SPD,1986,%,0.275
+Bayern,FDP,1986,%,0.038
+Bayern,GRÜNE,1986,%,0.075
+Bayern,REP,1986,%,0.03
+Bayern,ödp/ÖDP,1986,%,0.006999999999999999
+Bayern,FW,1986,%,
+Bayern,AfD,1986,%,
+Bayern,DIE LINKE,1986,%,
+Bayern,KPD/DKP¹,1986,%,
+Bayern,DRP/NPD²,1986,%,0.005
+Bayern,GB/BHE,1986,%,
+Bayern,WAV,1986,%,
+Bayern,BP,1986,%,0.006
+Bayern,PIRATEN,1986,%,
+Bayern,Sonstige,1986,%,0.013000000000000001
+Bayern,CSU,1990,%,0.5489999999999999
+Bayern,SPD,1990,%,0.26
+Bayern,FDP,1990,%,0.052000000000000005
+Bayern,GRÜNE,1990,%,0.064
+Bayern,REP,1990,%,0.049
+Bayern,ödp/ÖDP,1990,%,0.017
+Bayern,FW,1990,%,
+Bayern,AfD,1990,%,
+Bayern,DIE LINKE,1990,%,
+Bayern,KPD/DKP¹,1990,%,
+Bayern,DRP/NPD²,1990,%,
+Bayern,GB/BHE,1990,%,
+Bayern,WAV,1990,%,
+Bayern,BP,1990,%,0.008
+Bayern,PIRATEN,1990,%,
+Bayern,Sonstige,1990,%,0.001
+Bayern,CSU,1994,%,0.528
+Bayern,SPD,1994,%,0.3
+Bayern,FDP,1994,%,0.027999999999999997
+Bayern,GRÜNE,1994,%,0.061
+Bayern,REP,1994,%,0.039
+Bayern,ödp/ÖDP,1994,%,0.021
+Bayern,FW,1994,%,
+Bayern,AfD,1994,%,
+Bayern,DIE LINKE,1994,%,
+Bayern,KPD/DKP¹,1994,%,
+Bayern,DRP/NPD²,1994,%,0.001
+Bayern,GB/BHE,1994,%,
+Bayern,WAV,1994,%,
+Bayern,BP,1994,%,0.01
+Bayern,PIRATEN,1994,%,
+Bayern,Sonstige,1994,%,0.012
+Bayern,CSU,1998,%,0.529
+Bayern,SPD,1998,%,0.287
+Bayern,FDP,1998,%,0.017
+Bayern,GRÜNE,1998,%,0.057
+Bayern,REP,1998,%,0.036000000000000004
+Bayern,ödp/ÖDP,1998,%,0.018000000000000002
+Bayern,FW,1998,%,0.037000000000000005
+Bayern,AfD,1998,%,
+Bayern,DIE LINKE,1998,%,
+Bayern,KPD/DKP¹,1998,%,0.0
+Bayern,DRP/NPD²,1998,%,0.002
+Bayern,GB/BHE,1998,%,
+Bayern,WAV,1998,%,
+Bayern,BP,1998,%,0.006999999999999999
+Bayern,PIRATEN,1998,%,
+Bayern,Sonstige,1998,%,0.01
+Bayern,CSU,2003,%,0.607
+Bayern,SPD,2003,%,0.196
+Bayern,FDP,2003,%,0.026000000000000002
+Bayern,GRÜNE,2003,%,0.077
+Bayern,REP,2003,%,0.022000000000000002
+Bayern,ödp/ÖDP,2003,%,0.02
+Bayern,FW,2003,%,0.04
+Bayern,AfD,2003,%,
+Bayern,DIE LINKE,2003,%,
+Bayern,KPD/DKP¹,2003,%,
+Bayern,DRP/NPD²,2003,%,
+Bayern,GB/BHE,2003,%,
+Bayern,WAV,2003,%,
+Bayern,BP,2003,%,0.008
+Bayern,PIRATEN,2003,%,
+Bayern,Sonstige,2003,%,0.004
+Bayern,CSU,2008,%,0.434
+Bayern,SPD,2008,%,0.18600000000000003
+Bayern,FDP,2008,%,0.08
+Bayern,GRÜNE,2008,%,0.094
+Bayern,REP,2008,%,0.013999999999999999
+Bayern,ödp/ÖDP,2008,%,0.02
+Bayern,FW,2008,%,0.102
+Bayern,AfD,2008,%,
+Bayern,DIE LINKE,2008,%,0.044000000000000004
+Bayern,KPD/DKP¹,2008,%,
+Bayern,DRP/NPD²,2008,%,0.012
+Bayern,GB/BHE,2008,%,
+Bayern,WAV,2008,%,
+Bayern,BP,2008,%,0.011000000000000001
+Bayern,PIRATEN,2008,%,
+Bayern,Sonstige,2008,%,0.004
+Bayern,CSU,2013,%,0.47700000000000004
+Bayern,SPD,2013,%,0.20600000000000002
+Bayern,FDP,2013,%,0.033
+Bayern,GRÜNE,2013,%,0.086
+Bayern,REP,2013,%,0.01
+Bayern,ödp/ÖDP,2013,%,0.02
+Bayern,FW,2013,%,0.09
+Bayern,AfD,2013,%,
+Bayern,DIE LINKE,2013,%,0.021
+Bayern,KPD/DKP¹,2013,%,
+Bayern,DRP/NPD²,2013,%,0.006
+Bayern,GB/BHE,2013,%,
+Bayern,WAV,2013,%,
+Bayern,BP,2013,%,0.021
+Bayern,PIRATEN,2013,%,0.02
+Bayern,Sonstige,2013,%,0.009000000000000001
+Bayern,CSU,2018,%,0.37200000000000005
+Bayern,SPD,2018,%,0.09699999999999999
+Bayern,FDP,2018,%,0.051
+Bayern,GRÜNE,2018,%,0.175
+Bayern,REP,2018,%,
+Bayern,ödp/ÖDP,2018,%,0.016
+Bayern,FW,2018,%,0.11599999999999999
+Bayern,AfD,2018,%,0.102
+Bayern,DIE LINKE,2018,%,0.032
+Bayern,KPD/DKP¹,2018,%,
+Bayern,DRP/NPD²,2018,%,
+Bayern,GB/BHE,2018,%,
+Bayern,WAV,2018,%,
+Bayern,BP,2018,%,0.017
+Bayern,PIRATEN,2018,%,0.004
+Bayern,Sonstige,2018,%,0.017
+Bayern,CSU,2023,%,0.37
+Bayern,SPD,2023,%,0.084
+Bayern,FDP,2023,%,0.03
+Bayern,GRÜNE,2023,%,0.14400000000000002
+Bayern,REP,2023,%,
+Bayern,ödp/ÖDP,2023,%,0.018000000000000002
+Bayern,FW,2023,%,0.158
+Bayern,AfD,2023,%,0.146
+Bayern,DIE LINKE,2023,%,0.015
+Bayern,KPD/DKP¹,2023,%,
+Bayern,DRP/NPD²,2023,%,
+Bayern,GB/BHE,2023,%,
+Bayern,WAV,2023,%,
+Bayern,BP,2023,%,0.009000000000000001
+Bayern,PIRATEN,2023,%,
+Bayern,Sonstige,2023,%,0.024
+Saarland,CDU,1947,%,
+Saarland,SPD,1947,%,
+Saarland,DPS/FDP,1947,%,0.076
+Saarland,GRÜNE,1947,%,
+Saarland,DIE LINKE¹,1947,%,
+Saarland,PIRATEN,1947,%,
+Saarland,AfD,1947,%,
+Saarland,NPD,1947,%,
+Saarland,REP,1947,%,
+Saarland,FAMILIE,1947,%,
+Saarland,CVP,1947,%,0.512
+Saarland,SPS,1947,%,0.32799999999999996
+Saarland,KP/DKP²,1947,%,0.084
+Saarland,SVP³,1947,%,
+Saarland,DDU,1947,%,
+Saarland,Sonstige,1947,%,
+Saarland,CDU,1952,%,
+Saarland,SPD,1952,%,
+Saarland,DPS/FDP,1952,%,
+Saarland,GRÜNE,1952,%,
+Saarland,DIE LINKE¹,1952,%,
+Saarland,PIRATEN,1952,%,
+Saarland,AfD,1952,%,
+Saarland,NPD,1952,%,
+Saarland,REP,1952,%,
+Saarland,FAMILIE,1952,%,
+Saarland,CVP,1952,%,0.547
+Saarland,SPS,1952,%,0.324
+Saarland,KP/DKP²,1952,%,0.095
+Saarland,SVP³,1952,%,
+Saarland,DDU,1952,%,
+Saarland,Sonstige,1952,%,0.034
+Saarland,CDU,1955,%,0.254
+Saarland,SPD,1955,%,0.14300000000000002
+Saarland,DPS/FDP,1955,%,0.242
+Saarland,GRÜNE,1955,%,
+Saarland,DIE LINKE¹,1955,%,
+Saarland,PIRATEN,1955,%,
+Saarland,AfD,1955,%,
+Saarland,NPD,1955,%,
+Saarland,REP,1955,%,
+Saarland,FAMILIE,1955,%,
+Saarland,CVP,1955,%,0.218
+Saarland,SPS,1955,%,0.057999999999999996
+Saarland,KP/DKP²,1955,%,0.066
+Saarland,SVP³,1955,%,
+Saarland,DDU,1955,%,0.009000000000000001
+Saarland,Sonstige,1955,%,0.01
+Saarland,CDU,1960,%,0.366
+Saarland,SPD,1960,%,0.3
+Saarland,DPS/FDP,1960,%,0.138
+Saarland,GRÜNE,1960,%,
+Saarland,DIE LINKE¹,1960,%,
+Saarland,PIRATEN,1960,%,
+Saarland,AfD,1960,%,
+Saarland,NPD,1960,%,
+Saarland,REP,1960,%,
+Saarland,FAMILIE,1960,%,
+Saarland,CVP,1960,%,
+Saarland,SPS,1960,%,
+Saarland,KP/DKP²,1960,%,
+Saarland,SVP³,1960,%,0.114
+Saarland,DDU,1960,%,0.05
+Saarland,Sonstige,1960,%,0.032
+Saarland,CDU,1965,%,0.42700000000000005
+Saarland,SPD,1965,%,0.40700000000000003
+Saarland,DPS/FDP,1965,%,0.083
+Saarland,GRÜNE,1965,%,
+Saarland,DIE LINKE¹,1965,%,
+Saarland,PIRATEN,1965,%,
+Saarland,AfD,1965,%,
+Saarland,NPD,1965,%,
+Saarland,REP,1965,%,
+Saarland,FAMILIE,1965,%,
+Saarland,CVP,1965,%,
+Saarland,SPS,1965,%,
+Saarland,KP/DKP²,1965,%,
+Saarland,SVP³,1965,%,0.052000000000000005
+Saarland,DDU,1965,%,0.031
+Saarland,Sonstige,1965,%,
+Saarland,CDU,1970,%,0.478
+Saarland,SPD,1970,%,0.408
+Saarland,DPS/FDP,1970,%,0.044000000000000004
+Saarland,GRÜNE,1970,%,
+Saarland,DIE LINKE¹,1970,%,
+Saarland,PIRATEN,1970,%,
+Saarland,AfD,1970,%,
+Saarland,NPD,1970,%,0.034
+Saarland,REP,1970,%,
+Saarland,FAMILIE,1970,%,
+Saarland,CVP,1970,%,
+Saarland,SPS,1970,%,
+Saarland,KP/DKP²,1970,%,0.027000000000000003
+Saarland,SVP³,1970,%,0.009000000000000001
+Saarland,DDU,1970,%,
+Saarland,Sonstige,1970,%,
+Saarland,CDU,1975,%,0.491
+Saarland,SPD,1975,%,0.418
+Saarland,DPS/FDP,1975,%,0.07400000000000001
+Saarland,GRÜNE,1975,%,
+Saarland,DIE LINKE¹,1975,%,
+Saarland,PIRATEN,1975,%,
+Saarland,AfD,1975,%,
+Saarland,NPD,1975,%,0.006999999999999999
+Saarland,REP,1975,%,
+Saarland,FAMILIE,1975,%,
+Saarland,CVP,1975,%,
+Saarland,SPS,1975,%,
+Saarland,KP/DKP²,1975,%,0.01
+Saarland,SVP³,1975,%,
+Saarland,DDU,1975,%,
+Saarland,Sonstige,1975,%,
+Saarland,CDU,1980,%,0.44
+Saarland,SPD,1980,%,0.45399999999999996
+Saarland,DPS/FDP,1980,%,0.069
+Saarland,GRÜNE,1980,%,0.028999999999999998
+Saarland,DIE LINKE¹,1980,%,
+Saarland,PIRATEN,1980,%,
+Saarland,AfD,1980,%,
+Saarland,NPD,1980,%,
+Saarland,REP,1980,%,
+Saarland,FAMILIE,1980,%,
+Saarland,CVP,1980,%,
+Saarland,SPS,1980,%,
+Saarland,KP/DKP²,1980,%,0.005
+Saarland,SVP³,1980,%,
+Saarland,DDU,1980,%,
+Saarland,Sonstige,1980,%,0.003
+Saarland,CDU,1985,%,0.373
+Saarland,SPD,1985,%,0.49200000000000005
+Saarland,DPS/FDP,1985,%,0.1
+Saarland,GRÜNE,1985,%,0.025
+Saarland,DIE LINKE¹,1985,%,
+Saarland,PIRATEN,1985,%,
+Saarland,AfD,1985,%,
+Saarland,NPD,1985,%,0.006999999999999999
+Saarland,REP,1985,%,
+Saarland,FAMILIE,1985,%,
+Saarland,CVP,1985,%,
+Saarland,SPS,1985,%,
+Saarland,KP/DKP²,1985,%,0.003
+Saarland,SVP³,1985,%,
+Saarland,DDU,1985,%,
+Saarland,Sonstige,1985,%,
+Saarland,CDU,1990,%,0.33399999999999996
+Saarland,SPD,1990,%,0.544
+Saarland,DPS/FDP,1990,%,0.055999999999999994
+Saarland,GRÜNE,1990,%,0.026000000000000002
+Saarland,DIE LINKE¹,1990,%,
+Saarland,PIRATEN,1990,%,
+Saarland,AfD,1990,%,
+Saarland,NPD,1990,%,0.002
+Saarland,REP,1990,%,0.034
+Saarland,FAMILIE,1990,%,
+Saarland,CVP,1990,%,
+Saarland,SPS,1990,%,
+Saarland,KP/DKP²,1990,%,0.001
+Saarland,SVP³,1990,%,
+Saarland,DDU,1990,%,
+Saarland,Sonstige,1990,%,0.002
+Saarland,CDU,1994,%,0.386
+Saarland,SPD,1994,%,0.494
+Saarland,DPS/FDP,1994,%,0.021
+Saarland,GRÜNE,1994,%,0.055
+Saarland,DIE LINKE¹,1994,%,
+Saarland,PIRATEN,1994,%,
+Saarland,AfD,1994,%,
+Saarland,NPD,1994,%,
+Saarland,REP,1994,%,0.013999999999999999
+Saarland,FAMILIE,1994,%,
+Saarland,CVP,1994,%,
+Saarland,SPS,1994,%,
+Saarland,KP/DKP²,1994,%,
+Saarland,SVP³,1994,%,
+Saarland,DDU,1994,%,
+Saarland,Sonstige,1994,%,0.03
+Saarland,CDU,1999,%,0.455
+Saarland,SPD,1999,%,0.444
+Saarland,DPS/FDP,1999,%,0.026000000000000002
+Saarland,GRÜNE,1999,%,0.032
+Saarland,DIE LINKE¹,1999,%,0.008
+Saarland,PIRATEN,1999,%,
+Saarland,AfD,1999,%,
+Saarland,NPD,1999,%,
+Saarland,REP,1999,%,0.013000000000000001
+Saarland,FAMILIE,1999,%,
+Saarland,CVP,1999,%,
+Saarland,SPS,1999,%,
+Saarland,KP/DKP²,1999,%,
+Saarland,SVP³,1999,%,
+Saarland,DDU,1999,%,
+Saarland,Sonstige,1999,%,0.022000000000000002
+Saarland,CDU,2004,%,0.475
+Saarland,SPD,2004,%,0.308
+Saarland,DPS/FDP,2004,%,0.052000000000000005
+Saarland,GRÜNE,2004,%,0.055999999999999994
+Saarland,DIE LINKE¹,2004,%,0.023
+Saarland,PIRATEN,2004,%,
+Saarland,AfD,2004,%,
+Saarland,NPD,2004,%,0.04
+Saarland,REP,2004,%,
+Saarland,FAMILIE,2004,%,0.03
+Saarland,CVP,2004,%,
+Saarland,SPS,2004,%,
+Saarland,KP/DKP²,2004,%,
+Saarland,SVP³,2004,%,
+Saarland,DDU,2004,%,
+Saarland,Sonstige,2004,%,0.016
+Saarland,CDU,2009,%,0.345
+Saarland,SPD,2009,%,0.245
+Saarland,DPS/FDP,2009,%,0.092
+Saarland,GRÜNE,2009,%,0.059000000000000004
+Saarland,DIE LINKE¹,2009,%,0.213
+Saarland,PIRATEN,2009,%,
+Saarland,AfD,2009,%,
+Saarland,NPD,2009,%,0.015
+Saarland,REP,2009,%,
+Saarland,FAMILIE,2009,%,0.02
+Saarland,CVP,2009,%,
+Saarland,SPS,2009,%,
+Saarland,KP/DKP²,2009,%,
+Saarland,SVP³,2009,%,
+Saarland,DDU,2009,%,
+Saarland,Sonstige,2009,%,0.011000000000000001
+Saarland,CDU,2012,%,0.35200000000000004
+Saarland,SPD,2012,%,0.306
+Saarland,DPS/FDP,2012,%,0.012
+Saarland,GRÜNE,2012,%,0.05
+Saarland,DIE LINKE¹,2012,%,0.161
+Saarland,PIRATEN,2012,%,0.07400000000000001
+Saarland,AfD,2012,%,
+Saarland,NPD,2012,%,0.012
+Saarland,REP,2012,%,
+Saarland,FAMILIE,2012,%,0.017
+Saarland,CVP,2012,%,
+Saarland,SPS,2012,%,
+Saarland,KP/DKP²,2012,%,
+Saarland,SVP³,2012,%,
+Saarland,DDU,2012,%,
+Saarland,Sonstige,2012,%,0.015
+Saarland,CDU,2017,%,0.40700000000000003
+Saarland,SPD,2017,%,0.29600000000000004
+Saarland,DPS/FDP,2017,%,0.033
+Saarland,GRÜNE,2017,%,0.04
+Saarland,DIE LINKE¹,2017,%,0.128
+Saarland,PIRATEN,2017,%,0.006999999999999999
+Saarland,AfD,2017,%,0.062
+Saarland,NPD,2017,%,0.006999999999999999
+Saarland,REP,2017,%,
+Saarland,FAMILIE,2017,%,0.008
+Saarland,CVP,2017,%,
+Saarland,SPS,2017,%,
+Saarland,KP/DKP²,2017,%,
+Saarland,SVP³,2017,%,
+Saarland,DDU,2017,%,
+Saarland,Sonstige,2017,%,0.011000000000000001
+Saarland,CDU,2022,%,0.285
+Saarland,SPD,2022,%,0.435
+Saarland,DPS/FDP,2022,%,0.048
+Saarland,GRÜNE,2022,%,0.04995
+Saarland,DIE LINKE¹,2022,%,0.026000000000000002
+Saarland,PIRATEN,2022,%,0.003
+Saarland,AfD,2022,%,0.057
+Saarland,NPD,2022,%,
+Saarland,REP,2022,%,
+Saarland,FAMILIE,2022,%,0.008
+Saarland,CVP,2022,%,
+Saarland,SPS,2022,%,
+Saarland,KP/DKP²,2022,%,
+Saarland,SVP³,2022,%,
+Saarland,DDU,2022,%,
+Saarland,Sonstige,2022,%,0.08800000000000001
+Sachsen,Wahlbeteiligung,1990,%,0.728
+Sachsen,CDU,1990,%,0.5379999999999999
+Sachsen,SPD,1990,%,0.191
+Sachsen,PDS¹ /DIE LINKE,1990,%,0.102
+Sachsen,B’90/GRÜNE²,1990,%,0.055999999999999994
+Sachsen,FDP,1990,%,0.053
+Sachsen,NPD,1990,%,0.006999999999999999
+Sachsen,AfD,1990,%,
+Sachsen,FREIE WÄHLER,1990,%,
+Sachsen,BSW,1990,%,
+Sachsen,REP,1990,%,
+Sachsen,DSU,1990,%,0.036000000000000004
+Sachsen,Pro DM,1990,%,
+Sachsen,Die Tierschutzpartei,1990,%,
+Sachsen,PIRATEN,1990,%,
+Sachsen,Sonstige,1990,%,0.017
+Sachsen,Wahlbeteiligung,1994,%,0.584
+Sachsen,CDU,1994,%,0.581
+Sachsen,SPD,1994,%,0.166
+Sachsen,PDS¹ /DIE LINKE,1994,%,0.165
+Sachsen,B’90/GRÜNE²,1994,%,0.040999999999999995
+Sachsen,FDP,1994,%,0.017
+Sachsen,NPD,1994,%,
+Sachsen,AfD,1994,%,
+Sachsen,FREIE WÄHLER,1994,%,
+Sachsen,BSW,1994,%,
+Sachsen,REP,1994,%,0.013000000000000001
+Sachsen,DSU,1994,%,0.006
+Sachsen,Pro DM,1994,%,
+Sachsen,Die Tierschutzpartei,1994,%,
+Sachsen,PIRATEN,1994,%,
+Sachsen,Sonstige,1994,%,0.011000000000000001
+Sachsen,Wahlbeteiligung,1999,%,0.611
+Sachsen,CDU,1999,%,0.569
+Sachsen,SPD,1999,%,0.107
+Sachsen,PDS¹ /DIE LINKE,1999,%,0.222
+Sachsen,B’90/GRÜNE²,1999,%,0.026000000000000002
+Sachsen,FDP,1999,%,0.011000000000000001
+Sachsen,NPD,1999,%,0.013999999999999999
+Sachsen,AfD,1999,%,
+Sachsen,FREIE WÄHLER,1999,%,
+Sachsen,BSW,1999,%,
+Sachsen,REP,1999,%,0.015
+Sachsen,DSU,1999,%,0.004
+Sachsen,Pro DM,1999,%,0.021
+Sachsen,Die Tierschutzpartei,1999,%,
+Sachsen,PIRATEN,1999,%,
+Sachsen,Sonstige,1999,%,0.011000000000000001
+Sachsen,Wahlbeteiligung,2004,%,0.596
+Sachsen,CDU,2004,%,0.41100000000000003
+Sachsen,SPD,2004,%,0.098
+Sachsen,PDS¹ /DIE LINKE,2004,%,0.23600000000000002
+Sachsen,B’90/GRÜNE²,2004,%,0.051
+Sachsen,FDP,2004,%,0.059000000000000004
+Sachsen,NPD,2004,%,0.092
+Sachsen,AfD,2004,%,
+Sachsen,FREIE WÄHLER,2004,%,
+Sachsen,BSW,2004,%,
+Sachsen,REP,2004,%,
+Sachsen,DSU,2004,%,0.005
+Sachsen,Pro DM,2004,%,
+Sachsen,Die Tierschutzpartei,2004,%,0.016
+Sachsen,PIRATEN,2004,%,
+Sachsen,Sonstige,2004,%,0.031
+Sachsen,Wahlbeteiligung,2009,%,0.522
+Sachsen,CDU,2009,%,0.402
+Sachsen,SPD,2009,%,0.10400000000000001
+Sachsen,PDS¹ /DIE LINKE,2009,%,0.20600000000000002
+Sachsen,B’90/GRÜNE²,2009,%,0.064
+Sachsen,FDP,2009,%,0.1
+Sachsen,NPD,2009,%,0.055999999999999994
+Sachsen,AfD,2009,%,
+Sachsen,FREIE WÄHLER,2009,%,
+Sachsen,BSW,2009,%,
+Sachsen,REP,2009,%,0.002
+Sachsen,DSU,2009,%,0.002
+Sachsen,Pro DM,2009,%,
+Sachsen,Die Tierschutzpartei,2009,%,0.021
+Sachsen,PIRATEN,2009,%,0.019
+Sachsen,Sonstige,2009,%,0.025
+Sachsen,Wahlbeteiligung,2014,%,0.49200000000000005
+Sachsen,CDU,2014,%,0.39
+Sachsen,SPD,2014,%,0.124
+Sachsen,PDS¹ /DIE LINKE,2014,%,0.18899999999999997
+Sachsen,B’90/GRÜNE²,2014,%,0.057
+Sachsen,FDP,2014,%,0.038
+Sachsen,NPD,2014,%,0.0495
+Sachsen,AfD,2014,%,0.09699999999999999
+Sachsen,FREIE WÄHLER,2014,%,0.016
+Sachsen,BSW,2014,%,
+Sachsen,REP,2014,%,
+Sachsen,DSU,2014,%,0.002
+Sachsen,Pro DM,2014,%,
+Sachsen,Die Tierschutzpartei,2014,%,0.011000000000000001
+Sachsen,PIRATEN,2014,%,0.011000000000000001
+Sachsen,Sonstige,2014,%,
+Sachsen,Wahlbeteiligung,2019,%,0.665
+Sachsen,CDU,2019,%,0.321
+Sachsen,SPD,2019,%,0.077
+Sachsen,PDS¹ /DIE LINKE,2019,%,0.10400000000000001
+Sachsen,B’90/GRÜNE²,2019,%,0.086
+Sachsen,FDP,2019,%,0.045
+Sachsen,NPD,2019,%,0.006
+Sachsen,AfD,2019,%,0.275
+Sachsen,FREIE WÄHLER,2019,%,0.034
+Sachsen,BSW,2019,%,
+Sachsen,REP,2019,%,
+Sachsen,DSU,2019,%,
+Sachsen,Pro DM,2019,%,
+Sachsen,Die Tierschutzpartei,2019,%,0.015
+Sachsen,PIRATEN,2019,%,0.003
+Sachsen,Sonstige,2019,%,
+Sachsen,Wahlbeteiligung,2024*,%,0.7440000000000001
+Sachsen,CDU,2024*,%,0.319
+Sachsen,SPD,2024*,%,0.073
+Sachsen,PDS¹ /DIE LINKE,2024*,%,0.045
+Sachsen,B’90/GRÜNE²,2024*,%,0.051
+Sachsen,FDP,2024*,%,0.009000000000000001
+Sachsen,NPD,2024*,%,
+Sachsen,AfD,2024*,%,0.306
+Sachsen,FREIE WÄHLER,2024*,%,0.023
+Sachsen,BSW,2024*,%,0.11800000000000001
+Sachsen,REP,2024*,%,
+Sachsen,DSU,2024*,%,
+Sachsen,Pro DM,2024*,%,
+Sachsen,Die Tierschutzpartei,2024*,%,
+Sachsen,PIRATEN,2024*,%,0.003
+Sachsen,Sonstige,2024*,%,0.053
+Niedersachsen,Wahlbeteiligung,1947,%,0.6509999999999999
+Niedersachsen,CDU¹,1947,%,0.19899999999999998
+Niedersachsen,SPD,1947,%,0.434
+Niedersachsen,FDP,1947,%,0.08800000000000001
+Niedersachsen,GRÜNE,1947,%,
+Niedersachsen,DIE LINKE,1947,%,
+Niedersachsen,AfD,1947,%,
+Niedersachsen,DRP/NPD³,1947,%,0.003
+Niedersachsen,PIRATEN,1947,%,
+Niedersachsen,SRP,1947,%,
+Niedersachsen,"NLP/DP1, 4",1947,%,0.179
+Niedersachsen,BHE/GDP,1947,%,
+Niedersachsen,KPD/DKP²,1947,%,0.057
+Niedersachsen,Zentrum,1947,%,0.040999999999999995
+Niedersachsen,DSP,1947,%,
+Niedersachsen,REP,1947,%,
+Niedersachsen,Sonstige,1947,%,
+Niedersachsen,Wahlbeteiligung,1951,%,0.758
+Niedersachsen,CDU¹,1951,%,0.237
+Niedersachsen,SPD,1951,%,0.337
+Niedersachsen,FDP,1951,%,0.083
+Niedersachsen,GRÜNE,1951,%,
+Niedersachsen,DIE LINKE,1951,%,
+Niedersachsen,AfD,1951,%,
+Niedersachsen,DRP/NPD³,1951,%,0.022000000000000002
+Niedersachsen,PIRATEN,1951,%,
+Niedersachsen,SRP,1951,%,0.11
+Niedersachsen,"NLP/DP1, 4",1951,%,
+Niedersachsen,BHE/GDP,1951,%,0.149
+Niedersachsen,KPD/DKP²,1951,%,0.018000000000000002
+Niedersachsen,Zentrum,1951,%,0.033
+Niedersachsen,DSP,1951,%,0.008
+Niedersachsen,REP,1951,%,
+Niedersachsen,Sonstige,1951,%,
+Niedersachsen,Wahlbeteiligung,1955,%,0.775
+Niedersachsen,CDU¹,1955,%,0.266
+Niedersachsen,SPD,1955,%,0.35200000000000004
+Niedersachsen,FDP,1955,%,0.079
+Niedersachsen,GRÜNE,1955,%,
+Niedersachsen,DIE LINKE,1955,%,
+Niedersachsen,AfD,1955,%,
+Niedersachsen,DRP/NPD³,1955,%,0.038
+Niedersachsen,PIRATEN,1955,%,
+Niedersachsen,SRP,1955,%,
+Niedersachsen,"NLP/DP1, 4",1955,%,0.124
+Niedersachsen,BHE/GDP,1955,%,0.11
+Niedersachsen,KPD/DKP²,1955,%,0.013000000000000001
+Niedersachsen,Zentrum,1955,%,0.011000000000000001
+Niedersachsen,DSP,1955,%,
+Niedersachsen,REP,1955,%,
+Niedersachsen,Sonstige,1955,%,0.006999999999999999
+Niedersachsen,Wahlbeteiligung,1959,%,0.78
+Niedersachsen,CDU¹,1959,%,0.308
+Niedersachsen,SPD,1959,%,0.395
+Niedersachsen,FDP,1959,%,0.052000000000000005
+Niedersachsen,GRÜNE,1959,%,
+Niedersachsen,DIE LINKE,1959,%,
+Niedersachsen,AfD,1959,%,
+Niedersachsen,DRP/NPD³,1959,%,0.036000000000000004
+Niedersachsen,PIRATEN,1959,%,
+Niedersachsen,SRP,1959,%,
+Niedersachsen,"NLP/DP1, 4",1959,%,0.124
+Niedersachsen,BHE/GDP,1959,%,0.083
+Niedersachsen,KPD/DKP²,1959,%,
+Niedersachsen,Zentrum,1959,%,0.0
+Niedersachsen,DSP,1959,%,
+Niedersachsen,REP,1959,%,
+Niedersachsen,Sonstige,1959,%,0.002
+Niedersachsen,Wahlbeteiligung,1963,%,0.769
+Niedersachsen,CDU¹,1963,%,0.377
+Niedersachsen,SPD,1963,%,0.449
+Niedersachsen,FDP,1963,%,0.08800000000000001
+Niedersachsen,GRÜNE,1963,%,
+Niedersachsen,DIE LINKE,1963,%,
+Niedersachsen,AfD,1963,%,
+Niedersachsen,DRP/NPD³,1963,%,0.015
+Niedersachsen,PIRATEN,1963,%,
+Niedersachsen,SRP,1963,%,
+Niedersachsen,"NLP/DP1, 4",1963,%,0.027000000000000003
+Niedersachsen,BHE/GDP,1963,%,
+Niedersachsen,KPD/DKP²,1963,%,
+Niedersachsen,Zentrum,1963,%,
+Niedersachsen,DSP,1963,%,
+Niedersachsen,REP,1963,%,
+Niedersachsen,Sonstige,1963,%,0.044000000000000004
+Niedersachsen,Wahlbeteiligung,1967,%,0.758
+Niedersachsen,CDU¹,1967,%,0.41700000000000004
+Niedersachsen,SPD,1967,%,0.431
+Niedersachsen,FDP,1967,%,0.069
+Niedersachsen,GRÜNE,1967,%,
+Niedersachsen,DIE LINKE,1967,%,
+Niedersachsen,AfD,1967,%,
+Niedersachsen,DRP/NPD³,1967,%,0.07
+Niedersachsen,PIRATEN,1967,%,
+Niedersachsen,SRP,1967,%,
+Niedersachsen,"NLP/DP1, 4",1967,%,
+Niedersachsen,BHE/GDP,1967,%,
+Niedersachsen,KPD/DKP²,1967,%,
+Niedersachsen,Zentrum,1967,%,
+Niedersachsen,DSP,1967,%,
+Niedersachsen,REP,1967,%,
+Niedersachsen,Sonstige,1967,%,0.013000000000000001
+Niedersachsen,Wahlbeteiligung,1970,%,0.767
+Niedersachsen,CDU¹,1970,%,0.457
+Niedersachsen,SPD,1970,%,0.46299999999999997
+Niedersachsen,FDP,1970,%,0.044000000000000004
+Niedersachsen,GRÜNE,1970,%,
+Niedersachsen,DIE LINKE,1970,%,
+Niedersachsen,AfD,1970,%,
+Niedersachsen,DRP/NPD³,1970,%,0.032
+Niedersachsen,PIRATEN,1970,%,
+Niedersachsen,SRP,1970,%,
+Niedersachsen,"NLP/DP1, 4",1970,%,
+Niedersachsen,BHE/GDP,1970,%,
+Niedersachsen,KPD/DKP²,1970,%,0.004
+Niedersachsen,Zentrum,1970,%,0.031
+Niedersachsen,DSP,1970,%,
+Niedersachsen,REP,1970,%,
+Niedersachsen,Sonstige,1970,%,
+Niedersachsen,Wahlbeteiligung,1974,%,0.8440000000000001
+Niedersachsen,CDU¹,1974,%,0.488
+Niedersachsen,SPD,1974,%,0.431
+Niedersachsen,FDP,1974,%,0.07
+Niedersachsen,GRÜNE,1974,%,
+Niedersachsen,DIE LINKE,1974,%,
+Niedersachsen,AfD,1974,%,
+Niedersachsen,DRP/NPD³,1974,%,0.006
+Niedersachsen,PIRATEN,1974,%,
+Niedersachsen,SRP,1974,%,
+Niedersachsen,"NLP/DP1, 4",1974,%,
+Niedersachsen,BHE/GDP,1974,%,
+Niedersachsen,KPD/DKP²,1974,%,0.004
+Niedersachsen,Zentrum,1974,%,
+Niedersachsen,DSP,1974,%,
+Niedersachsen,REP,1974,%,
+Niedersachsen,Sonstige,1974,%,
+Niedersachsen,Wahlbeteiligung,1978,%,0.785
+Niedersachsen,CDU¹,1978,%,0.48700000000000004
+Niedersachsen,SPD,1978,%,0.42200000000000004
+Niedersachsen,FDP,1978,%,0.042
+Niedersachsen,GRÜNE,1978,%,0.039
+Niedersachsen,DIE LINKE,1978,%,
+Niedersachsen,AfD,1978,%,
+Niedersachsen,DRP/NPD³,1978,%,0.004
+Niedersachsen,PIRATEN,1978,%,
+Niedersachsen,SRP,1978,%,
+Niedersachsen,"NLP/DP1, 4",1978,%,
+Niedersachsen,BHE/GDP,1978,%,
+Niedersachsen,KPD/DKP²,1978,%,0.003
+Niedersachsen,Zentrum,1978,%,
+Niedersachsen,DSP,1978,%,
+Niedersachsen,REP,1978,%,
+Niedersachsen,Sonstige,1978,%,0.003
+Niedersachsen,Wahlbeteiligung,1982,%,0.777
+Niedersachsen,CDU¹,1982,%,0.507
+Niedersachsen,SPD,1982,%,0.365
+Niedersachsen,FDP,1982,%,0.059000000000000004
+Niedersachsen,GRÜNE,1982,%,0.065
+Niedersachsen,DIE LINKE,1982,%,
+Niedersachsen,AfD,1982,%,
+Niedersachsen,DRP/NPD³,1982,%,
+Niedersachsen,PIRATEN,1982,%,
+Niedersachsen,SRP,1982,%,
+Niedersachsen,"NLP/DP1, 4",1982,%,
+Niedersachsen,BHE/GDP,1982,%,
+Niedersachsen,KPD/DKP²,1982,%,0.003
+Niedersachsen,Zentrum,1982,%,
+Niedersachsen,DSP,1982,%,
+Niedersachsen,REP,1982,%,
+Niedersachsen,Sonstige,1982,%,
+Niedersachsen,Wahlbeteiligung,1986,%,0.773
+Niedersachsen,CDU¹,1986,%,0.44299999999999995
+Niedersachsen,SPD,1986,%,0.42100000000000004
+Niedersachsen,FDP,1986,%,0.06
+Niedersachsen,GRÜNE,1986,%,0.071
+Niedersachsen,DIE LINKE,1986,%,
+Niedersachsen,AfD,1986,%,
+Niedersachsen,DRP/NPD³,1986,%,
+Niedersachsen,PIRATEN,1986,%,
+Niedersachsen,SRP,1986,%,
+Niedersachsen,"NLP/DP1, 4",1986,%,
+Niedersachsen,BHE/GDP,1986,%,
+Niedersachsen,KPD/DKP²,1986,%,0.001
+Niedersachsen,Zentrum,1986,%,
+Niedersachsen,DSP,1986,%,
+Niedersachsen,REP,1986,%,
+Niedersachsen,Sonstige,1986,%,0.004
+Niedersachsen,Wahlbeteiligung,1990,%,0.746
+Niedersachsen,CDU¹,1990,%,0.42
+Niedersachsen,SPD,1990,%,0.442
+Niedersachsen,FDP,1990,%,0.06
+Niedersachsen,GRÜNE,1990,%,0.055
+Niedersachsen,DIE LINKE,1990,%,
+Niedersachsen,AfD,1990,%,
+Niedersachsen,DRP/NPD³,1990,%,0.002
+Niedersachsen,PIRATEN,1990,%,
+Niedersachsen,SRP,1990,%,
+Niedersachsen,"NLP/DP1, 4",1990,%,
+Niedersachsen,BHE/GDP,1990,%,
+Niedersachsen,KPD/DKP²,1990,%,
+Niedersachsen,Zentrum,1990,%,
+Niedersachsen,DSP,1990,%,
+Niedersachsen,REP,1990,%,0.015
+Niedersachsen,Sonstige,1990,%,0.006
+Niedersachsen,Wahlbeteiligung,1994,%,0.738
+Niedersachsen,CDU¹,1994,%,0.364
+Niedersachsen,SPD,1994,%,0.44299999999999995
+Niedersachsen,FDP,1994,%,0.044000000000000004
+Niedersachsen,GRÜNE,1994,%,0.07400000000000001
+Niedersachsen,DIE LINKE,1994,%,
+Niedersachsen,AfD,1994,%,
+Niedersachsen,DRP/NPD³,1994,%,
+Niedersachsen,PIRATEN,1994,%,
+Niedersachsen,SRP,1994,%,
+Niedersachsen,"NLP/DP1, 4",1994,%,
+Niedersachsen,BHE/GDP,1994,%,
+Niedersachsen,KPD/DKP²,1994,%,
+Niedersachsen,Zentrum,1994,%,
+Niedersachsen,DSP,1994,%,
+Niedersachsen,REP,1994,%,0.037000000000000005
+Niedersachsen,Sonstige,1994,%,0.038
+Niedersachsen,Wahlbeteiligung,1998,%,0.738
+Niedersachsen,CDU¹,1998,%,0.359
+Niedersachsen,SPD,1998,%,0.479
+Niedersachsen,FDP,1998,%,0.049
+Niedersachsen,GRÜNE,1998,%,0.07
+Niedersachsen,DIE LINKE,1998,%,
+Niedersachsen,AfD,1998,%,
+Niedersachsen,DRP/NPD³,1998,%,
+Niedersachsen,PIRATEN,1998,%,
+Niedersachsen,SRP,1998,%,
+Niedersachsen,"NLP/DP1, 4",1998,%,
+Niedersachsen,BHE/GDP,1998,%,
+Niedersachsen,KPD/DKP²,1998,%,
+Niedersachsen,Zentrum,1998,%,
+Niedersachsen,DSP,1998,%,
+Niedersachsen,REP,1998,%,0.027999999999999997
+Niedersachsen,Sonstige,1998,%,0.015
+Niedersachsen,Wahlbeteiligung,2003,%,0.67
+Niedersachsen,CDU¹,2003,%,0.483
+Niedersachsen,SPD,2003,%,0.33399999999999996
+Niedersachsen,FDP,2003,%,0.081
+Niedersachsen,GRÜNE,2003,%,0.076
+Niedersachsen,DIE LINKE,2003,%,0.005
+Niedersachsen,AfD,2003,%,
+Niedersachsen,DRP/NPD³,2003,%,
+Niedersachsen,PIRATEN,2003,%,
+Niedersachsen,SRP,2003,%,
+Niedersachsen,"NLP/DP1, 4",2003,%,
+Niedersachsen,BHE/GDP,2003,%,
+Niedersachsen,KPD/DKP²,2003,%,
+Niedersachsen,Zentrum,2003,%,
+Niedersachsen,DSP,2003,%,
+Niedersachsen,REP,2003,%,0.004
+Niedersachsen,Sonstige,2003,%,0.016
+Niedersachsen,Wahlbeteiligung,2008,%,0.5710000000000001
+Niedersachsen,CDU¹,2008,%,0.425
+Niedersachsen,SPD,2008,%,0.303
+Niedersachsen,FDP,2008,%,0.08199999999999999
+Niedersachsen,GRÜNE,2008,%,0.08
+Niedersachsen,DIE LINKE,2008,%,0.071
+Niedersachsen,AfD,2008,%,
+Niedersachsen,DRP/NPD³,2008,%,0.015
+Niedersachsen,PIRATEN,2008,%,
+Niedersachsen,SRP,2008,%,
+Niedersachsen,"NLP/DP1, 4",2008,%,
+Niedersachsen,BHE/GDP,2008,%,
+Niedersachsen,KPD/DKP²,2008,%,
+Niedersachsen,Zentrum,2008,%,
+Niedersachsen,DSP,2008,%,
+Niedersachsen,REP,2008,%,
+Niedersachsen,Sonstige,2008,%,0.024
+Niedersachsen,Wahlbeteiligung,2013,%,0.594
+Niedersachsen,CDU¹,2013,%,0.36
+Niedersachsen,SPD,2013,%,0.326
+Niedersachsen,FDP,2013,%,0.099
+Niedersachsen,GRÜNE,2013,%,0.13699999999999998
+Niedersachsen,DIE LINKE,2013,%,0.031
+Niedersachsen,AfD,2013,%,
+Niedersachsen,DRP/NPD³,2013,%,0.008
+Niedersachsen,PIRATEN,2013,%,0.021
+Niedersachsen,SRP,2013,%,
+Niedersachsen,"NLP/DP1, 4",2013,%,
+Niedersachsen,BHE/GDP,2013,%,
+Niedersachsen,KPD/DKP²,2013,%,
+Niedersachsen,Zentrum,2013,%,
+Niedersachsen,DSP,2013,%,
+Niedersachsen,REP,2013,%,
+Niedersachsen,Sonstige,2013,%,0.025
+Niedersachsen,Wahlbeteiligung,2017,%,0.631
+Niedersachsen,CDU¹,2017,%,0.336
+Niedersachsen,SPD,2017,%,0.369
+Niedersachsen,FDP,2017,%,0.075
+Niedersachsen,GRÜNE,2017,%,0.087
+Niedersachsen,DIE LINKE,2017,%,0.046
+Niedersachsen,AfD,2017,%,0.062
+Niedersachsen,DRP/NPD³,2017,%,
+Niedersachsen,PIRATEN,2017,%,0.002
+Niedersachsen,SRP,2017,%,
+Niedersachsen,"NLP/DP1, 4",2017,%,
+Niedersachsen,BHE/GDP,2017,%,
+Niedersachsen,KPD/DKP²,2017,%,
+Niedersachsen,Zentrum,2017,%,
+Niedersachsen,DSP,2017,%,
+Niedersachsen,REP,2017,%,
+Niedersachsen,Sonstige,2017,%,0.022000000000000002
+Niedersachsen,Wahlbeteiligung,2022,%,0.603
+Niedersachsen,CDU¹,2022,%,0.281
+Niedersachsen,SPD,2022,%,0.33399999999999996
+Niedersachsen,FDP,2022,%,0.047
+Niedersachsen,GRÜNE,2022,%,0.145
+Niedersachsen,DIE LINKE,2022,%,0.027000000000000003
+Niedersachsen,AfD,2022,%,0.109
+Niedersachsen,DRP/NPD³,2022,%,
+Niedersachsen,PIRATEN,2022,%,0.004
+Niedersachsen,SRP,2022,%,
+Niedersachsen,"NLP/DP1, 4",2022,%,
+Niedersachsen,BHE/GDP,2022,%,
+Niedersachsen,KPD/DKP²,2022,%,
+Niedersachsen,Zentrum,2022,%,
+Niedersachsen,DSP,2022,%,
+Niedersachsen,REP,2022,%,
+Niedersachsen,Sonstige,2022,%,0.052000000000000005
+Rheinland-Pfalz,CDU,1947,%,0.47200000000000003
+Rheinland-Pfalz,SPD,1947,%,0.34299999999999997
+Rheinland-Pfalz,FDP¹,1947,%,0.098
+Rheinland-Pfalz,GRÜNE,1947,%,
+Rheinland-Pfalz,AfD,1947,%,
+Rheinland-Pfalz,FREIE WÄHLER,1947,%,
+Rheinland-Pfalz,REP,1947,%,
+Rheinland-Pfalz,DIE LINKE²,1947,%,
+Rheinland-Pfalz,DRP/NPD³,1947,%,
+Rheinland-Pfalz,KPD/DKP4,1947,%,0.087
+Rheinland-Pfalz,PIRATEN,1947,%,
+Rheinland-Pfalz,Tierschutzpartei,1947,%,
+Rheinland-Pfalz,DIE PARTEI,1947,%,
+Rheinland-Pfalz,Volt,1947,%,
+Rheinland-Pfalz,Sonstige,1947,%,
+Rheinland-Pfalz,CDU,1951,%,0.392
+Rheinland-Pfalz,SPD,1951,%,0.34
+Rheinland-Pfalz,FDP¹,1951,%,0.16699999999999998
+Rheinland-Pfalz,GRÜNE,1951,%,
+Rheinland-Pfalz,AfD,1951,%,
+Rheinland-Pfalz,FREIE WÄHLER,1951,%,
+Rheinland-Pfalz,REP,1951,%,
+Rheinland-Pfalz,DIE LINKE²,1951,%,
+Rheinland-Pfalz,DRP/NPD³,1951,%,0.005
+Rheinland-Pfalz,KPD/DKP4,1951,%,0.043
+Rheinland-Pfalz,PIRATEN,1951,%,
+Rheinland-Pfalz,Tierschutzpartei,1951,%,
+Rheinland-Pfalz,DIE PARTEI,1951,%,
+Rheinland-Pfalz,Volt,1951,%,
+Rheinland-Pfalz,Sonstige,1951,%,0.053
+Rheinland-Pfalz,CDU,1955,%,0.46799999999999997
+Rheinland-Pfalz,SPD,1955,%,0.317
+Rheinland-Pfalz,FDP¹,1955,%,0.127
+Rheinland-Pfalz,GRÜNE,1955,%,
+Rheinland-Pfalz,AfD,1955,%,
+Rheinland-Pfalz,FREIE WÄHLER,1955,%,
+Rheinland-Pfalz,REP,1955,%,
+Rheinland-Pfalz,DIE LINKE²,1955,%,
+Rheinland-Pfalz,DRP/NPD³,1955,%,
+Rheinland-Pfalz,KPD/DKP4,1955,%,0.032
+Rheinland-Pfalz,PIRATEN,1955,%,
+Rheinland-Pfalz,Tierschutzpartei,1955,%,
+Rheinland-Pfalz,DIE PARTEI,1955,%,
+Rheinland-Pfalz,Volt,1955,%,
+Rheinland-Pfalz,Sonstige,1955,%,0.055999999999999994
+Rheinland-Pfalz,CDU,1959,%,0.484
+Rheinland-Pfalz,SPD,1959,%,0.349
+Rheinland-Pfalz,FDP¹,1959,%,0.09699999999999999
+Rheinland-Pfalz,GRÜNE,1959,%,
+Rheinland-Pfalz,AfD,1959,%,
+Rheinland-Pfalz,FREIE WÄHLER,1959,%,
+Rheinland-Pfalz,REP,1959,%,
+Rheinland-Pfalz,DIE LINKE²,1959,%,
+Rheinland-Pfalz,DRP/NPD³,1959,%,0.051
+Rheinland-Pfalz,KPD/DKP4,1959,%,
+Rheinland-Pfalz,PIRATEN,1959,%,
+Rheinland-Pfalz,Tierschutzpartei,1959,%,
+Rheinland-Pfalz,DIE PARTEI,1959,%,
+Rheinland-Pfalz,Volt,1959,%,
+Rheinland-Pfalz,Sonstige,1959,%,0.019
+Rheinland-Pfalz,CDU,1963,%,0.444
+Rheinland-Pfalz,SPD,1963,%,0.40700000000000003
+Rheinland-Pfalz,FDP¹,1963,%,0.10099999999999999
+Rheinland-Pfalz,GRÜNE,1963,%,
+Rheinland-Pfalz,AfD,1963,%,
+Rheinland-Pfalz,FREIE WÄHLER,1963,%,
+Rheinland-Pfalz,REP,1963,%,
+Rheinland-Pfalz,DIE LINKE²,1963,%,
+Rheinland-Pfalz,DRP/NPD³,1963,%,0.032
+Rheinland-Pfalz,KPD/DKP4,1963,%,
+Rheinland-Pfalz,PIRATEN,1963,%,
+Rheinland-Pfalz,Tierschutzpartei,1963,%,
+Rheinland-Pfalz,DIE PARTEI,1963,%,
+Rheinland-Pfalz,Volt,1963,%,
+Rheinland-Pfalz,Sonstige,1963,%,0.015
+Rheinland-Pfalz,CDU,1967,%,0.467
+Rheinland-Pfalz,SPD,1967,%,0.368
+Rheinland-Pfalz,FDP¹,1967,%,0.083
+Rheinland-Pfalz,GRÜNE,1967,%,
+Rheinland-Pfalz,AfD,1967,%,
+Rheinland-Pfalz,FREIE WÄHLER,1967,%,
+Rheinland-Pfalz,REP,1967,%,
+Rheinland-Pfalz,DIE LINKE²,1967,%,
+Rheinland-Pfalz,DRP/NPD³,1967,%,0.069
+Rheinland-Pfalz,KPD/DKP4,1967,%,
+Rheinland-Pfalz,PIRATEN,1967,%,
+Rheinland-Pfalz,Tierschutzpartei,1967,%,
+Rheinland-Pfalz,DIE PARTEI,1967,%,
+Rheinland-Pfalz,Volt,1967,%,
+Rheinland-Pfalz,Sonstige,1967,%,0.012
+Rheinland-Pfalz,CDU,1971,%,0.5
+Rheinland-Pfalz,SPD,1971,%,0.405
+Rheinland-Pfalz,FDP¹,1971,%,0.059000000000000004
+Rheinland-Pfalz,GRÜNE,1971,%,
+Rheinland-Pfalz,AfD,1971,%,
+Rheinland-Pfalz,FREIE WÄHLER,1971,%,
+Rheinland-Pfalz,REP,1971,%,
+Rheinland-Pfalz,DIE LINKE²,1971,%,
+Rheinland-Pfalz,DRP/NPD³,1971,%,0.027000000000000003
+Rheinland-Pfalz,KPD/DKP4,1971,%,0.009000000000000001
+Rheinland-Pfalz,PIRATEN,1971,%,
+Rheinland-Pfalz,Tierschutzpartei,1971,%,
+Rheinland-Pfalz,DIE PARTEI,1971,%,
+Rheinland-Pfalz,Volt,1971,%,
+Rheinland-Pfalz,Sonstige,1971,%,
+Rheinland-Pfalz,CDU,1975,%,0.539
+Rheinland-Pfalz,SPD,1975,%,0.385
+Rheinland-Pfalz,FDP¹,1975,%,0.055999999999999994
+Rheinland-Pfalz,GRÜNE,1975,%,
+Rheinland-Pfalz,AfD,1975,%,
+Rheinland-Pfalz,FREIE WÄHLER,1975,%,
+Rheinland-Pfalz,REP,1975,%,
+Rheinland-Pfalz,DIE LINKE²,1975,%,
+Rheinland-Pfalz,DRP/NPD³,1975,%,0.011000000000000001
+Rheinland-Pfalz,KPD/DKP4,1975,%,0.005
+Rheinland-Pfalz,PIRATEN,1975,%,
+Rheinland-Pfalz,Tierschutzpartei,1975,%,
+Rheinland-Pfalz,DIE PARTEI,1975,%,
+Rheinland-Pfalz,Volt,1975,%,
+Rheinland-Pfalz,Sonstige,1975,%,0.003
+Rheinland-Pfalz,CDU,1979,%,0.501
+Rheinland-Pfalz,SPD,1979,%,0.423
+Rheinland-Pfalz,FDP¹,1979,%,0.064
+Rheinland-Pfalz,GRÜNE,1979,%,
+Rheinland-Pfalz,AfD,1979,%,
+Rheinland-Pfalz,FREIE WÄHLER,1979,%,
+Rheinland-Pfalz,REP,1979,%,
+Rheinland-Pfalz,DIE LINKE²,1979,%,
+Rheinland-Pfalz,DRP/NPD³,1979,%,0.006999999999999999
+Rheinland-Pfalz,KPD/DKP4,1979,%,0.004
+Rheinland-Pfalz,PIRATEN,1979,%,
+Rheinland-Pfalz,Tierschutzpartei,1979,%,
+Rheinland-Pfalz,DIE PARTEI,1979,%,
+Rheinland-Pfalz,Volt,1979,%,
+Rheinland-Pfalz,Sonstige,1979,%,0.005
+Rheinland-Pfalz,CDU,1983,%,0.519
+Rheinland-Pfalz,SPD,1983,%,0.396
+Rheinland-Pfalz,FDP¹,1983,%,0.035
+Rheinland-Pfalz,GRÜNE,1983,%,0.045
+Rheinland-Pfalz,AfD,1983,%,
+Rheinland-Pfalz,FREIE WÄHLER,1983,%,
+Rheinland-Pfalz,REP,1983,%,
+Rheinland-Pfalz,DIE LINKE²,1983,%,
+Rheinland-Pfalz,DRP/NPD³,1983,%,0.001
+Rheinland-Pfalz,KPD/DKP4,1983,%,0.002
+Rheinland-Pfalz,PIRATEN,1983,%,
+Rheinland-Pfalz,Tierschutzpartei,1983,%,
+Rheinland-Pfalz,DIE PARTEI,1983,%,
+Rheinland-Pfalz,Volt,1983,%,
+Rheinland-Pfalz,Sonstige,1983,%,0.001
+Rheinland-Pfalz,CDU,1987,%,0.451
+Rheinland-Pfalz,SPD,1987,%,0.38799999999999996
+Rheinland-Pfalz,FDP¹,1987,%,0.073
+Rheinland-Pfalz,GRÜNE,1987,%,0.059000000000000004
+Rheinland-Pfalz,AfD,1987,%,
+Rheinland-Pfalz,FREIE WÄHLER,1987,%,
+Rheinland-Pfalz,REP,1987,%,
+Rheinland-Pfalz,DIE LINKE²,1987,%,
+Rheinland-Pfalz,DRP/NPD³,1987,%,0.008
+Rheinland-Pfalz,KPD/DKP4,1987,%,0.001
+Rheinland-Pfalz,PIRATEN,1987,%,
+Rheinland-Pfalz,Tierschutzpartei,1987,%,
+Rheinland-Pfalz,DIE PARTEI,1987,%,
+Rheinland-Pfalz,Volt,1987,%,
+Rheinland-Pfalz,Sonstige,1987,%,0.02
+Rheinland-Pfalz,CDU,1991,%,0.387
+Rheinland-Pfalz,SPD,1991,%,0.44799999999999995
+Rheinland-Pfalz,FDP¹,1991,%,0.069
+Rheinland-Pfalz,GRÜNE,1991,%,0.065
+Rheinland-Pfalz,AfD,1991,%,
+Rheinland-Pfalz,FREIE WÄHLER,1991,%,
+Rheinland-Pfalz,REP,1991,%,0.02
+Rheinland-Pfalz,DIE LINKE²,1991,%,
+Rheinland-Pfalz,DRP/NPD³,1991,%,
+Rheinland-Pfalz,KPD/DKP4,1991,%,
+Rheinland-Pfalz,PIRATEN,1991,%,
+Rheinland-Pfalz,Tierschutzpartei,1991,%,
+Rheinland-Pfalz,DIE PARTEI,1991,%,
+Rheinland-Pfalz,Volt,1991,%,
+Rheinland-Pfalz,Sonstige,1991,%,0.011000000000000001
+Rheinland-Pfalz,CDU,1996,%,0.387
+Rheinland-Pfalz,SPD,1996,%,0.39799999999999996
+Rheinland-Pfalz,FDP¹,1996,%,0.08900000000000001
+Rheinland-Pfalz,GRÜNE,1996,%,0.069
+Rheinland-Pfalz,AfD,1996,%,
+Rheinland-Pfalz,FREIE WÄHLER,1996,%,
+Rheinland-Pfalz,REP,1996,%,0.035
+Rheinland-Pfalz,DIE LINKE²,1996,%,
+Rheinland-Pfalz,DRP/NPD³,1996,%,0.004
+Rheinland-Pfalz,KPD/DKP4,1996,%,
+Rheinland-Pfalz,PIRATEN,1996,%,
+Rheinland-Pfalz,Tierschutzpartei,1996,%,
+Rheinland-Pfalz,DIE PARTEI,1996,%,
+Rheinland-Pfalz,Volt,1996,%,
+Rheinland-Pfalz,Sonstige,1996,%,0.018000000000000002
+Rheinland-Pfalz,CDU,2001,%,0.353
+Rheinland-Pfalz,SPD,2001,%,0.447
+Rheinland-Pfalz,FDP¹,2001,%,0.078
+Rheinland-Pfalz,GRÜNE,2001,%,0.052000000000000005
+Rheinland-Pfalz,AfD,2001,%,
+Rheinland-Pfalz,FREIE WÄHLER,2001,%,0.025
+Rheinland-Pfalz,REP,2001,%,0.024
+Rheinland-Pfalz,DIE LINKE²,2001,%,
+Rheinland-Pfalz,DRP/NPD³,2001,%,0.005
+Rheinland-Pfalz,KPD/DKP4,2001,%,
+Rheinland-Pfalz,PIRATEN,2001,%,
+Rheinland-Pfalz,Tierschutzpartei,2001,%,
+Rheinland-Pfalz,DIE PARTEI,2001,%,
+Rheinland-Pfalz,Volt,2001,%,
+Rheinland-Pfalz,Sonstige,2001,%,0.015
+Rheinland-Pfalz,CDU,2006,%,0.32799999999999996
+Rheinland-Pfalz,SPD,2006,%,0.456
+Rheinland-Pfalz,FDP¹,2006,%,0.08
+Rheinland-Pfalz,GRÜNE,2006,%,0.046
+Rheinland-Pfalz,AfD,2006,%,
+Rheinland-Pfalz,FREIE WÄHLER,2006,%,0.016
+Rheinland-Pfalz,REP,2006,%,0.017
+Rheinland-Pfalz,DIE LINKE²,2006,%,0.025
+Rheinland-Pfalz,DRP/NPD³,2006,%,0.012
+Rheinland-Pfalz,KPD/DKP4,2006,%,
+Rheinland-Pfalz,PIRATEN,2006,%,
+Rheinland-Pfalz,Tierschutzpartei,2006,%,
+Rheinland-Pfalz,DIE PARTEI,2006,%,
+Rheinland-Pfalz,Volt,2006,%,
+Rheinland-Pfalz,Sonstige,2006,%,0.019
+Rheinland-Pfalz,CDU,2011,%,0.35200000000000004
+Rheinland-Pfalz,SPD,2011,%,0.35700000000000004
+Rheinland-Pfalz,FDP¹,2011,%,0.042
+Rheinland-Pfalz,GRÜNE,2011,%,0.154
+Rheinland-Pfalz,AfD,2011,%,
+Rheinland-Pfalz,FREIE WÄHLER,2011,%,0.023
+Rheinland-Pfalz,REP,2011,%,0.008
+Rheinland-Pfalz,DIE LINKE²,2011,%,0.03
+Rheinland-Pfalz,DRP/NPD³,2011,%,0.011000000000000001
+Rheinland-Pfalz,KPD/DKP4,2011,%,
+Rheinland-Pfalz,PIRATEN,2011,%,0.016
+Rheinland-Pfalz,Tierschutzpartei,2011,%,
+Rheinland-Pfalz,DIE PARTEI,2011,%,
+Rheinland-Pfalz,Volt,2011,%,
+Rheinland-Pfalz,Sonstige,2011,%,0.005
+Rheinland-Pfalz,CDU,2016,%,0.318
+Rheinland-Pfalz,SPD,2016,%,0.36200000000000004
+Rheinland-Pfalz,FDP¹,2016,%,0.062
+Rheinland-Pfalz,GRÜNE,2016,%,0.053
+Rheinland-Pfalz,AfD,2016,%,0.126
+Rheinland-Pfalz,FREIE WÄHLER,2016,%,0.022000000000000002
+Rheinland-Pfalz,REP,2016,%,0.002
+Rheinland-Pfalz,DIE LINKE²,2016,%,0.027999999999999997
+Rheinland-Pfalz,DRP/NPD³,2016,%,0.005
+Rheinland-Pfalz,KPD/DKP4,2016,%,
+Rheinland-Pfalz,PIRATEN,2016,%,0.008
+Rheinland-Pfalz,Tierschutzpartei,2016,%,
+Rheinland-Pfalz,DIE PARTEI,2016,%,
+Rheinland-Pfalz,Volt,2016,%,
+Rheinland-Pfalz,Sonstige,2016,%,0.013000000000000001
+Rheinland-Pfalz,CDU,2021,%,0.27699999999999997
+Rheinland-Pfalz,SPD,2021,%,0.35700000000000004
+Rheinland-Pfalz,FDP¹,2021,%,0.055
+Rheinland-Pfalz,GRÜNE,2021,%,0.09300000000000001
+Rheinland-Pfalz,AfD,2021,%,0.083
+Rheinland-Pfalz,FREIE WÄHLER,2021,%,0.054000000000000006
+Rheinland-Pfalz,REP,2021,%,
+Rheinland-Pfalz,DIE LINKE²,2021,%,0.025
+Rheinland-Pfalz,DRP/NPD³,2021,%,
+Rheinland-Pfalz,KPD/DKP4,2021,%,
+Rheinland-Pfalz,PIRATEN,2021,%,0.005
+Rheinland-Pfalz,Tierschutzpartei,2021,%,0.017
+Rheinland-Pfalz,DIE PARTEI,2021,%,0.011000000000000001
+Rheinland-Pfalz,Volt,2021,%,0.01
+Rheinland-Pfalz,Sonstige,2021,%,0.013999999999999999
+Berlin,Wahlbeteiligung,1950,%,0.904
+Berlin,CDU,1950,%,0.247
+Berlin,SPD,1950,%,0.447
+Berlin,FDP,1950,%,0.231
+Berlin,GRÜNE¹,1950,%,
+Berlin,PDS/Die Linke.,1950,%,
+Berlin,REP,1950,%,
+Berlin,Bündnis 90,1950,%,
+Berlin,PIRATEN,1950,%,
+Berlin,AfD,1950,%,
+Berlin,DP,1950,%,0.037000000000000005
+Berlin,BHE,1950,%,0.022000000000000002
+Berlin,SED/SEW²,1950,%,
+Berlin,FREIE WÄHLER,1950,%,
+Berlin,Sonstige,1950,%,0.018000000000000002
+Berlin,Wahlbeteiligung,1954,%,0.9179999999999999
+Berlin,CDU,1954,%,0.304
+Berlin,SPD,1954,%,0.446
+Berlin,FDP,1954,%,0.128
+Berlin,GRÜNE¹,1954,%,
+Berlin,PDS/Die Linke.,1954,%,
+Berlin,REP,1954,%,
+Berlin,Bündnis 90,1954,%,
+Berlin,PIRATEN,1954,%,
+Berlin,AfD,1954,%,
+Berlin,DP,1954,%,0.049
+Berlin,BHE,1954,%,0.025
+Berlin,SED/SEW²,1954,%,0.027000000000000003
+Berlin,FREIE WÄHLER,1954,%,
+Berlin,Sonstige,1954,%,0.021
+Berlin,Wahlbeteiligung,1958,%,0.929
+Berlin,CDU,1958,%,0.377
+Berlin,SPD,1958,%,0.526
+Berlin,FDP,1958,%,0.038
+Berlin,GRÜNE¹,1958,%,
+Berlin,PDS/Die Linke.,1958,%,
+Berlin,REP,1958,%,
+Berlin,Bündnis 90,1958,%,
+Berlin,PIRATEN,1958,%,
+Berlin,AfD,1958,%,
+Berlin,DP,1958,%,0.033
+Berlin,BHE,1958,%,
+Berlin,SED/SEW²,1958,%,0.019
+Berlin,FREIE WÄHLER,1958,%,
+Berlin,Sonstige,1958,%,0.006999999999999999
+Berlin,Wahlbeteiligung,1963,%,0.899
+Berlin,CDU,1963,%,0.28800000000000003
+Berlin,SPD,1963,%,0.619
+Berlin,FDP,1963,%,0.079
+Berlin,GRÜNE¹,1963,%,
+Berlin,PDS/Die Linke.,1963,%,
+Berlin,REP,1963,%,
+Berlin,Bündnis 90,1963,%,
+Berlin,PIRATEN,1963,%,
+Berlin,AfD,1963,%,
+Berlin,DP,1963,%,
+Berlin,BHE,1963,%,
+Berlin,SED/SEW²,1963,%,0.013999999999999999
+Berlin,FREIE WÄHLER,1963,%,
+Berlin,Sonstige,1963,%,
+Berlin,Wahlbeteiligung,1967,%,0.862
+Berlin,CDU,1967,%,0.32899999999999996
+Berlin,SPD,1967,%,0.569
+Berlin,FDP,1967,%,0.071
+Berlin,GRÜNE¹,1967,%,
+Berlin,PDS/Die Linke.,1967,%,
+Berlin,REP,1967,%,
+Berlin,Bündnis 90,1967,%,
+Berlin,PIRATEN,1967,%,
+Berlin,AfD,1967,%,
+Berlin,DP,1967,%,
+Berlin,BHE,1967,%,
+Berlin,SED/SEW²,1967,%,0.028999999999999998
+Berlin,FREIE WÄHLER,1967,%,
+Berlin,Sonstige,1967,%,0.011000000000000001
+Berlin,Wahlbeteiligung,1971,%,0.889
+Berlin,CDU,1971,%,0.382
+Berlin,SPD,1971,%,0.504
+Berlin,FDP,1971,%,0.084
+Berlin,GRÜNE¹,1971,%,
+Berlin,PDS/Die Linke.,1971,%,
+Berlin,REP,1971,%,
+Berlin,Bündnis 90,1971,%,
+Berlin,PIRATEN,1971,%,
+Berlin,AfD,1971,%,
+Berlin,DP,1971,%,
+Berlin,BHE,1971,%,
+Berlin,SED/SEW²,1971,%,0.023
+Berlin,FREIE WÄHLER,1971,%,
+Berlin,Sonstige,1971,%,0.006
+Berlin,Wahlbeteiligung,1975,%,0.878
+Berlin,CDU,1975,%,0.439
+Berlin,SPD,1975,%,0.426
+Berlin,FDP,1975,%,0.071
+Berlin,GRÜNE¹,1975,%,
+Berlin,PDS/Die Linke.,1975,%,
+Berlin,REP,1975,%,
+Berlin,Bündnis 90,1975,%,
+Berlin,PIRATEN,1975,%,
+Berlin,AfD,1975,%,
+Berlin,DP,1975,%,
+Berlin,BHE,1975,%,
+Berlin,SED/SEW²,1975,%,0.018000000000000002
+Berlin,FREIE WÄHLER,1975,%,
+Berlin,Sonstige,1975,%,0.046
+Berlin,Wahlbeteiligung,1979,%,0.8540000000000001
+Berlin,CDU,1979,%,0.444
+Berlin,SPD,1979,%,0.42700000000000005
+Berlin,FDP,1979,%,0.081
+Berlin,GRÜNE¹,1979,%,0.037000000000000005
+Berlin,PDS/Die Linke.,1979,%,
+Berlin,REP,1979,%,
+Berlin,Bündnis 90,1979,%,
+Berlin,PIRATEN,1979,%,
+Berlin,AfD,1979,%,
+Berlin,DP,1979,%,
+Berlin,BHE,1979,%,
+Berlin,SED/SEW²,1979,%,0.011000000000000001
+Berlin,FREIE WÄHLER,1979,%,
+Berlin,Sonstige,1979,%,0.001
+Berlin,Wahlbeteiligung,1981,%,0.853
+Berlin,CDU,1981,%,0.48
+Berlin,SPD,1981,%,0.384
+Berlin,FDP,1981,%,0.055999999999999994
+Berlin,GRÜNE¹,1981,%,0.07200000000000001
+Berlin,PDS/Die Linke.,1981,%,
+Berlin,REP,1981,%,
+Berlin,Bündnis 90,1981,%,
+Berlin,PIRATEN,1981,%,
+Berlin,AfD,1981,%,
+Berlin,DP,1981,%,
+Berlin,BHE,1981,%,
+Berlin,SED/SEW²,1981,%,0.006999999999999999
+Berlin,FREIE WÄHLER,1981,%,
+Berlin,Sonstige,1981,%,0.003
+Berlin,Wahlbeteiligung,1985,%,0.836
+Berlin,CDU,1985,%,0.46399999999999997
+Berlin,SPD,1985,%,0.324
+Berlin,FDP,1985,%,0.085
+Berlin,GRÜNE¹,1985,%,0.106
+Berlin,PDS/Die Linke.,1985,%,
+Berlin,REP,1985,%,
+Berlin,Bündnis 90,1985,%,
+Berlin,PIRATEN,1985,%,
+Berlin,AfD,1985,%,
+Berlin,DP,1985,%,
+Berlin,BHE,1985,%,
+Berlin,SED/SEW²,1985,%,0.006
+Berlin,FREIE WÄHLER,1985,%,
+Berlin,Sonstige,1985,%,0.015
+Berlin,Wahlbeteiligung,1989,%,0.7959999999999999
+Berlin,CDU,1989,%,0.377
+Berlin,SPD,1989,%,0.373
+Berlin,FDP,1989,%,0.039
+Berlin,GRÜNE¹,1989,%,0.11800000000000001
+Berlin,PDS/Die Linke.,1989,%,
+Berlin,REP,1989,%,0.075
+Berlin,Bündnis 90,1989,%,
+Berlin,PIRATEN,1989,%,
+Berlin,AfD,1989,%,
+Berlin,DP,1989,%,
+Berlin,BHE,1989,%,
+Berlin,SED/SEW²,1989,%,0.006
+Berlin,FREIE WÄHLER,1989,%,
+Berlin,Sonstige,1989,%,0.012
+Berlin,Wahlbeteiligung,1990,%,0.8079999999999999
+Berlin,CDU,1990,%,0.40399999999999997
+Berlin,SPD,1990,%,0.304
+Berlin,FDP,1990,%,0.071
+Berlin,GRÜNE¹,1990,%,0.05
+Berlin,PDS/Die Linke.,1990,%,0.092
+Berlin,REP,1990,%,0.031
+Berlin,Bündnis 90,1990,%,0.044000000000000004
+Berlin,PIRATEN,1990,%,
+Berlin,AfD,1990,%,
+Berlin,DP,1990,%,
+Berlin,BHE,1990,%,
+Berlin,SED/SEW²,1990,%,
+Berlin,FREIE WÄHLER,1990,%,
+Berlin,Sonstige,1990,%,0.004
+Berlin,Wahlbeteiligung,1995,%,0.6859999999999999
+Berlin,CDU,1995,%,0.374
+Berlin,SPD,1995,%,0.23600000000000002
+Berlin,FDP,1995,%,0.025
+Berlin,GRÜNE¹,1995,%,0.132
+Berlin,PDS/Die Linke.,1995,%,0.146
+Berlin,REP,1995,%,0.026000000000000002
+Berlin,Bündnis 90,1995,%,
+Berlin,PIRATEN,1995,%,
+Berlin,AfD,1995,%,
+Berlin,DP,1995,%,
+Berlin,BHE,1995,%,
+Berlin,SED/SEW²,1995,%,
+Berlin,FREIE WÄHLER,1995,%,
+Berlin,Sonstige,1995,%,0.057999999999999996
+Berlin,Wahlbeteiligung,1999,%,0.655
+Berlin,CDU,1999,%,0.408
+Berlin,SPD,1999,%,0.22399999999999998
+Berlin,FDP,1999,%,0.022000000000000002
+Berlin,GRÜNE¹,1999,%,0.099
+Berlin,PDS/Die Linke.,1999,%,0.177
+Berlin,REP,1999,%,0.027000000000000003
+Berlin,Bündnis 90,1999,%,
+Berlin,PIRATEN,1999,%,
+Berlin,AfD,1999,%,
+Berlin,DP,1999,%,
+Berlin,BHE,1999,%,
+Berlin,SED/SEW²,1999,%,
+Berlin,FREIE WÄHLER,1999,%,
+Berlin,Sonstige,1999,%,0.043
+Berlin,Wahlbeteiligung,2001,%,0.6809999999999999
+Berlin,CDU,2001,%,0.23800000000000002
+Berlin,SPD,2001,%,0.297
+Berlin,FDP,2001,%,0.099
+Berlin,GRÜNE¹,2001,%,0.091
+Berlin,PDS/Die Linke.,2001,%,0.226
+Berlin,REP,2001,%,0.013000000000000001
+Berlin,Bündnis 90,2001,%,
+Berlin,PIRATEN,2001,%,
+Berlin,AfD,2001,%,
+Berlin,DP,2001,%,
+Berlin,BHE,2001,%,
+Berlin,SED/SEW²,2001,%,
+Berlin,FREIE WÄHLER,2001,%,
+Berlin,Sonstige,2001,%,0.036000000000000004
+Berlin,Wahlbeteiligung,2006,%,0.58
+Berlin,CDU,2006,%,0.213
+Berlin,SPD,2006,%,0.308
+Berlin,FDP,2006,%,0.076
+Berlin,GRÜNE¹,2006,%,0.131
+Berlin,PDS/Die Linke.,2006,%,0.134
+Berlin,REP,2006,%,0.009000000000000001
+Berlin,Bündnis 90,2006,%,
+Berlin,PIRATEN,2006,%,
+Berlin,AfD,2006,%,
+Berlin,DP,2006,%,
+Berlin,BHE,2006,%,
+Berlin,SED/SEW²,2006,%,
+Berlin,FREIE WÄHLER,2006,%,
+Berlin,Sonstige,2006,%,0.128
+Berlin,Wahlbeteiligung,2011,%,0.602
+Berlin,CDU,2011,%,0.23399999999999999
+Berlin,SPD,2011,%,0.28300000000000003
+Berlin,FDP,2011,%,0.018000000000000002
+Berlin,GRÜNE¹,2011,%,0.17600000000000002
+Berlin,PDS/Die Linke.,2011,%,0.11699999999999999
+Berlin,REP,2011,%,
+Berlin,Bündnis 90,2011,%,
+Berlin,PIRATEN,2011,%,0.08900000000000001
+Berlin,AfD,2011,%,
+Berlin,DP,2011,%,
+Berlin,BHE,2011,%,
+Berlin,SED/SEW²,2011,%,
+Berlin,FREIE WÄHLER,2011,%,
+Berlin,Sonstige,2011,%,0.083
+Berlin,Wahlbeteiligung,2016,%,0.669
+Berlin,CDU,2016,%,0.17600000000000002
+Berlin,SPD,2016,%,0.21600000000000003
+Berlin,FDP,2016,%,0.067
+Berlin,GRÜNE¹,2016,%,0.152
+Berlin,PDS/Die Linke.,2016,%,0.156
+Berlin,REP,2016,%,
+Berlin,Bündnis 90,2016,%,
+Berlin,PIRATEN,2016,%,0.017
+Berlin,AfD,2016,%,0.142
+Berlin,DP,2016,%,
+Berlin,BHE,2016,%,
+Berlin,SED/SEW²,2016,%,
+Berlin,FREIE WÄHLER,2016,%,
+Berlin,Sonstige,2016,%,0.07400000000000001
+Berlin,Wahlbeteiligung,2021,%,0.754
+Berlin,CDU,2021,%,0.18
+Berlin,SPD,2021,%,0.214
+Berlin,FDP,2021,%,0.071
+Berlin,GRÜNE¹,2021,%,0.18899999999999997
+Berlin,PDS/Die Linke.,2021,%,0.141
+Berlin,REP,2021,%,0.0
+Berlin,Bündnis 90,2021,%,
+Berlin,PIRATEN,2021,%,0.004
+Berlin,AfD,2021,%,0.08
+Berlin,DP,2021,%,
+Berlin,BHE,2021,%,
+Berlin,SED/SEW²,2021,%,
+Berlin,FREIE WÄHLER,2021,%,0.008
+Berlin,Sonstige,2021,%,
+Berlin,Wahlbeteiligung,2023,%,0.63
+Berlin,CDU,2023,%,0.282
+Berlin,SPD,2023,%,0.184
+Berlin,FDP,2023,%,0.046
+Berlin,GRÜNE¹,2023,%,0.184
+Berlin,PDS/Die Linke.,2023,%,0.122
+Berlin,REP,2023,%,0.0
+Berlin,Bündnis 90,2023,%,
+Berlin,PIRATEN,2023,%,0.003
+Berlin,AfD,2023,%,0.091
+Berlin,DP,2023,%,
+Berlin,BHE,2023,%,
+Berlin,SED/SEW²,2023,%,
+Berlin,FREIE WÄHLER,2023,%,0.003
+Berlin,Sonstige,2023,%,
+Baden-Württemberg,CDU,1952,%,0.36
+Baden-Württemberg,SPD,1952,%,0.28
+Baden-Württemberg,FDP/DVP,1952,%,0.18
+Baden-Württemberg,GRÜNE,1952,%,
+Baden-Württemberg,AfD,1952,%,
+Baden-Württemberg,BHE³,1952,%,0.063
+Baden-Württemberg,KPD/DKP4,1952,%,0.044000000000000004
+Baden-Württemberg,NPD,1952,%,
+Baden-Württemberg,REP,1952,%,
+Baden-Württemberg,PIRATEN,1952,%,
+Baden-Württemberg,FREIE WÄHLER,1952,%,
+Baden-Württemberg,Sonstige,1952,%,0.073
+Baden-Württemberg,CDU,1956,%,0.426
+Baden-Württemberg,SPD,1956,%,0.289
+Baden-Württemberg,FDP/DVP,1956,%,0.166
+Baden-Württemberg,GRÜNE,1956,%,
+Baden-Württemberg,AfD,1956,%,
+Baden-Württemberg,BHE³,1956,%,0.063
+Baden-Württemberg,KPD/DKP4,1956,%,0.032
+Baden-Württemberg,NPD,1956,%,
+Baden-Württemberg,REP,1956,%,
+Baden-Württemberg,PIRATEN,1956,%,
+Baden-Württemberg,FREIE WÄHLER,1956,%,
+Baden-Württemberg,Sonstige,1956,%,0.024
+Baden-Württemberg,CDU,1960,%,0.395
+Baden-Württemberg,SPD,1960,%,0.353
+Baden-Württemberg,FDP/DVP,1960,%,0.158
+Baden-Württemberg,GRÜNE,1960,%,
+Baden-Württemberg,AfD,1960,%,
+Baden-Württemberg,BHE³,1960,%,0.066
+Baden-Württemberg,KPD/DKP4,1960,%,
+Baden-Württemberg,NPD,1960,%,
+Baden-Württemberg,REP,1960,%,
+Baden-Württemberg,PIRATEN,1960,%,
+Baden-Württemberg,FREIE WÄHLER,1960,%,
+Baden-Württemberg,Sonstige,1960,%,0.027999999999999997
+Baden-Württemberg,CDU,1964,%,0.462
+Baden-Württemberg,SPD,1964,%,0.373
+Baden-Württemberg,FDP/DVP,1964,%,0.131
+Baden-Württemberg,GRÜNE,1964,%,
+Baden-Württemberg,AfD,1964,%,
+Baden-Württemberg,BHE³,1964,%,
+Baden-Württemberg,KPD/DKP4,1964,%,
+Baden-Württemberg,NPD,1964,%,
+Baden-Württemberg,REP,1964,%,
+Baden-Württemberg,PIRATEN,1964,%,
+Baden-Württemberg,FREIE WÄHLER,1964,%,
+Baden-Württemberg,Sonstige,1964,%,0.035
+Baden-Württemberg,CDU,1968,%,0.442
+Baden-Württemberg,SPD,1968,%,0.29
+Baden-Württemberg,FDP/DVP,1968,%,0.14400000000000002
+Baden-Württemberg,GRÜNE,1968,%,
+Baden-Württemberg,AfD,1968,%,
+Baden-Württemberg,BHE³,1968,%,
+Baden-Württemberg,KPD/DKP4,1968,%,
+Baden-Württemberg,NPD,1968,%,0.098
+Baden-Württemberg,REP,1968,%,
+Baden-Württemberg,PIRATEN,1968,%,
+Baden-Württemberg,FREIE WÄHLER,1968,%,
+Baden-Württemberg,Sonstige,1968,%,0.026000000000000002
+Baden-Württemberg,CDU,1972,%,0.529
+Baden-Württemberg,SPD,1972,%,0.376
+Baden-Württemberg,FDP/DVP,1972,%,0.08900000000000001
+Baden-Württemberg,GRÜNE,1972,%,
+Baden-Württemberg,AfD,1972,%,
+Baden-Württemberg,BHE³,1972,%,
+Baden-Württemberg,KPD/DKP4,1972,%,0.005
+Baden-Württemberg,NPD,1972,%,
+Baden-Württemberg,REP,1972,%,
+Baden-Württemberg,PIRATEN,1972,%,
+Baden-Württemberg,FREIE WÄHLER,1972,%,
+Baden-Württemberg,Sonstige,1972,%,0.001
+Baden-Württemberg,CDU,1976,%,0.5670000000000001
+Baden-Württemberg,SPD,1976,%,0.33299999999999996
+Baden-Württemberg,FDP/DVP,1976,%,0.078
+Baden-Württemberg,GRÜNE,1976,%,
+Baden-Württemberg,AfD,1976,%,
+Baden-Württemberg,BHE³,1976,%,
+Baden-Württemberg,KPD/DKP4,1976,%,0.004
+Baden-Württemberg,NPD,1976,%,0.009000000000000001
+Baden-Württemberg,REP,1976,%,
+Baden-Württemberg,PIRATEN,1976,%,
+Baden-Württemberg,FREIE WÄHLER,1976,%,
+Baden-Württemberg,Sonstige,1976,%,0.009000000000000001
+Baden-Württemberg,CDU,1980,%,0.534
+Baden-Württemberg,SPD,1980,%,0.325
+Baden-Württemberg,FDP/DVP,1980,%,0.083
+Baden-Württemberg,GRÜNE,1980,%,0.053
+Baden-Württemberg,AfD,1980,%,
+Baden-Württemberg,BHE³,1980,%,
+Baden-Württemberg,KPD/DKP4,1980,%,0.003
+Baden-Württemberg,NPD,1980,%,
+Baden-Württemberg,REP,1980,%,
+Baden-Württemberg,PIRATEN,1980,%,
+Baden-Württemberg,FREIE WÄHLER,1980,%,
+Baden-Württemberg,Sonstige,1980,%,0.002
+Baden-Württemberg,CDU,1984,%,0.519
+Baden-Württemberg,SPD,1984,%,0.324
+Baden-Württemberg,FDP/DVP,1984,%,0.07200000000000001
+Baden-Württemberg,GRÜNE,1984,%,0.08
+Baden-Württemberg,AfD,1984,%,
+Baden-Württemberg,BHE³,1984,%,
+Baden-Württemberg,KPD/DKP4,1984,%,0.003
+Baden-Württemberg,NPD,1984,%,
+Baden-Württemberg,REP,1984,%,
+Baden-Württemberg,PIRATEN,1984,%,
+Baden-Württemberg,FREIE WÄHLER,1984,%,
+Baden-Württemberg,Sonstige,1984,%,0.002
+Baden-Württemberg,CDU,1988,%,0.49
+Baden-Württemberg,SPD,1988,%,0.32
+Baden-Württemberg,FDP/DVP,1988,%,0.059000000000000004
+Baden-Württemberg,GRÜNE,1988,%,0.079
+Baden-Württemberg,AfD,1988,%,
+Baden-Württemberg,BHE³,1988,%,
+Baden-Württemberg,KPD/DKP4,1988,%,
+Baden-Württemberg,NPD,1988,%,0.021
+Baden-Württemberg,REP,1988,%,
+Baden-Württemberg,PIRATEN,1988,%,
+Baden-Württemberg,FREIE WÄHLER,1988,%,
+Baden-Württemberg,Sonstige,1988,%,0.028999999999999998
+Baden-Württemberg,CDU,1992,%,0.396
+Baden-Württemberg,SPD,1992,%,0.294
+Baden-Württemberg,FDP/DVP,1992,%,0.059000000000000004
+Baden-Württemberg,GRÜNE,1992,%,0.095
+Baden-Württemberg,AfD,1992,%,
+Baden-Württemberg,BHE³,1992,%,
+Baden-Württemberg,KPD/DKP4,1992,%,0.0
+Baden-Württemberg,NPD,1992,%,0.009000000000000001
+Baden-Württemberg,REP,1992,%,0.109
+Baden-Württemberg,PIRATEN,1992,%,
+Baden-Württemberg,FREIE WÄHLER,1992,%,
+Baden-Württemberg,Sonstige,1992,%,0.039
+Baden-Württemberg,CDU,1996,%,0.413
+Baden-Württemberg,SPD,1996,%,0.251
+Baden-Württemberg,FDP/DVP,1996,%,0.096
+Baden-Württemberg,GRÜNE,1996,%,0.121
+Baden-Württemberg,AfD,1996,%,
+Baden-Württemberg,BHE³,1996,%,
+Baden-Württemberg,KPD/DKP4,1996,%,0.002
+Baden-Württemberg,NPD,1996,%,
+Baden-Württemberg,REP,1996,%,0.091
+Baden-Württemberg,PIRATEN,1996,%,
+Baden-Württemberg,FREIE WÄHLER,1996,%,
+Baden-Württemberg,Sonstige,1996,%,0.027999999999999997
+Baden-Württemberg,CDU,2001,%,0.44799999999999995
+Baden-Württemberg,SPD,2001,%,0.33299999999999996
+Baden-Württemberg,FDP/DVP,2001,%,0.081
+Baden-Württemberg,GRÜNE,2001,%,0.077
+Baden-Württemberg,AfD,2001,%,
+Baden-Württemberg,BHE³,2001,%,
+Baden-Württemberg,KPD/DKP4,2001,%,
+Baden-Württemberg,NPD,2001,%,0.002
+Baden-Württemberg,REP,2001,%,0.044000000000000004
+Baden-Württemberg,PIRATEN,2001,%,
+Baden-Württemberg,FREIE WÄHLER,2001,%,
+Baden-Württemberg,Sonstige,2001,%,0.015
+Baden-Württemberg,CDU,2006,%,0.442
+Baden-Württemberg,SPD,2006,%,0.252
+Baden-Württemberg,FDP/DVP,2006,%,0.107
+Baden-Württemberg,GRÜNE,2006,%,0.11699999999999999
+Baden-Württemberg,AfD,2006,%,
+Baden-Württemberg,BHE³,2006,%,
+Baden-Württemberg,KPD/DKP4,2006,%,
+Baden-Württemberg,NPD,2006,%,0.006999999999999999
+Baden-Württemberg,REP,2006,%,0.025
+Baden-Württemberg,PIRATEN,2006,%,
+Baden-Württemberg,FREIE WÄHLER,2006,%,
+Baden-Württemberg,Sonstige,2006,%,0.02
+Baden-Württemberg,CDU,2011,%,0.39
+Baden-Württemberg,SPD,2011,%,0.231
+Baden-Württemberg,FDP/DVP,2011,%,0.053
+Baden-Württemberg,GRÜNE,2011,%,0.242
+Baden-Württemberg,AfD,2011,%,
+Baden-Württemberg,BHE³,2011,%,
+Baden-Württemberg,KPD/DKP4,2011,%,
+Baden-Württemberg,NPD,2011,%,0.01
+Baden-Württemberg,REP,2011,%,0.011000000000000001
+Baden-Württemberg,PIRATEN,2011,%,0.021
+Baden-Württemberg,FREIE WÄHLER,2011,%,
+Baden-Württemberg,Sonstige,2011,%,0.013999999999999999
+Baden-Württemberg,CDU,2016,%,0.27
+Baden-Württemberg,SPD,2016,%,0.127
+Baden-Württemberg,FDP/DVP,2016,%,0.083
+Baden-Württemberg,GRÜNE,2016,%,0.303
+Baden-Württemberg,AfD,2016,%,0.151
+Baden-Württemberg,BHE³,2016,%,
+Baden-Württemberg,KPD/DKP4,2016,%,0.0
+Baden-Württemberg,NPD,2016,%,0.004
+Baden-Württemberg,REP,2016,%,0.003
+Baden-Württemberg,PIRATEN,2016,%,0.004
+Baden-Württemberg,FREIE WÄHLER,2016,%,0.001
+Baden-Württemberg,Sonstige,2016,%,0.025
+Baden-Württemberg,CDU,2021,%,0.24100000000000002
+Baden-Württemberg,SPD,2021,%,0.11
+Baden-Württemberg,FDP/DVP,2021,%,0.105
+Baden-Württemberg,GRÜNE,2021,%,0.326
+Baden-Württemberg,AfD,2021,%,0.09699999999999999
+Baden-Württemberg,BHE³,2021,%,
+Baden-Württemberg,KPD/DKP4,2021,%,0.0
+Baden-Württemberg,NPD,2021,%,
+Baden-Württemberg,REP,2021,%,
+Baden-Württemberg,PIRATEN,2021,%,0.001
+Baden-Württemberg,FREIE WÄHLER,2021,%,0.03
+Baden-Württemberg,Sonstige,2021,%,0.054000000000000006
+Sachsen-Anhalt,Wahlbeteiligung,1990,%,0.6509999999999999
+Sachsen-Anhalt,CDU,1990,%,0.39
+Sachsen-Anhalt,SPD,1990,%,0.26
+Sachsen-Anhalt,DIE LINKE¹,1990,%,0.12
+Sachsen-Anhalt,FDP,1990,%,0.135
+Sachsen-Anhalt,B’90/GRÜNE²,1990,%,0.053
+Sachsen-Anhalt,DVU,1990,%,
+Sachsen-Anhalt,AfD,1990,%,
+Sachsen-Anhalt,NPD,1990,%,0.001
+Sachsen-Anhalt,REP,1990,%,0.006
+Sachsen-Anhalt,DSU,1990,%,0.017
+Sachsen-Anhalt,SCHILL,1990,%,
+Sachsen-Anhalt,FREIE WÄHLER,1990,%,
+Sachsen-Anhalt,Sonstige,1990,%,0.017
+Sachsen-Anhalt,Wahlbeteiligung,1994,%,0.5479999999999999
+Sachsen-Anhalt,CDU,1994,%,0.344
+Sachsen-Anhalt,SPD,1994,%,0.34
+Sachsen-Anhalt,DIE LINKE¹,1994,%,0.19899999999999998
+Sachsen-Anhalt,FDP,1994,%,0.036000000000000004
+Sachsen-Anhalt,B’90/GRÜNE²,1994,%,0.051
+Sachsen-Anhalt,DVU,1994,%,
+Sachsen-Anhalt,AfD,1994,%,
+Sachsen-Anhalt,NPD,1994,%,
+Sachsen-Anhalt,REP,1994,%,0.013999999999999999
+Sachsen-Anhalt,DSU,1994,%,0.002
+Sachsen-Anhalt,SCHILL,1994,%,
+Sachsen-Anhalt,FREIE WÄHLER,1994,%,
+Sachsen-Anhalt,Sonstige,1994,%,0.015
+Sachsen-Anhalt,Wahlbeteiligung,1998,%,0.7170000000000001
+Sachsen-Anhalt,CDU,1998,%,0.22
+Sachsen-Anhalt,SPD,1998,%,0.359
+Sachsen-Anhalt,DIE LINKE¹,1998,%,0.196
+Sachsen-Anhalt,FDP,1998,%,0.042
+Sachsen-Anhalt,B’90/GRÜNE²,1998,%,0.032
+Sachsen-Anhalt,DVU,1998,%,0.129
+Sachsen-Anhalt,AfD,1998,%,
+Sachsen-Anhalt,NPD,1998,%,
+Sachsen-Anhalt,REP,1998,%,0.006999999999999999
+Sachsen-Anhalt,DSU,1998,%,
+Sachsen-Anhalt,SCHILL,1998,%,
+Sachsen-Anhalt,FREIE WÄHLER,1998,%,
+Sachsen-Anhalt,Sonstige,1998,%,0.015
+Sachsen-Anhalt,Wahlbeteiligung,2002,%,0.565
+Sachsen-Anhalt,CDU,2002,%,0.373
+Sachsen-Anhalt,SPD,2002,%,0.2
+Sachsen-Anhalt,DIE LINKE¹,2002,%,0.204
+Sachsen-Anhalt,FDP,2002,%,0.133
+Sachsen-Anhalt,B’90/GRÜNE²,2002,%,0.02
+Sachsen-Anhalt,DVU,2002,%,
+Sachsen-Anhalt,AfD,2002,%,
+Sachsen-Anhalt,NPD,2002,%,
+Sachsen-Anhalt,REP,2002,%,
+Sachsen-Anhalt,DSU,2002,%,
+Sachsen-Anhalt,SCHILL,2002,%,0.045
+Sachsen-Anhalt,FREIE WÄHLER,2002,%,
+Sachsen-Anhalt,Sonstige,2002,%,0.025
+Sachsen-Anhalt,Wahlbeteiligung,2006,%,0.444
+Sachsen-Anhalt,CDU,2006,%,0.36200000000000004
+Sachsen-Anhalt,SPD,2006,%,0.214
+Sachsen-Anhalt,DIE LINKE¹,2006,%,0.24100000000000002
+Sachsen-Anhalt,FDP,2006,%,0.067
+Sachsen-Anhalt,B’90/GRÜNE²,2006,%,0.036000000000000004
+Sachsen-Anhalt,DVU,2006,%,0.03
+Sachsen-Anhalt,AfD,2006,%,
+Sachsen-Anhalt,NPD,2006,%,
+Sachsen-Anhalt,REP,2006,%,0.005
+Sachsen-Anhalt,DSU,2006,%,0.003
+Sachsen-Anhalt,SCHILL,2006,%,
+Sachsen-Anhalt,FREIE WÄHLER,2006,%,
+Sachsen-Anhalt,Sonstige,2006,%,0.042
+Sachsen-Anhalt,Wahlbeteiligung,2011,%,0.512
+Sachsen-Anhalt,CDU,2011,%,0.325
+Sachsen-Anhalt,SPD,2011,%,0.215
+Sachsen-Anhalt,DIE LINKE¹,2011,%,0.237
+Sachsen-Anhalt,FDP,2011,%,0.038
+Sachsen-Anhalt,B’90/GRÜNE²,2011,%,0.071
+Sachsen-Anhalt,DVU,2011,%,
+Sachsen-Anhalt,AfD,2011,%,
+Sachsen-Anhalt,NPD,2011,%,0.046
+Sachsen-Anhalt,REP,2011,%,
+Sachsen-Anhalt,DSU,2011,%,
+Sachsen-Anhalt,SCHILL,2011,%,
+Sachsen-Anhalt,FREIE WÄHLER,2011,%,0.027999999999999997
+Sachsen-Anhalt,Sonstige,2011,%,0.039
+Sachsen-Anhalt,Wahlbeteiligung,2016,%,0.611
+Sachsen-Anhalt,CDU,2016,%,0.298
+Sachsen-Anhalt,SPD,2016,%,0.106
+Sachsen-Anhalt,DIE LINKE¹,2016,%,0.163
+Sachsen-Anhalt,FDP,2016,%,0.049
+Sachsen-Anhalt,B’90/GRÜNE²,2016,%,0.052000000000000005
+Sachsen-Anhalt,DVU,2016,%,
+Sachsen-Anhalt,AfD,2016,%,0.243
+Sachsen-Anhalt,NPD,2016,%,0.019
+Sachsen-Anhalt,REP,2016,%,
+Sachsen-Anhalt,DSU,2016,%,
+Sachsen-Anhalt,SCHILL,2016,%,
+Sachsen-Anhalt,FREIE WÄHLER,2016,%,0.022000000000000002
+Sachsen-Anhalt,Sonstige,2016,%,0.049
+Sachsen-Anhalt,Wahlbeteiligung,2021*,%,0.603
+Sachsen-Anhalt,CDU,2021*,%,0.371
+Sachsen-Anhalt,SPD,2021*,%,0.084
+Sachsen-Anhalt,DIE LINKE¹,2021*,%,0.11
+Sachsen-Anhalt,FDP,2021*,%,0.064
+Sachsen-Anhalt,B’90/GRÜNE²,2021*,%,0.059000000000000004
+Sachsen-Anhalt,DVU,2021*,%,
+Sachsen-Anhalt,AfD,2021*,%,0.20800000000000002
+Sachsen-Anhalt,NPD,2021*,%,0.003
+Sachsen-Anhalt,REP,2021*,%,
+Sachsen-Anhalt,DSU,2021*,%,
+Sachsen-Anhalt,SCHILL,2021*,%,
+Sachsen-Anhalt,FREIE WÄHLER,2021*,%,0.031
+Sachsen-Anhalt,Sonstige,2021*,%,0.069
+Hamburg,Wahlbeteiligung,1946,%,0.79
+Hamburg,CDU1,1946,%,0.267
+Hamburg,SPD,1946,%,0.431
+Hamburg,FDP,1946,%,0.182
+Hamburg,GRÜNE/GAL2,1946,%,
+Hamburg,Schill/Offensive3,1946,%,
+Hamburg,DIE LINKE4,1946,%,
+Hamburg,STATT-Partei,1946,%,
+Hamburg,AfD,1946,%,
+Hamburg,DRP/NPD6,1946,%,
+Hamburg,PIRATEN,1946,%,
+Hamburg,KPD/DKP5,1946,%,0.10400000000000001
+Hamburg,DP,1946,%,
+Hamburg,REP,1946,%,
+Hamburg,DVU,1946,%,
+Hamburg,Sonstige,1946,%,0.016
+Hamburg,Wahlbeteiligung,1949,%,0.705
+Hamburg,CDU1,1949,%,0.345
+Hamburg,SPD,1949,%,0.428
+Hamburg,FDP,1949,%,
+Hamburg,GRÜNE/GAL2,1949,%,
+Hamburg,Schill/Offensive3,1949,%,
+Hamburg,DIE LINKE4,1949,%,
+Hamburg,STATT-Partei,1949,%,
+Hamburg,AfD,1949,%,
+Hamburg,DRP/NPD6,1949,%,
+Hamburg,PIRATEN,1949,%,
+Hamburg,KPD/DKP5,1949,%,0.07400000000000001
+Hamburg,DP,1949,%,0.133
+Hamburg,REP,1949,%,
+Hamburg,DVU,1949,%,
+Hamburg,Sonstige,1949,%,0.02
+Hamburg,Wahlbeteiligung,1953,%,0.809
+Hamburg,CDU1,1953,%,0.5
+Hamburg,SPD,1953,%,0.452
+Hamburg,FDP,1953,%,
+Hamburg,GRÜNE/GAL2,1953,%,
+Hamburg,Schill/Offensive3,1953,%,
+Hamburg,DIE LINKE4,1953,%,
+Hamburg,STATT-Partei,1953,%,
+Hamburg,AfD,1953,%,
+Hamburg,DRP/NPD6,1953,%,0.006999999999999999
+Hamburg,PIRATEN,1953,%,
+Hamburg,KPD/DKP5,1953,%,0.032
+Hamburg,DP,1953,%,
+Hamburg,REP,1953,%,
+Hamburg,DVU,1953,%,
+Hamburg,Sonstige,1953,%,0.009000000000000001
+Hamburg,Wahlbeteiligung,1957,%,0.773
+Hamburg,CDU1,1957,%,0.322
+Hamburg,SPD,1957,%,0.539
+Hamburg,FDP,1957,%,0.086
+Hamburg,GRÜNE/GAL2,1957,%,
+Hamburg,Schill/Offensive3,1957,%,
+Hamburg,DIE LINKE4,1957,%,
+Hamburg,STATT-Partei,1957,%,
+Hamburg,AfD,1957,%,
+Hamburg,DRP/NPD6,1957,%,0.004
+Hamburg,PIRATEN,1957,%,
+Hamburg,KPD/DKP5,1957,%,
+Hamburg,DP,1957,%,0.040999999999999995
+Hamburg,REP,1957,%,
+Hamburg,DVU,1957,%,
+Hamburg,Sonstige,1957,%,0.008
+Hamburg,Wahlbeteiligung,1961,%,0.723
+Hamburg,CDU1,1961,%,0.29100000000000004
+Hamburg,SPD,1961,%,0.574
+Hamburg,FDP,1961,%,0.096
+Hamburg,GRÜNE/GAL2,1961,%,
+Hamburg,Schill/Offensive3,1961,%,
+Hamburg,DIE LINKE4,1961,%,
+Hamburg,STATT-Partei,1961,%,
+Hamburg,AfD,1961,%,
+Hamburg,DRP/NPD6,1961,%,0.009000000000000001
+Hamburg,PIRATEN,1961,%,
+Hamburg,KPD/DKP5,1961,%,
+Hamburg,DP,1961,%,
+Hamburg,REP,1961,%,
+Hamburg,DVU,1961,%,
+Hamburg,Sonstige,1961,%,0.03
+Hamburg,Wahlbeteiligung,1966,%,0.698
+Hamburg,CDU1,1966,%,0.3
+Hamburg,SPD,1966,%,0.59
+Hamburg,FDP,1966,%,0.068
+Hamburg,GRÜNE/GAL2,1966,%,
+Hamburg,Schill/Offensive3,1966,%,
+Hamburg,DIE LINKE4,1966,%,
+Hamburg,STATT-Partei,1966,%,
+Hamburg,AfD,1966,%,
+Hamburg,DRP/NPD6,1966,%,0.039
+Hamburg,PIRATEN,1966,%,
+Hamburg,KPD/DKP5,1966,%,
+Hamburg,DP,1966,%,
+Hamburg,REP,1966,%,
+Hamburg,DVU,1966,%,
+Hamburg,Sonstige,1966,%,0.003
+Hamburg,Wahlbeteiligung,1970,%,0.7340000000000001
+Hamburg,CDU1,1970,%,0.32799999999999996
+Hamburg,SPD,1970,%,0.5529999999999999
+Hamburg,FDP,1970,%,0.071
+Hamburg,GRÜNE/GAL2,1970,%,
+Hamburg,Schill/Offensive3,1970,%,
+Hamburg,DIE LINKE4,1970,%,
+Hamburg,STATT-Partei,1970,%,
+Hamburg,AfD,1970,%,
+Hamburg,DRP/NPD6,1970,%,0.027000000000000003
+Hamburg,PIRATEN,1970,%,
+Hamburg,KPD/DKP5,1970,%,0.017
+Hamburg,DP,1970,%,
+Hamburg,REP,1970,%,
+Hamburg,DVU,1970,%,
+Hamburg,Sonstige,1970,%,0.004
+Hamburg,Wahlbeteiligung,1974,%,0.804
+Hamburg,CDU1,1974,%,0.406
+Hamburg,SPD,1974,%,0.45
+Hamburg,FDP,1974,%,0.109
+Hamburg,GRÜNE/GAL2,1974,%,
+Hamburg,Schill/Offensive3,1974,%,
+Hamburg,DIE LINKE4,1974,%,
+Hamburg,STATT-Partei,1974,%,
+Hamburg,AfD,1974,%,
+Hamburg,DRP/NPD6,1974,%,0.008
+Hamburg,PIRATEN,1974,%,
+Hamburg,KPD/DKP5,1974,%,0.022000000000000002
+Hamburg,DP,1974,%,
+Hamburg,REP,1974,%,
+Hamburg,DVU,1974,%,
+Hamburg,Sonstige,1974,%,0.006
+Hamburg,Wahlbeteiligung,1978,%,0.767
+Hamburg,CDU1,1978,%,0.376
+Hamburg,SPD,1978,%,0.515
+Hamburg,FDP,1978,%,0.048
+Hamburg,GRÜNE/GAL2,1978,%,0.045
+Hamburg,Schill/Offensive3,1978,%,
+Hamburg,DIE LINKE4,1978,%,
+Hamburg,STATT-Partei,1978,%,
+Hamburg,AfD,1978,%,
+Hamburg,DRP/NPD6,1978,%,0.003
+Hamburg,PIRATEN,1978,%,
+Hamburg,KPD/DKP5,1978,%,0.01
+Hamburg,DP,1978,%,
+Hamburg,REP,1978,%,
+Hamburg,DVU,1978,%,
+Hamburg,Sonstige,1978,%,
+Hamburg,Wahlbeteiligung,1982 (I),%,0.779
+Hamburg,CDU1,1982 (I),%,0.43200000000000005
+Hamburg,SPD,1982 (I),%,0.42700000000000005
+Hamburg,FDP,1982 (I),%,0.049
+Hamburg,GRÜNE/GAL2,1982 (I),%,0.077
+Hamburg,Schill/Offensive3,1982 (I),%,
+Hamburg,DIE LINKE4,1982 (I),%,
+Hamburg,STATT-Partei,1982 (I),%,
+Hamburg,AfD,1982 (I),%,
+Hamburg,DRP/NPD6,1982 (I),%,
+Hamburg,PIRATEN,1982 (I),%,
+Hamburg,KPD/DKP5,1982 (I),%,0.006
+Hamburg,DP,1982 (I),%,
+Hamburg,REP,1982 (I),%,
+Hamburg,DVU,1982 (I),%,
+Hamburg,Sonstige,1982 (I),%,0.009000000000000001
+Hamburg,Wahlbeteiligung,1982 (II),%,0.84
+Hamburg,CDU1,1982 (II),%,0.386
+Hamburg,SPD,1982 (II),%,0.513
+Hamburg,FDP,1982 (II),%,0.026000000000000002
+Hamburg,GRÜNE/GAL2,1982 (II),%,0.068
+Hamburg,Schill/Offensive3,1982 (II),%,
+Hamburg,DIE LINKE4,1982 (II),%,
+Hamburg,STATT-Partei,1982 (II),%,
+Hamburg,AfD,1982 (II),%,
+Hamburg,DRP/NPD6,1982 (II),%,
+Hamburg,PIRATEN,1982 (II),%,
+Hamburg,KPD/DKP5,1982 (II),%,0.004
+Hamburg,DP,1982 (II),%,
+Hamburg,REP,1982 (II),%,
+Hamburg,DVU,1982 (II),%,
+Hamburg,Sonstige,1982 (II),%,0.003
+Hamburg,Wahlbeteiligung,1986,%,0.7809999999999999
+Hamburg,CDU1,1986,%,0.419
+Hamburg,SPD,1986,%,0.41700000000000004
+Hamburg,FDP,1986,%,0.048
+Hamburg,GRÜNE/GAL2,1986,%,0.10400000000000001
+Hamburg,Schill/Offensive3,1986,%,
+Hamburg,DIE LINKE4,1986,%,
+Hamburg,STATT-Partei,1986,%,
+Hamburg,AfD,1986,%,
+Hamburg,DRP/NPD6,1986,%,
+Hamburg,PIRATEN,1986,%,
+Hamburg,KPD/DKP5,1986,%,0.002
+Hamburg,DP,1986,%,
+Hamburg,REP,1986,%,
+Hamburg,DVU,1986,%,
+Hamburg,Sonstige,1986,%,0.009000000000000001
+Hamburg,Wahlbeteiligung,1987,%,0.7959999999999999
+Hamburg,CDU1,1987,%,0.405
+Hamburg,SPD,1987,%,0.45
+Hamburg,FDP,1987,%,0.065
+Hamburg,GRÜNE/GAL2,1987,%,0.07
+Hamburg,Schill/Offensive3,1987,%,
+Hamburg,DIE LINKE4,1987,%,
+Hamburg,STATT-Partei,1987,%,
+Hamburg,AfD,1987,%,
+Hamburg,DRP/NPD6,1987,%,
+Hamburg,PIRATEN,1987,%,
+Hamburg,KPD/DKP5,1987,%,
+Hamburg,DP,1987,%,
+Hamburg,REP,1987,%,
+Hamburg,DVU,1987,%,
+Hamburg,Sonstige,1987,%,0.01
+Hamburg,Wahlbeteiligung,1991,%,0.6609999999999999
+Hamburg,CDU1,1991,%,0.35100000000000003
+Hamburg,SPD,1991,%,0.48
+Hamburg,FDP,1991,%,0.054000000000000006
+Hamburg,GRÜNE/GAL2,1991,%,0.07200000000000001
+Hamburg,Schill/Offensive3,1991,%,
+Hamburg,DIE LINKE4,1991,%,0.005
+Hamburg,STATT-Partei,1991,%,
+Hamburg,AfD,1991,%,
+Hamburg,DRP/NPD6,1991,%,
+Hamburg,PIRATEN,1991,%,
+Hamburg,KPD/DKP5,1991,%,0.001
+Hamburg,DP,1991,%,
+Hamburg,REP,1991,%,0.012
+Hamburg,DVU,1991,%,
+Hamburg,Sonstige,1991,%,0.025
+Hamburg,Wahlbeteiligung,1993,%,0.696
+Hamburg,CDU1,1993,%,0.251
+Hamburg,SPD,1993,%,0.40399999999999997
+Hamburg,FDP,1993,%,0.042
+Hamburg,GRÜNE/GAL2,1993,%,0.135
+Hamburg,Schill/Offensive3,1993,%,
+Hamburg,DIE LINKE4,1993,%,0.005
+Hamburg,STATT-Partei,1993,%,0.055999999999999994
+Hamburg,AfD,1993,%,
+Hamburg,DRP/NPD6,1993,%,
+Hamburg,PIRATEN,1993,%,
+Hamburg,KPD/DKP5,1993,%,
+Hamburg,DP,1993,%,
+Hamburg,REP,1993,%,0.048
+Hamburg,DVU,1993,%,0.027999999999999997
+Hamburg,Sonstige,1993,%,0.031
+Hamburg,Wahlbeteiligung,1997,%,0.695
+Hamburg,CDU1,1997,%,0.307
+Hamburg,SPD,1997,%,0.36200000000000004
+Hamburg,FDP,1997,%,0.035
+Hamburg,GRÜNE/GAL2,1997,%,0.139
+Hamburg,Schill/Offensive3,1997,%,
+Hamburg,DIE LINKE4,1997,%,0.006999999999999999
+Hamburg,STATT-Partei,1997,%,0.038
+Hamburg,AfD,1997,%,
+Hamburg,DRP/NPD6,1997,%,0.001
+Hamburg,PIRATEN,1997,%,
+Hamburg,KPD/DKP5,1997,%,
+Hamburg,DP,1997,%,0.0
+Hamburg,REP,1997,%,0.018000000000000002
+Hamburg,DVU,1997,%,0.049800000000000004
+Hamburg,Sonstige,1997,%,0.042
+Hamburg,Wahlbeteiligung,2001,%,0.71
+Hamburg,CDU1,2001,%,0.262
+Hamburg,SPD,2001,%,0.365
+Hamburg,FDP,2001,%,0.051
+Hamburg,GRÜNE/GAL2,2001,%,0.086
+Hamburg,Schill/Offensive3,2001,%,0.19399999999999998
+Hamburg,DIE LINKE4,2001,%,0.004
+Hamburg,STATT-Partei,2001,%,0.004
+Hamburg,AfD,2001,%,
+Hamburg,DRP/NPD6,2001,%,
+Hamburg,PIRATEN,2001,%,
+Hamburg,KPD/DKP5,2001,%,
+Hamburg,DP,2001,%,
+Hamburg,REP,2001,%,0.001
+Hamburg,DVU,2001,%,0.006999999999999999
+Hamburg,Sonstige,2001,%,0.026000000000000002
+Hamburg,Wahlbeteiligung,2004,%,0.687
+Hamburg,CDU1,2004,%,0.47200000000000003
+Hamburg,SPD,2004,%,0.305
+Hamburg,FDP,2004,%,0.027999999999999997
+Hamburg,GRÜNE/GAL2,2004,%,0.12300000000000001
+Hamburg,Schill/Offensive3,2004,%,0.004
+Hamburg,DIE LINKE4,2004,%,
+Hamburg,STATT-Partei,2004,%,
+Hamburg,AfD,2004,%,
+Hamburg,DRP/NPD6,2004,%,0.003
+Hamburg,PIRATEN,2004,%,
+Hamburg,KPD/DKP5,2004,%,
+Hamburg,DP,2004,%,
+Hamburg,REP,2004,%,
+Hamburg,DVU,2004,%,
+Hamburg,Sonstige,2004,%,0.065
+Hamburg,Wahlbeteiligung,2008,%,0.635
+Hamburg,CDU1,2008,%,0.426
+Hamburg,SPD,2008,%,0.341
+Hamburg,FDP,2008,%,0.048
+Hamburg,GRÜNE/GAL2,2008,%,0.096
+Hamburg,Schill/Offensive3,2008,%,
+Hamburg,DIE LINKE4,2008,%,0.064
+Hamburg,STATT-Partei,2008,%,
+Hamburg,AfD,2008,%,
+Hamburg,DRP/NPD6,2008,%,
+Hamburg,PIRATEN,2008,%,
+Hamburg,KPD/DKP5,2008,%,
+Hamburg,DP,2008,%,
+Hamburg,REP,2008,%,
+Hamburg,DVU,2008,%,0.008
+Hamburg,Sonstige,2008,%,0.017
+Hamburg,Wahlbeteiligung,2011,%,0.573
+Hamburg,CDU1,2011,%,0.21899999999999997
+Hamburg,SPD,2011,%,0.484
+Hamburg,FDP,2011,%,0.067
+Hamburg,GRÜNE/GAL2,2011,%,0.11199999999999999
+Hamburg,Schill/Offensive3,2011,%,
+Hamburg,DIE LINKE4,2011,%,0.064
+Hamburg,STATT-Partei,2011,%,
+Hamburg,AfD,2011,%,
+Hamburg,DRP/NPD6,2011,%,0.009000000000000001
+Hamburg,PIRATEN,2011,%,0.021
+Hamburg,KPD/DKP5,2011,%,
+Hamburg,DP,2011,%,
+Hamburg,REP,2011,%,
+Hamburg,DVU,2011,%,
+Hamburg,Sonstige,2011,%,0.025
+Hamburg,Wahlbeteiligung,2015,%,0.565
+Hamburg,CDU1,2015,%,0.159
+Hamburg,SPD,2015,%,0.456
+Hamburg,FDP,2015,%,0.07400000000000001
+Hamburg,GRÜNE/GAL2,2015,%,0.12300000000000001
+Hamburg,Schill/Offensive3,2015,%,
+Hamburg,DIE LINKE4,2015,%,0.085
+Hamburg,STATT-Partei,2015,%,
+Hamburg,AfD,2015,%,0.061
+Hamburg,DRP/NPD6,2015,%,0.003
+Hamburg,PIRATEN,2015,%,0.016
+Hamburg,KPD/DKP5,2015,%,
+Hamburg,DP,2015,%,
+Hamburg,REP,2015,%,
+Hamburg,DVU,2015,%,
+Hamburg,Sonstige,2015,%,0.023
+Hamburg,Wahlbeteiligung,2020,%,0.632
+Hamburg,CDU1,2020,%,0.11199999999999999
+Hamburg,SPD,2020,%,0.392
+Hamburg,FDP,2020,%,0.049699999999999994
+Hamburg,GRÜNE/GAL2,2020,%,0.242
+Hamburg,Schill/Offensive3,2020,%,
+Hamburg,DIE LINKE4,2020,%,0.091
+Hamburg,STATT-Partei,2020,%,
+Hamburg,AfD,2020,%,0.053
+Hamburg,DRP/NPD6,2020,%,
+Hamburg,PIRATEN,2020,%,0.005
+Hamburg,KPD/DKP5,2020,%,
+Hamburg,DP,2020,%,
+Hamburg,REP,2020,%,
+Hamburg,DVU,2020,%,
+Hamburg,Sonstige,2020,%,0.055999999999999994
+Mecklenburg-Vorpommern,Wahlbeteiligung,1990,%,0.647
+Mecklenburg-Vorpommern,CDU,1990,%,0.38299999999999995
+Mecklenburg-Vorpommern,SPD,1990,%,0.27
+Mecklenburg-Vorpommern,Die Linke.¹,1990,%,0.157
+Mecklenburg-Vorpommern,FDP²,1990,%,0.055
+Mecklenburg-Vorpommern,GRÜNE,1990,%,
+Mecklenburg-Vorpommern,NPD,1990,%,0.002
+Mecklenburg-Vorpommern,AfD,1990,%,
+Mecklenburg-Vorpommern,REP,1990,%,0.009000000000000001
+Mecklenburg-Vorpommern,DVU,1990,%,
+Mecklenburg-Vorpommern,PIRATEN,1990,%,
+Mecklenburg-Vorpommern,Sonstige,1990,%,0.061
+Mecklenburg-Vorpommern,Wahlbeteiligung,1994,%,0.7290000000000001
+Mecklenburg-Vorpommern,CDU,1994,%,0.377
+Mecklenburg-Vorpommern,SPD,1994,%,0.295
+Mecklenburg-Vorpommern,Die Linke.¹,1994,%,0.22699999999999998
+Mecklenburg-Vorpommern,FDP²,1994,%,0.038
+Mecklenburg-Vorpommern,GRÜNE,1994,%,0.037000000000000005
+Mecklenburg-Vorpommern,NPD,1994,%,0.001
+Mecklenburg-Vorpommern,AfD,1994,%,
+Mecklenburg-Vorpommern,REP,1994,%,0.01
+Mecklenburg-Vorpommern,DVU,1994,%,
+Mecklenburg-Vorpommern,PIRATEN,1994,%,
+Mecklenburg-Vorpommern,Sonstige,1994,%,0.016
+Mecklenburg-Vorpommern,Wahlbeteiligung,1998,%,0.794
+Mecklenburg-Vorpommern,CDU,1998,%,0.302
+Mecklenburg-Vorpommern,SPD,1998,%,0.34299999999999997
+Mecklenburg-Vorpommern,Die Linke.¹,1998,%,0.244
+Mecklenburg-Vorpommern,FDP²,1998,%,0.016
+Mecklenburg-Vorpommern,GRÜNE,1998,%,0.027000000000000003
+Mecklenburg-Vorpommern,NPD,1998,%,0.011000000000000001
+Mecklenburg-Vorpommern,AfD,1998,%,
+Mecklenburg-Vorpommern,REP,1998,%,0.005
+Mecklenburg-Vorpommern,DVU,1998,%,0.028999999999999998
+Mecklenburg-Vorpommern,PIRATEN,1998,%,
+Mecklenburg-Vorpommern,Sonstige,1998,%,0.024
+Mecklenburg-Vorpommern,Wahlbeteiligung,2002,%,0.706
+Mecklenburg-Vorpommern,CDU,2002,%,0.314
+Mecklenburg-Vorpommern,SPD,2002,%,0.406
+Mecklenburg-Vorpommern,Die Linke.¹,2002,%,0.16399999999999998
+Mecklenburg-Vorpommern,FDP²,2002,%,0.047
+Mecklenburg-Vorpommern,GRÜNE,2002,%,0.026000000000000002
+Mecklenburg-Vorpommern,NPD,2002,%,0.008
+Mecklenburg-Vorpommern,AfD,2002,%,
+Mecklenburg-Vorpommern,REP,2002,%,0.003
+Mecklenburg-Vorpommern,DVU,2002,%,
+Mecklenburg-Vorpommern,PIRATEN,2002,%,
+Mecklenburg-Vorpommern,Sonstige,2002,%,0.032
+Mecklenburg-Vorpommern,Wahlbeteiligung,2006,%,0.591
+Mecklenburg-Vorpommern,CDU,2006,%,0.28800000000000003
+Mecklenburg-Vorpommern,SPD,2006,%,0.302
+Mecklenburg-Vorpommern,Die Linke.¹,2006,%,0.168
+Mecklenburg-Vorpommern,FDP²,2006,%,0.096
+Mecklenburg-Vorpommern,GRÜNE,2006,%,0.034
+Mecklenburg-Vorpommern,NPD,2006,%,0.073
+Mecklenburg-Vorpommern,AfD,2006,%,
+Mecklenburg-Vorpommern,REP,2006,%,
+Mecklenburg-Vorpommern,DVU,2006,%,
+Mecklenburg-Vorpommern,PIRATEN,2006,%,
+Mecklenburg-Vorpommern,Sonstige,2006,%,0.04
+Mecklenburg-Vorpommern,Wahlbeteiligung,2011,%,0.515
+Mecklenburg-Vorpommern,CDU,2011,%,0.23
+Mecklenburg-Vorpommern,SPD,2011,%,0.35600000000000004
+Mecklenburg-Vorpommern,Die Linke.¹,2011,%,0.184
+Mecklenburg-Vorpommern,FDP²,2011,%,0.027999999999999997
+Mecklenburg-Vorpommern,GRÜNE,2011,%,0.087
+Mecklenburg-Vorpommern,NPD,2011,%,0.06
+Mecklenburg-Vorpommern,AfD,2011,%,
+Mecklenburg-Vorpommern,REP,2011,%,0.001
+Mecklenburg-Vorpommern,DVU,2011,%,
+Mecklenburg-Vorpommern,PIRATEN,2011,%,0.019
+Mecklenburg-Vorpommern,Sonstige,2011,%,0.036000000000000004
+Mecklenburg-Vorpommern,Wahlbeteiligung,2016,%,0.619
+Mecklenburg-Vorpommern,CDU,2016,%,0.19
+Mecklenburg-Vorpommern,SPD,2016,%,0.306
+Mecklenburg-Vorpommern,Die Linke.¹,2016,%,0.132
+Mecklenburg-Vorpommern,FDP²,2016,%,0.03
+Mecklenburg-Vorpommern,GRÜNE,2016,%,0.048
+Mecklenburg-Vorpommern,NPD,2016,%,0.03
+Mecklenburg-Vorpommern,AfD,2016,%,0.20800000000000002
+Mecklenburg-Vorpommern,REP,2016,%,
+Mecklenburg-Vorpommern,DVU,2016,%,
+Mecklenburg-Vorpommern,PIRATEN,2016,%,0.005
+Mecklenburg-Vorpommern,Sonstige,2016,%,0.052000000000000005
+Mecklenburg-Vorpommern,Wahlbeteiligung,2021,%,0.708
+Mecklenburg-Vorpommern,CDU,2021,%,0.133
+Mecklenburg-Vorpommern,SPD,2021,%,0.396
+Mecklenburg-Vorpommern,Die Linke.¹,2021,%,0.099
+Mecklenburg-Vorpommern,FDP²,2021,%,0.057999999999999996
+Mecklenburg-Vorpommern,GRÜNE,2021,%,0.063
+Mecklenburg-Vorpommern,NPD,2021,%,0.008
+Mecklenburg-Vorpommern,AfD,2021,%,0.16699999999999998
+Mecklenburg-Vorpommern,REP,2021,%,
+Mecklenburg-Vorpommern,DVU,2021,%,
+Mecklenburg-Vorpommern,PIRATEN,2021,%,0.004
+Mecklenburg-Vorpommern,Sonstige,2021,%,0.07200000000000001
+Bremen,Wahlbeteiligung,1946,%,0.852
+Bremen,SPD,1946,%,0.47600000000000003
+Bremen,CDU,1946,%,0.18899999999999997
+Bremen,FDP2,1946,%,0.183
+Bremen,GRÜNE3,1946,%,
+Bremen,PDS/DIE LINKE4,1946,%,
+Bremen,AfD,1946,%,
+Bremen,KPD/DKP5,1946,%,0.115
+Bremen,SRP/NPD/DVU6,1946,%,
+Bremen,DP,1946,%,
+Bremen,GB/BHE,1946,%,
+Bremen,WdF,1946,%,
+Bremen,AFB,1946,%,
+Bremen,Schill,1946,%,
+Bremen,BIW,1946,%,
+Bremen,PIRATEN,1946,%,
+Bremen,Sonstige,1946,%,0.037000000000000005
+Bremen,Wahlbeteiligung,1947,%,0.6779999999999999
+Bremen,SPD,1947,%,0.41700000000000004
+Bremen,CDU,1947,%,0.22
+Bremen,FDP2,1947,%,0.19399999999999998
+Bremen,GRÜNE3,1947,%,
+Bremen,PDS/DIE LINKE4,1947,%,
+Bremen,AfD,1947,%,
+Bremen,KPD/DKP5,1947,%,0.08800000000000001
+Bremen,SRP/NPD/DVU6,1947,%,
+Bremen,DP,1947,%,0.039
+Bremen,GB/BHE,1947,%,
+Bremen,WdF,1947,%,
+Bremen,AFB,1947,%,
+Bremen,Schill,1947,%,
+Bremen,BIW,1947,%,
+Bremen,PIRATEN,1947,%,
+Bremen,Sonstige,1947,%,0.042
+Bremen,Wahlbeteiligung,1951,%,0.833
+Bremen,SPD,1951,%,0.391
+Bremen,CDU,1951,%,0.091
+Bremen,FDP2,1951,%,0.11800000000000001
+Bremen,GRÜNE3,1951,%,
+Bremen,PDS/DIE LINKE4,1951,%,
+Bremen,AfD,1951,%,
+Bremen,KPD/DKP5,1951,%,0.064
+Bremen,SRP/NPD/DVU6,1951,%,0.077
+Bremen,DP,1951,%,0.147
+Bremen,GB/BHE,1951,%,0.055999999999999994
+Bremen,WdF,1951,%,0.043
+Bremen,AFB,1951,%,
+Bremen,Schill,1951,%,
+Bremen,BIW,1951,%,
+Bremen,PIRATEN,1951,%,
+Bremen,Sonstige,1951,%,0.013000000000000001
+Bremen,Wahlbeteiligung,1955,%,0.84
+Bremen,SPD,1955,%,0.478
+Bremen,CDU,1955,%,0.18
+Bremen,FDP2,1955,%,0.086
+Bremen,GRÜNE3,1955,%,
+Bremen,PDS/DIE LINKE4,1955,%,
+Bremen,AfD,1955,%,
+Bremen,KPD/DKP5,1955,%,0.05
+Bremen,SRP/NPD/DVU6,1955,%,
+Bremen,DP,1955,%,0.166
+Bremen,GB/BHE,1955,%,0.028999999999999998
+Bremen,WdF,1955,%,
+Bremen,AFB,1955,%,
+Bremen,Schill,1955,%,
+Bremen,BIW,1955,%,
+Bremen,PIRATEN,1955,%,
+Bremen,Sonstige,1955,%,0.011000000000000001
+Bremen,Wahlbeteiligung,1959,%,0.792
+Bremen,SPD,1959,%,0.5489999999999999
+Bremen,CDU,1959,%,0.14800000000000002
+Bremen,FDP2,1959,%,0.07200000000000001
+Bremen,GRÜNE3,1959,%,
+Bremen,PDS/DIE LINKE4,1959,%,
+Bremen,AfD,1959,%,
+Bremen,KPD/DKP5,1959,%,
+Bremen,SRP/NPD/DVU6,1959,%,
+Bremen,DP,1959,%,0.145
+Bremen,GB/BHE,1959,%,0.019
+Bremen,WdF,1959,%,
+Bremen,AFB,1959,%,
+Bremen,Schill,1959,%,
+Bremen,BIW,1959,%,
+Bremen,PIRATEN,1959,%,
+Bremen,Sonstige,1959,%,0.067
+Bremen,Wahlbeteiligung,1963,%,0.7609999999999999
+Bremen,SPD,1963,%,0.547
+Bremen,CDU,1963,%,0.289
+Bremen,FDP2,1963,%,0.084
+Bremen,GRÜNE3,1963,%,
+Bremen,PDS/DIE LINKE4,1963,%,
+Bremen,AfD,1963,%,
+Bremen,KPD/DKP5,1963,%,
+Bremen,SRP/NPD/DVU6,1963,%,
+Bremen,DP,1963,%,0.052000000000000005
+Bremen,GB/BHE,1963,%,0.002
+Bremen,WdF,1963,%,
+Bremen,AFB,1963,%,
+Bremen,Schill,1963,%,
+Bremen,BIW,1963,%,
+Bremen,PIRATEN,1963,%,
+Bremen,Sonstige,1963,%,0.026000000000000002
+Bremen,Wahlbeteiligung,1967,%,0.77
+Bremen,SPD,1967,%,0.46
+Bremen,CDU,1967,%,0.295
+Bremen,FDP2,1967,%,0.105
+Bremen,GRÜNE3,1967,%,
+Bremen,PDS/DIE LINKE4,1967,%,
+Bremen,AfD,1967,%,
+Bremen,KPD/DKP5,1967,%,
+Bremen,SRP/NPD/DVU6,1967,%,0.08800000000000001
+Bremen,DP,1967,%,0.009000000000000001
+Bremen,GB/BHE,1967,%,
+Bremen,WdF,1967,%,
+Bremen,AFB,1967,%,
+Bremen,Schill,1967,%,
+Bremen,BIW,1967,%,
+Bremen,PIRATEN,1967,%,
+Bremen,Sonstige,1967,%,0.048
+Bremen,Wahlbeteiligung,1971,%,0.8
+Bremen,SPD,1971,%,0.5529999999999999
+Bremen,CDU,1971,%,0.316
+Bremen,FDP2,1971,%,0.071
+Bremen,GRÜNE3,1971,%,
+Bremen,PDS/DIE LINKE4,1971,%,
+Bremen,AfD,1971,%,
+Bremen,KPD/DKP5,1971,%,0.031
+Bremen,SRP/NPD/DVU6,1971,%,0.027999999999999997
+Bremen,DP,1971,%,
+Bremen,GB/BHE,1971,%,
+Bremen,WdF,1971,%,
+Bremen,AFB,1971,%,
+Bremen,Schill,1971,%,
+Bremen,BIW,1971,%,
+Bremen,PIRATEN,1971,%,
+Bremen,Sonstige,1971,%,0.001
+Bremen,Wahlbeteiligung,1975,%,0.8220000000000001
+Bremen,SPD,1975,%,0.488
+Bremen,CDU,1975,%,0.33799999999999997
+Bremen,FDP2,1975,%,0.13
+Bremen,GRÜNE3,1975,%,
+Bremen,PDS/DIE LINKE4,1975,%,
+Bremen,AfD,1975,%,
+Bremen,KPD/DKP5,1975,%,0.021
+Bremen,SRP/NPD/DVU6,1975,%,0.011000000000000001
+Bremen,DP,1975,%,
+Bremen,GB/BHE,1975,%,
+Bremen,WdF,1975,%,
+Bremen,AFB,1975,%,
+Bremen,Schill,1975,%,
+Bremen,BIW,1975,%,
+Bremen,PIRATEN,1975,%,
+Bremen,Sonstige,1975,%,0.012
+Bremen,Wahlbeteiligung,1979,%,0.785
+Bremen,SPD,1979,%,0.494
+Bremen,CDU,1979,%,0.319
+Bremen,FDP2,1979,%,0.10800000000000001
+Bremen,GRÜNE3,1979,%,0.051
+Bremen,PDS/DIE LINKE4,1979,%,
+Bremen,AfD,1979,%,
+Bremen,KPD/DKP5,1979,%,0.008
+Bremen,SRP/NPD/DVU6,1979,%,0.004
+Bremen,DP,1979,%,
+Bremen,GB/BHE,1979,%,
+Bremen,WdF,1979,%,
+Bremen,AFB,1979,%,
+Bremen,Schill,1979,%,
+Bremen,BIW,1979,%,
+Bremen,PIRATEN,1979,%,
+Bremen,Sonstige,1979,%,0.016
+Bremen,Wahlbeteiligung,1983,%,0.797
+Bremen,SPD,1983,%,0.513
+Bremen,CDU,1983,%,0.33299999999999996
+Bremen,FDP2,1983,%,0.046
+Bremen,GRÜNE3,1983,%,0.054000000000000006
+Bremen,PDS/DIE LINKE4,1983,%,
+Bremen,AfD,1983,%,
+Bremen,KPD/DKP5,1983,%,
+Bremen,SRP/NPD/DVU6,1983,%,
+Bremen,DP,1983,%,
+Bremen,GB/BHE,1983,%,
+Bremen,WdF,1983,%,
+Bremen,AFB,1983,%,
+Bremen,Schill,1983,%,
+Bremen,BIW,1983,%,
+Bremen,PIRATEN,1983,%,
+Bremen,Sonstige,1983,%,0.053
+Bremen,Wahlbeteiligung,1987,%,0.755
+Bremen,SPD,1987,%,0.505
+Bremen,CDU,1987,%,0.23399999999999999
+Bremen,FDP2,1987,%,0.1
+Bremen,GRÜNE3,1987,%,0.102
+Bremen,PDS/DIE LINKE4,1987,%,
+Bremen,AfD,1987,%,
+Bremen,KPD/DKP5,1987,%,0.006
+Bremen,SRP/NPD/DVU6,1987,%,0.034
+Bremen,DP,1987,%,
+Bremen,GB/BHE,1987,%,
+Bremen,WdF,1987,%,
+Bremen,AFB,1987,%,
+Bremen,Schill,1987,%,
+Bremen,BIW,1987,%,
+Bremen,PIRATEN,1987,%,
+Bremen,Sonstige,1987,%,0.018000000000000002
+Bremen,Wahlbeteiligung,1991,%,0.722
+Bremen,SPD,1991,%,0.38799999999999996
+Bremen,CDU,1991,%,0.307
+Bremen,FDP2,1991,%,0.095
+Bremen,GRÜNE3,1991,%,0.114
+Bremen,PDS/DIE LINKE4,1991,%,
+Bremen,AfD,1991,%,
+Bremen,KPD/DKP5,1991,%,
+Bremen,SRP/NPD/DVU6,1991,%,0.062
+Bremen,DP,1991,%,
+Bremen,GB/BHE,1991,%,
+Bremen,WdF,1991,%,
+Bremen,AFB,1991,%,
+Bremen,Schill,1991,%,
+Bremen,BIW,1991,%,
+Bremen,PIRATEN,1991,%,
+Bremen,Sonstige,1991,%,0.035
+Bremen,Wahlbeteiligung,1995,%,0.6859999999999999
+Bremen,SPD,1995,%,0.33399999999999996
+Bremen,CDU,1995,%,0.326
+Bremen,FDP2,1995,%,0.034
+Bremen,GRÜNE3,1995,%,0.131
+Bremen,PDS/DIE LINKE4,1995,%,0.024
+Bremen,AfD,1995,%,
+Bremen,KPD/DKP5,1995,%,
+Bremen,SRP/NPD/DVU6,1995,%,0.025
+Bremen,DP,1995,%,
+Bremen,GB/BHE,1995,%,
+Bremen,WdF,1995,%,
+Bremen,AFB,1995,%,0.107
+Bremen,Schill,1995,%,
+Bremen,BIW,1995,%,
+Bremen,PIRATEN,1995,%,
+Bremen,Sonstige,1995,%,0.021
+Bremen,Wahlbeteiligung,1999,%,0.601
+Bremen,SPD,1999,%,0.426
+Bremen,CDU,1999,%,0.371
+Bremen,FDP2,1999,%,0.025
+Bremen,GRÜNE3,1999,%,0.09
+Bremen,PDS/DIE LINKE4,1999,%,0.028999999999999998
+Bremen,AfD,1999,%,
+Bremen,KPD/DKP5,1999,%,
+Bremen,SRP/NPD/DVU6,1999,%,0.03
+Bremen,DP,1999,%,
+Bremen,GB/BHE,1999,%,
+Bremen,WdF,1999,%,
+Bremen,AFB,1999,%,0.024
+Bremen,Schill,1999,%,
+Bremen,BIW,1999,%,
+Bremen,PIRATEN,1999,%,
+Bremen,Sonstige,1999,%,0.005
+Bremen,Wahlbeteiligung,2003,%,0.613
+Bremen,SPD,2003,%,0.423
+Bremen,CDU,2003,%,0.298
+Bremen,FDP2,2003,%,0.042
+Bremen,GRÜNE3,2003,%,0.128
+Bremen,PDS/DIE LINKE4,2003,%,0.017
+Bremen,AfD,2003,%,
+Bremen,KPD/DKP5,2003,%,
+Bremen,SRP/NPD/DVU6,2003,%,0.023
+Bremen,DP,2003,%,0.005
+Bremen,GB/BHE,2003,%,
+Bremen,WdF,2003,%,
+Bremen,AFB,2003,%,
+Bremen,Schill,2003,%,0.044000000000000004
+Bremen,BIW,2003,%,
+Bremen,PIRATEN,2003,%,
+Bremen,Sonstige,2003,%,0.021
+Bremen,Wahlbeteiligung,2007,%,0.5760000000000001
+Bremen,SPD,2007,%,0.36700000000000005
+Bremen,CDU,2007,%,0.256
+Bremen,FDP2,2007,%,0.06
+Bremen,GRÜNE3,2007,%,0.165
+Bremen,PDS/DIE LINKE4,2007,%,0.084
+Bremen,AfD,2007,%,
+Bremen,KPD/DKP5,2007,%,
+Bremen,SRP/NPD/DVU6,2007,%,0.027000000000000003
+Bremen,DP,2007,%,
+Bremen,GB/BHE,2007,%,
+Bremen,WdF,2007,%,
+Bremen,AFB,2007,%,
+Bremen,Schill,2007,%,
+Bremen,BIW,2007,%,0.008
+Bremen,PIRATEN,2007,%,
+Bremen,Sonstige,2007,%,0.031
+Bremen,Wahlbeteiligung,2011,%,0.555
+Bremen,SPD,2011,%,0.386
+Bremen,CDU,2011,%,0.204
+Bremen,FDP2,2011,%,0.024
+Bremen,GRÜNE3,2011,%,0.225
+Bremen,PDS/DIE LINKE4,2011,%,0.055999999999999994
+Bremen,AfD,2011,%,
+Bremen,KPD/DKP5,2011,%,
+Bremen,SRP/NPD/DVU6,2011,%,0.016
+Bremen,DP,2011,%,
+Bremen,GB/BHE,2011,%,
+Bremen,WdF,2011,%,
+Bremen,AFB,2011,%,
+Bremen,Schill,2011,%,
+Bremen,BIW,2011,%,0.037000000000000005
+Bremen,PIRATEN,2011,%,0.019
+Bremen,Sonstige,2011,%,0.034
+Bremen,Wahlbeteiligung,2015,%,0.502
+Bremen,SPD,2015,%,0.32799999999999996
+Bremen,CDU,2015,%,0.22399999999999998
+Bremen,FDP2,2015,%,0.066
+Bremen,GRÜNE3,2015,%,0.151
+Bremen,PDS/DIE LINKE4,2015,%,0.095
+Bremen,AfD,2015,%,0.055
+Bremen,KPD/DKP5,2015,%,
+Bremen,SRP/NPD/DVU6,2015,%,0.002
+Bremen,DP,2015,%,
+Bremen,GB/BHE,2015,%,
+Bremen,WdF,2015,%,
+Bremen,AFB,2015,%,
+Bremen,Schill,2015,%,
+Bremen,BIW,2015,%,0.032
+Bremen,PIRATEN,2015,%,0.015
+Bremen,Sonstige,2015,%,0.031
+Bremen,Wahlbeteiligung,2019,%,0.6409999999999999
+Bremen,SPD,2019,%,0.249
+Bremen,CDU,2019,%,0.267
+Bremen,FDP2,2019,%,0.059000000000000004
+Bremen,GRÜNE3,2019,%,0.174
+Bremen,PDS/DIE LINKE4,2019,%,0.113
+Bremen,AfD,2019,%,0.061
+Bremen,KPD/DKP5,2019,%,
+Bremen,SRP/NPD/DVU6,2019,%,
+Bremen,DP,2019,%,
+Bremen,GB/BHE,2019,%,
+Bremen,WdF,2019,%,
+Bremen,AFB,2019,%,
+Bremen,Schill,2019,%,
+Bremen,BIW,2019,%,0.024
+Bremen,PIRATEN,2019,%,0.01
+Bremen,Sonstige,2019,%,0.042
+Bremen,Wahlbeteiligung,2023,%,0.569
+Bremen,SPD,2023,%,0.298
+Bremen,CDU,2023,%,0.262
+Bremen,FDP2,2023,%,0.051
+Bremen,GRÜNE3,2023,%,0.11900000000000001
+Bremen,PDS/DIE LINKE4,2023,%,0.109
+Bremen,AfD,2023,%,
+Bremen,KPD/DKP5,2023,%,
+Bremen,SRP/NPD/DVU6,2023,%,
+Bremen,DP,2023,%,
+Bremen,GB/BHE,2023,%,
+Bremen,WdF,2023,%,
+Bremen,AFB,2023,%,
+Bremen,Schill,2023,%,
+Bremen,BIW,2023,%,0.094
+Bremen,PIRATEN,2023,%,0.002
+Bremen,Sonstige,2023,%,0.066
+Brandenburg,Wahlbeteiligung,1990,%,0.6709999999999999
+Brandenburg,SPD,1990,%,0.382
+Brandenburg,CDU,1990,%,0.294
+Brandenburg,DIE LINKE¹,1990,%,0.134
+Brandenburg,B’90/GRÜNE,1990,%,
+Brandenburg,FDP,1990,%,0.066
+Brandenburg,DVU,1990,%,
+Brandenburg,BVB / FREIE WÄHLER³,1990,%,
+Brandenburg,AfD,1990,%,
+Brandenburg,BSW,1990,%,
+Brandenburg,NPD,1990,%,
+Brandenburg,REP,1990,%,0.011000000000000001
+Brandenburg,Familie,1990,%,
+Brandenburg,PIRATEN,1990,%,
+Brandenburg,Tierschutzpartei,1990,%,
+Brandenburg,Sonstige,1990,%,0.019
+Brandenburg,Wahlbeteiligung,1994,%,0.563
+Brandenburg,SPD,1994,%,0.541
+Brandenburg,CDU,1994,%,0.187
+Brandenburg,DIE LINKE¹,1994,%,0.187
+Brandenburg,B’90/GRÜNE,1994,%,0.028999999999999998
+Brandenburg,FDP,1994,%,0.022000000000000002
+Brandenburg,DVU,1994,%,
+Brandenburg,BVB / FREIE WÄHLER³,1994,%,
+Brandenburg,AfD,1994,%,
+Brandenburg,BSW,1994,%,
+Brandenburg,NPD,1994,%,
+Brandenburg,REP,1994,%,0.011000000000000001
+Brandenburg,Familie,1994,%,
+Brandenburg,PIRATEN,1994,%,
+Brandenburg,Tierschutzpartei,1994,%,
+Brandenburg,Sonstige,1994,%,0.022000000000000002
+Brandenburg,Wahlbeteiligung,1999,%,0.5429999999999999
+Brandenburg,SPD,1999,%,0.39299999999999996
+Brandenburg,CDU,1999,%,0.266
+Brandenburg,DIE LINKE¹,1999,%,0.233
+Brandenburg,B’90/GRÜNE,1999,%,0.019
+Brandenburg,FDP,1999,%,0.019
+Brandenburg,DVU,1999,%,0.053
+Brandenburg,BVB / FREIE WÄHLER³,1999,%,
+Brandenburg,AfD,1999,%,
+Brandenburg,BSW,1999,%,
+Brandenburg,NPD,1999,%,
+Brandenburg,REP,1999,%,
+Brandenburg,Familie,1999,%,
+Brandenburg,PIRATEN,1999,%,
+Brandenburg,Tierschutzpartei,1999,%,
+Brandenburg,Sonstige,1999,%,0.017
+Brandenburg,Wahlbeteiligung,2004,%,0.564
+Brandenburg,SPD,2004,%,0.319
+Brandenburg,CDU,2004,%,0.19399999999999998
+Brandenburg,DIE LINKE¹,2004,%,0.28
+Brandenburg,B’90/GRÜNE,2004,%,0.036000000000000004
+Brandenburg,FDP,2004,%,0.033
+Brandenburg,DVU,2004,%,0.061
+Brandenburg,BVB / FREIE WÄHLER³,2004,%,
+Brandenburg,AfD,2004,%,
+Brandenburg,BSW,2004,%,
+Brandenburg,NPD,2004,%,
+Brandenburg,REP,2004,%,
+Brandenburg,Familie,2004,%,0.026000000000000002
+Brandenburg,PIRATEN,2004,%,
+Brandenburg,Tierschutzpartei,2004,%,
+Brandenburg,Sonstige,2004,%,0.051
+Brandenburg,Wahlbeteiligung,2009,%,0.67
+Brandenburg,SPD,2009,%,0.33
+Brandenburg,CDU,2009,%,0.198
+Brandenburg,DIE LINKE¹,2009,%,0.272
+Brandenburg,B’90/GRÜNE,2009,%,0.057
+Brandenburg,FDP,2009,%,0.07200000000000001
+Brandenburg,DVU,2009,%,0.011000000000000001
+Brandenburg,BVB / FREIE WÄHLER³,2009,%,0.017
+Brandenburg,AfD,2009,%,
+Brandenburg,BSW,2009,%,
+Brandenburg,NPD,2009,%,0.026000000000000002
+Brandenburg,REP,2009,%,0.004
+Brandenburg,Familie,2009,%,
+Brandenburg,PIRATEN,2009,%,
+Brandenburg,Tierschutzpartei,2009,%,
+Brandenburg,Sonstige,2009,%,0.015
+Brandenburg,Wahlbeteiligung,2014,%,0.479
+Brandenburg,SPD,2014,%,0.319
+Brandenburg,CDU,2014,%,0.23
+Brandenburg,DIE LINKE¹,2014,%,0.18600000000000003
+Brandenburg,B’90/GRÜNE,2014,%,0.062
+Brandenburg,FDP,2014,%,0.015
+Brandenburg,DVU,2014,%,
+Brandenburg,BVB / FREIE WÄHLER³,2014,%,0.027000000000000003
+Brandenburg,AfD,2014,%,0.122
+Brandenburg,BSW,2014,%,
+Brandenburg,NPD,2014,%,0.022000000000000002
+Brandenburg,REP,2014,%,0.002
+Brandenburg,Familie,2014,%,
+Brandenburg,PIRATEN,2014,%,0.015
+Brandenburg,Tierschutzpartei,2014,%,
+Brandenburg,Sonstige,2014,%,0.002
+Brandenburg,Wahlbeteiligung,2019,%,0.613
+Brandenburg,SPD,2019,%,0.262
+Brandenburg,CDU,2019,%,0.156
+Brandenburg,DIE LINKE¹,2019,%,0.107
+Brandenburg,B’90/GRÜNE,2019,%,0.10800000000000001
+Brandenburg,FDP,2019,%,0.040999999999999995
+Brandenburg,DVU,2019,%,
+Brandenburg,BVB / FREIE WÄHLER³,2019,%,0.05
+Brandenburg,AfD,2019,%,0.235
+Brandenburg,BSW,2019,%,
+Brandenburg,NPD,2019,%,
+Brandenburg,REP,2019,%,
+Brandenburg,Familie,2019,%,
+Brandenburg,PIRATEN,2019,%,0.006999999999999999
+Brandenburg,Tierschutzpartei,2019,%,0.026000000000000002
+Brandenburg,Sonstige,2019,%,0.008
+Brandenburg,Wahlbeteiligung,2024*,%,0.7290000000000001
+Brandenburg,SPD,2024*,%,0.309
+Brandenburg,CDU,2024*,%,0.121
+Brandenburg,DIE LINKE¹,2024*,%,0.03
+Brandenburg,B’90/GRÜNE,2024*,%,0.040999999999999995
+Brandenburg,FDP,2024*,%,0.008
+Brandenburg,DVU,2024*,%,
+Brandenburg,BVB / FREIE WÄHLER³,2024*,%,0.026000000000000002
+Brandenburg,AfD,2024*,%,0.292
+Brandenburg,BSW,2024*,%,0.135
+Brandenburg,NPD,2024*,%,
+Brandenburg,REP,2024*,%,
+Brandenburg,Familie,2024*,%,
+Brandenburg,PIRATEN,2024*,%,
+Brandenburg,Tierschutzpartei,2024*,%,0.02
+Brandenburg,Sonstige,2024*,%,0.018000000000000002
+Nordrhein-Westfalen,Wahlbeteiligung,1947,%,0.6729999999999999
+Nordrhein-Westfalen,CDU,1947,%,0.376
+Nordrhein-Westfalen,SPD,1947,%,0.32
+Nordrhein-Westfalen,FDP,1947,%,0.059000000000000004
+Nordrhein-Westfalen,GRÜNE,1947,%,
+Nordrhein-Westfalen,DIE LINKE¹,1947,%,
+Nordrhein-Westfalen,PIRATEN,1947,%,
+Nordrhein-Westfalen,AfD,1947,%,
+Nordrhein-Westfalen,NPD,1947,%,
+Nordrhein-Westfalen,KPD/DKP²,1947,%,0.14
+Nordrhein-Westfalen,Zentrum,1947,%,0.098
+Nordrhein-Westfalen,REP,1947,%,
+Nordrhein-Westfalen,Sonstige,1947,%,0.006999999999999999
+Nordrhein-Westfalen,Wahlbeteiligung,1950,%,0.723
+Nordrhein-Westfalen,CDU,1950,%,0.369
+Nordrhein-Westfalen,SPD,1950,%,0.32299999999999995
+Nordrhein-Westfalen,FDP,1950,%,0.121
+Nordrhein-Westfalen,GRÜNE,1950,%,
+Nordrhein-Westfalen,DIE LINKE¹,1950,%,
+Nordrhein-Westfalen,PIRATEN,1950,%,
+Nordrhein-Westfalen,AfD,1950,%,
+Nordrhein-Westfalen,NPD,1950,%,
+Nordrhein-Westfalen,KPD/DKP²,1950,%,0.055
+Nordrhein-Westfalen,Zentrum,1950,%,0.075
+Nordrhein-Westfalen,REP,1950,%,
+Nordrhein-Westfalen,Sonstige,1950,%,0.057
+Nordrhein-Westfalen,Wahlbeteiligung,1954,%,0.726
+Nordrhein-Westfalen,CDU,1954,%,0.413
+Nordrhein-Westfalen,SPD,1954,%,0.345
+Nordrhein-Westfalen,FDP,1954,%,0.115
+Nordrhein-Westfalen,GRÜNE,1954,%,
+Nordrhein-Westfalen,DIE LINKE¹,1954,%,
+Nordrhein-Westfalen,PIRATEN,1954,%,
+Nordrhein-Westfalen,AfD,1954,%,
+Nordrhein-Westfalen,NPD,1954,%,
+Nordrhein-Westfalen,KPD/DKP²,1954,%,0.038
+Nordrhein-Westfalen,Zentrum,1954,%,0.04
+Nordrhein-Westfalen,REP,1954,%,
+Nordrhein-Westfalen,Sonstige,1954,%,0.049
+Nordrhein-Westfalen,Wahlbeteiligung,1958,%,0.7659999999999999
+Nordrhein-Westfalen,CDU,1958,%,0.505
+Nordrhein-Westfalen,SPD,1958,%,0.392
+Nordrhein-Westfalen,FDP,1958,%,0.071
+Nordrhein-Westfalen,GRÜNE,1958,%,
+Nordrhein-Westfalen,DIE LINKE¹,1958,%,
+Nordrhein-Westfalen,PIRATEN,1958,%,
+Nordrhein-Westfalen,AfD,1958,%,
+Nordrhein-Westfalen,NPD,1958,%,
+Nordrhein-Westfalen,KPD/DKP²,1958,%,
+Nordrhein-Westfalen,Zentrum,1958,%,0.01
+Nordrhein-Westfalen,REP,1958,%,
+Nordrhein-Westfalen,Sonstige,1958,%,0.022000000000000002
+Nordrhein-Westfalen,Wahlbeteiligung,1962,%,0.7340000000000001
+Nordrhein-Westfalen,CDU,1962,%,0.46399999999999997
+Nordrhein-Westfalen,SPD,1962,%,0.433
+Nordrhein-Westfalen,FDP,1962,%,0.068
+Nordrhein-Westfalen,GRÜNE,1962,%,
+Nordrhein-Westfalen,DIE LINKE¹,1962,%,
+Nordrhein-Westfalen,PIRATEN,1962,%,
+Nordrhein-Westfalen,AfD,1962,%,
+Nordrhein-Westfalen,NPD,1962,%,
+Nordrhein-Westfalen,KPD/DKP²,1962,%,
+Nordrhein-Westfalen,Zentrum,1962,%,0.009000000000000001
+Nordrhein-Westfalen,REP,1962,%,
+Nordrhein-Westfalen,Sonstige,1962,%,0.026000000000000002
+Nordrhein-Westfalen,Wahlbeteiligung,1966,%,0.765
+Nordrhein-Westfalen,CDU,1966,%,0.428
+Nordrhein-Westfalen,SPD,1966,%,0.495
+Nordrhein-Westfalen,FDP,1966,%,0.07400000000000001
+Nordrhein-Westfalen,GRÜNE,1966,%,
+Nordrhein-Westfalen,DIE LINKE¹,1966,%,
+Nordrhein-Westfalen,PIRATEN,1966,%,
+Nordrhein-Westfalen,AfD,1966,%,
+Nordrhein-Westfalen,NPD,1966,%,
+Nordrhein-Westfalen,KPD/DKP²,1966,%,
+Nordrhein-Westfalen,Zentrum,1966,%,0.002
+Nordrhein-Westfalen,REP,1966,%,
+Nordrhein-Westfalen,Sonstige,1966,%,0.001
+Nordrhein-Westfalen,Wahlbeteiligung,1970,%,0.735
+Nordrhein-Westfalen,CDU,1970,%,0.46299999999999997
+Nordrhein-Westfalen,SPD,1970,%,0.461
+Nordrhein-Westfalen,FDP,1970,%,0.055
+Nordrhein-Westfalen,GRÜNE,1970,%,
+Nordrhein-Westfalen,DIE LINKE¹,1970,%,
+Nordrhein-Westfalen,PIRATEN,1970,%,
+Nordrhein-Westfalen,AfD,1970,%,
+Nordrhein-Westfalen,NPD,1970,%,0.011000000000000001
+Nordrhein-Westfalen,KPD/DKP²,1970,%,0.009000000000000001
+Nordrhein-Westfalen,Zentrum,1970,%,0.001
+Nordrhein-Westfalen,REP,1970,%,
+Nordrhein-Westfalen,Sonstige,1970,%,
+Nordrhein-Westfalen,Wahlbeteiligung,1975,%,0.861
+Nordrhein-Westfalen,CDU,1975,%,0.47100000000000003
+Nordrhein-Westfalen,SPD,1975,%,0.451
+Nordrhein-Westfalen,FDP,1975,%,0.067
+Nordrhein-Westfalen,GRÜNE,1975,%,
+Nordrhein-Westfalen,DIE LINKE¹,1975,%,
+Nordrhein-Westfalen,PIRATEN,1975,%,
+Nordrhein-Westfalen,AfD,1975,%,
+Nordrhein-Westfalen,NPD,1975,%,0.004
+Nordrhein-Westfalen,KPD/DKP²,1975,%,0.005
+Nordrhein-Westfalen,Zentrum,1975,%,
+Nordrhein-Westfalen,REP,1975,%,
+Nordrhein-Westfalen,Sonstige,1975,%,0.002
+Nordrhein-Westfalen,Wahlbeteiligung,1980,%,0.8
+Nordrhein-Westfalen,CDU,1980,%,0.43200000000000005
+Nordrhein-Westfalen,SPD,1980,%,0.484
+Nordrhein-Westfalen,FDP,1980,%,0.049800000000000004
+Nordrhein-Westfalen,GRÜNE,1980,%,0.03
+Nordrhein-Westfalen,DIE LINKE¹,1980,%,
+Nordrhein-Westfalen,PIRATEN,1980,%,
+Nordrhein-Westfalen,AfD,1980,%,
+Nordrhein-Westfalen,NPD,1980,%,
+Nordrhein-Westfalen,KPD/DKP²,1980,%,0.003
+Nordrhein-Westfalen,Zentrum,1980,%,
+Nordrhein-Westfalen,REP,1980,%,
+Nordrhein-Westfalen,Sonstige,1980,%,0.001
+Nordrhein-Westfalen,Wahlbeteiligung,1985,%,0.752
+Nordrhein-Westfalen,CDU,1985,%,0.365
+Nordrhein-Westfalen,SPD,1985,%,0.521
+Nordrhein-Westfalen,FDP,1985,%,0.06
+Nordrhein-Westfalen,GRÜNE,1985,%,0.046
+Nordrhein-Westfalen,DIE LINKE¹,1985,%,
+Nordrhein-Westfalen,PIRATEN,1985,%,
+Nordrhein-Westfalen,AfD,1985,%,
+Nordrhein-Westfalen,NPD,1985,%,
+Nordrhein-Westfalen,KPD/DKP²,1985,%,
+Nordrhein-Westfalen,Zentrum,1985,%,
+Nordrhein-Westfalen,REP,1985,%,
+Nordrhein-Westfalen,Sonstige,1985,%,0.008
+Nordrhein-Westfalen,Wahlbeteiligung,1990,%,0.718
+Nordrhein-Westfalen,CDU,1990,%,0.36700000000000005
+Nordrhein-Westfalen,SPD,1990,%,0.5
+Nordrhein-Westfalen,FDP,1990,%,0.057999999999999996
+Nordrhein-Westfalen,GRÜNE,1990,%,0.05
+Nordrhein-Westfalen,DIE LINKE¹,1990,%,
+Nordrhein-Westfalen,PIRATEN,1990,%,
+Nordrhein-Westfalen,AfD,1990,%,
+Nordrhein-Westfalen,NPD,1990,%,
+Nordrhein-Westfalen,KPD/DKP²,1990,%,
+Nordrhein-Westfalen,Zentrum,1990,%,
+Nordrhein-Westfalen,REP,1990,%,0.018000000000000002
+Nordrhein-Westfalen,Sonstige,1990,%,0.006999999999999999
+Nordrhein-Westfalen,Wahlbeteiligung,1995,%,0.64
+Nordrhein-Westfalen,CDU,1995,%,0.377
+Nordrhein-Westfalen,SPD,1995,%,0.46
+Nordrhein-Westfalen,FDP,1995,%,0.04
+Nordrhein-Westfalen,GRÜNE,1995,%,0.1
+Nordrhein-Westfalen,DIE LINKE¹,1995,%,
+Nordrhein-Westfalen,PIRATEN,1995,%,
+Nordrhein-Westfalen,AfD,1995,%,
+Nordrhein-Westfalen,NPD,1995,%,
+Nordrhein-Westfalen,KPD/DKP²,1995,%,
+Nordrhein-Westfalen,Zentrum,1995,%,0.001
+Nordrhein-Westfalen,REP,1995,%,0.008
+Nordrhein-Westfalen,Sonstige,1995,%,0.013999999999999999
+Nordrhein-Westfalen,Wahlbeteiligung,2000,%,0.5670000000000001
+Nordrhein-Westfalen,CDU,2000,%,0.37
+Nordrhein-Westfalen,SPD,2000,%,0.428
+Nordrhein-Westfalen,FDP,2000,%,0.098
+Nordrhein-Westfalen,GRÜNE,2000,%,0.071
+Nordrhein-Westfalen,DIE LINKE¹,2000,%,0.011000000000000001
+Nordrhein-Westfalen,PIRATEN,2000,%,
+Nordrhein-Westfalen,AfD,2000,%,
+Nordrhein-Westfalen,NPD,2000,%,0.0
+Nordrhein-Westfalen,KPD/DKP²,2000,%,
+Nordrhein-Westfalen,Zentrum,2000,%,
+Nordrhein-Westfalen,REP,2000,%,0.011000000000000001
+Nordrhein-Westfalen,Sonstige,2000,%,0.01
+Nordrhein-Westfalen,Wahlbeteiligung,2005,%,0.63
+Nordrhein-Westfalen,CDU,2005,%,0.44799999999999995
+Nordrhein-Westfalen,SPD,2005,%,0.371
+Nordrhein-Westfalen,FDP,2005,%,0.062
+Nordrhein-Westfalen,GRÜNE,2005,%,0.062
+Nordrhein-Westfalen,DIE LINKE¹,2005,%,0.009000000000000001
+Nordrhein-Westfalen,PIRATEN,2005,%,
+Nordrhein-Westfalen,AfD,2005,%,
+Nordrhein-Westfalen,NPD,2005,%,0.009000000000000001
+Nordrhein-Westfalen,KPD/DKP²,2005,%,
+Nordrhein-Westfalen,Zentrum,2005,%,0.0
+Nordrhein-Westfalen,REP,2005,%,0.008
+Nordrhein-Westfalen,Sonstige,2005,%,0.031
+Nordrhein-Westfalen,Wahlbeteiligung,2010,%,0.593
+Nordrhein-Westfalen,CDU,2010,%,0.34600000000000003
+Nordrhein-Westfalen,SPD,2010,%,0.345
+Nordrhein-Westfalen,FDP,2010,%,0.067
+Nordrhein-Westfalen,GRÜNE,2010,%,0.121
+Nordrhein-Westfalen,DIE LINKE¹,2010,%,0.055999999999999994
+Nordrhein-Westfalen,PIRATEN,2010,%,0.016
+Nordrhein-Westfalen,AfD,2010,%,
+Nordrhein-Westfalen,NPD,2010,%,0.006999999999999999
+Nordrhein-Westfalen,KPD/DKP²,2010,%,
+Nordrhein-Westfalen,Zentrum,2010,%,0.001
+Nordrhein-Westfalen,REP,2010,%,0.003
+Nordrhein-Westfalen,Sonstige,2010,%,0.038
+Nordrhein-Westfalen,Wahlbeteiligung,2012,%,0.596
+Nordrhein-Westfalen,CDU,2012,%,0.263
+Nordrhein-Westfalen,SPD,2012,%,0.391
+Nordrhein-Westfalen,FDP,2012,%,0.086
+Nordrhein-Westfalen,GRÜNE,2012,%,0.113
+Nordrhein-Westfalen,DIE LINKE¹,2012,%,0.025
+Nordrhein-Westfalen,PIRATEN,2012,%,0.078
+Nordrhein-Westfalen,AfD,2012,%,
+Nordrhein-Westfalen,NPD,2012,%,0.005
+Nordrhein-Westfalen,KPD/DKP²,2012,%,
+Nordrhein-Westfalen,Zentrum,2012,%,
+Nordrhein-Westfalen,REP,2012,%,
+Nordrhein-Westfalen,Sonstige,2012,%,0.038
+Nordrhein-Westfalen,Wahlbeteiligung,2017,%,0.652
+Nordrhein-Westfalen,CDU,2017,%,0.33
+Nordrhein-Westfalen,SPD,2017,%,0.312
+Nordrhein-Westfalen,FDP,2017,%,0.126
+Nordrhein-Westfalen,GRÜNE,2017,%,0.064
+Nordrhein-Westfalen,DIE LINKE¹,2017,%,0.049
+Nordrhein-Westfalen,PIRATEN,2017,%,0.01
+Nordrhein-Westfalen,AfD,2017,%,0.07400000000000001
+Nordrhein-Westfalen,NPD,2017,%,0.003
+Nordrhein-Westfalen,KPD/DKP²,2017,%,0.0
+Nordrhein-Westfalen,Zentrum,2017,%,0.0
+Nordrhein-Westfalen,REP,2017,%,0.001
+Nordrhein-Westfalen,Sonstige,2017,%,0.032
+Nordrhein-Westfalen,Wahlbeteiligung,2022,%,0.555
+Nordrhein-Westfalen,CDU,2022,%,0.35700000000000004
+Nordrhein-Westfalen,SPD,2022,%,0.267
+Nordrhein-Westfalen,FDP,2022,%,0.059000000000000004
+Nordrhein-Westfalen,GRÜNE,2022,%,0.182
+Nordrhein-Westfalen,DIE LINKE¹,2022,%,0.021
+Nordrhein-Westfalen,PIRATEN,2022,%,0.003
+Nordrhein-Westfalen,AfD,2022,%,0.054000000000000006
+Nordrhein-Westfalen,NPD,2022,%,
+Nordrhein-Westfalen,KPD/DKP²,2022,%,0.0
+Nordrhein-Westfalen,Zentrum,2022,%,0.001
+Nordrhein-Westfalen,REP,2022,%,
+Nordrhein-Westfalen,Sonstige,2022,%,0.057
+Thüringen,Wahlbeteiligung,1990,%,0.7170000000000001
+Thüringen,CDU,1990,%,0.45399999999999996
+Thüringen,SPD,1990,%,0.228
+Thüringen,DIE LINKE,1990,%,0.09699999999999999
+Thüringen,B‘90/GRÜNE,1990,%,0.065
+Thüringen,FDP,1990,%,0.09300000000000001
+Thüringen,AfD,1990,%,
+Thüringen,BSW,1990,%,
+Thüringen,Freie Wähler Thüringen,1990,%,
+Thüringen,NPD,1990,%,
+Thüringen,DVU,1990,%,
+Thüringen,REP,1990,%,0.008
+Thüringen,Neues Forum,1990,%,
+Thüringen,DSU,1990,%,0.033
+Thüringen,PIRATEN,1990,%,
+Thüringen,Sonstige,1990,%,0.023
+Thüringen,Wahlbeteiligung,1994,%,0.748
+Thüringen,CDU,1994,%,0.426
+Thüringen,SPD,1994,%,0.29600000000000004
+Thüringen,DIE LINKE,1994,%,0.166
+Thüringen,B‘90/GRÜNE,1994,%,0.045
+Thüringen,FDP,1994,%,0.032
+Thüringen,AfD,1994,%,
+Thüringen,BSW,1994,%,
+Thüringen,Freie Wähler Thüringen,1994,%,
+Thüringen,NPD,1994,%,
+Thüringen,DVU,1994,%,
+Thüringen,REP,1994,%,0.013000000000000001
+Thüringen,Neues Forum,1994,%,0.011000000000000001
+Thüringen,DSU,1994,%,0.002
+Thüringen,PIRATEN,1994,%,
+Thüringen,Sonstige,1994,%,0.01
+Thüringen,Wahlbeteiligung,1999,%,0.599
+Thüringen,CDU,1999,%,0.51
+Thüringen,SPD,1999,%,0.185
+Thüringen,DIE LINKE,1999,%,0.214
+Thüringen,B‘90/GRÜNE,1999,%,0.019
+Thüringen,FDP,1999,%,0.011000000000000001
+Thüringen,AfD,1999,%,
+Thüringen,BSW,1999,%,
+Thüringen,Freie Wähler Thüringen,1999,%,
+Thüringen,NPD,1999,%,
+Thüringen,DVU,1999,%,0.031
+Thüringen,REP,1999,%,0.008
+Thüringen,Neues Forum,1999,%,0.003
+Thüringen,DSU,1999,%,0.002
+Thüringen,PIRATEN,1999,%,
+Thüringen,Sonstige,1999,%,0.018000000000000002
+Thüringen,Wahlbeteiligung,2004,%,0.5379999999999999
+Thüringen,CDU,2004,%,0.43
+Thüringen,SPD,2004,%,0.145
+Thüringen,DIE LINKE,2004,%,0.261
+Thüringen,B‘90/GRÜNE,2004,%,0.045
+Thüringen,FDP,2004,%,0.036000000000000004
+Thüringen,AfD,2004,%,
+Thüringen,BSW,2004,%,
+Thüringen,Freie Wähler Thüringen,2004,%,0.026000000000000002
+Thüringen,NPD,2004,%,0.016
+Thüringen,DVU,2004,%,
+Thüringen,REP,2004,%,0.02
+Thüringen,Neues Forum,2004,%,
+Thüringen,DSU,2004,%,
+Thüringen,PIRATEN,2004,%,
+Thüringen,Sonstige,2004,%,0.022000000000000002
+Thüringen,Wahlbeteiligung,2009,%,0.562
+Thüringen,CDU,2009,%,0.312
+Thüringen,SPD,2009,%,0.185
+Thüringen,DIE LINKE,2009,%,0.27399999999999997
+Thüringen,B‘90/GRÜNE,2009,%,0.062
+Thüringen,FDP,2009,%,0.076
+Thüringen,AfD,2009,%,
+Thüringen,BSW,2009,%,
+Thüringen,Freie Wähler Thüringen,2009,%,0.039
+Thüringen,NPD,2009,%,0.043
+Thüringen,DVU,2009,%,
+Thüringen,REP,2009,%,0.004
+Thüringen,Neues Forum,2009,%,
+Thüringen,DSU,2009,%,
+Thüringen,PIRATEN,2009,%,
+Thüringen,Sonstige,2009,%,0.004
+Thüringen,Wahlbeteiligung,2014,%,0.527
+Thüringen,CDU,2014,%,0.335
+Thüringen,SPD,2014,%,0.124
+Thüringen,DIE LINKE,2014,%,0.282
+Thüringen,B‘90/GRÜNE,2014,%,0.057
+Thüringen,FDP,2014,%,0.025
+Thüringen,AfD,2014,%,0.106
+Thüringen,BSW,2014,%,
+Thüringen,Freie Wähler Thüringen,2014,%,0.017
+Thüringen,NPD,2014,%,0.036000000000000004
+Thüringen,DVU,2014,%,
+Thüringen,REP,2014,%,0.002
+Thüringen,Neues Forum,2014,%,
+Thüringen,DSU,2014,%,
+Thüringen,PIRATEN,2014,%,0.01
+Thüringen,Sonstige,2014,%,0.006999999999999999
+Thüringen,Wahlbeteiligung,2019,%,0.649
+Thüringen,CDU,2019,%,0.218
+Thüringen,SPD,2019,%,0.08199999999999999
+Thüringen,DIE LINKE,2019,%,0.31
+Thüringen,B‘90/GRÜNE,2019,%,0.052000000000000005
+Thüringen,FDP,2019,%,0.05
+Thüringen,AfD,2019,%,0.23399999999999999
+Thüringen,BSW,2019,%,
+Thüringen,Freie Wähler Thüringen,2019,%,
+Thüringen,NPD,2019,%,0.005
+Thüringen,DVU,2019,%,
+Thüringen,REP,2019,%,
+Thüringen,Neues Forum,2019,%,
+Thüringen,DSU,2019,%,
+Thüringen,PIRATEN,2019,%,0.004
+Thüringen,Sonstige,2019,%,0.045
+Thüringen,Wahlbeteiligung,2024*,%,0.736
+Thüringen,CDU,2024*,%,0.23600000000000002
+Thüringen,SPD,2024*,%,0.061
+Thüringen,DIE LINKE,2024*,%,0.131
+Thüringen,B‘90/GRÜNE,2024*,%,0.032
+Thüringen,FDP,2024*,%,0.011000000000000001
+Thüringen,AfD,2024*,%,0.32799999999999996
+Thüringen,BSW,2024*,%,0.158
+Thüringen,Freie Wähler Thüringen,2024*,%,0.013000000000000001
+Thüringen,NPD,2024*,%,
+Thüringen,DVU,2024*,%,
+Thüringen,REP,2024*,%,
+Thüringen,Neues Forum,2024*,%,
+Thüringen,DSU,2024*,%,
+Thüringen,PIRATEN,2024*,%,0.003
+Thüringen,Sonstige,2024*,%,0.026000000000000002
+Schleswig-Holstein,CDU,1947,%,0.341
+Schleswig-Holstein,SPD,1947,%,0.43799999999999994
+Schleswig-Holstein,FDP,1947,%,0.05
+Schleswig-Holstein,SSV/SSW4,1947,%,0.09300000000000001
+Schleswig-Holstein,GRÜNE,1947,%,
+Schleswig-Holstein,DIE LINKE5,1947,%,
+Schleswig-Holstein,DRP/NPD²,1947,%,0.03
+Schleswig-Holstein,PIRATEN,1947,%,
+Schleswig-Holstein,AfD,1947,%,
+Schleswig-Holstein,GB/BHE,1947,%,
+Schleswig-Holstein,DP³,1947,%,
+Schleswig-Holstein,KPD/DKP¹,1947,%,0.047
+Schleswig-Holstein,REP,1947,%,
+Schleswig-Holstein,DVU,1947,%,
+Schleswig-Holstein,Sonstige,1947,%,0.002
+Schleswig-Holstein,CDU,1950,%,0.198
+Schleswig-Holstein,SPD,1950,%,0.275
+Schleswig-Holstein,FDP,1950,%,0.071
+Schleswig-Holstein,SSV/SSW4,1950,%,0.055
+Schleswig-Holstein,GRÜNE,1950,%,
+Schleswig-Holstein,DIE LINKE5,1950,%,
+Schleswig-Holstein,DRP/NPD²,1950,%,0.027999999999999997
+Schleswig-Holstein,PIRATEN,1950,%,
+Schleswig-Holstein,AfD,1950,%,
+Schleswig-Holstein,GB/BHE,1950,%,0.23399999999999999
+Schleswig-Holstein,DP³,1950,%,0.096
+Schleswig-Holstein,KPD/DKP¹,1950,%,0.022000000000000002
+Schleswig-Holstein,REP,1950,%,
+Schleswig-Holstein,DVU,1950,%,
+Schleswig-Holstein,Sonstige,1950,%,0.021
+Schleswig-Holstein,CDU,1954,%,0.322
+Schleswig-Holstein,SPD,1954,%,0.332
+Schleswig-Holstein,FDP,1954,%,0.075
+Schleswig-Holstein,SSV/SSW4,1954,%,0.035
+Schleswig-Holstein,GRÜNE,1954,%,
+Schleswig-Holstein,DIE LINKE5,1954,%,
+Schleswig-Holstein,DRP/NPD²,1954,%,0.015
+Schleswig-Holstein,PIRATEN,1954,%,
+Schleswig-Holstein,AfD,1954,%,
+Schleswig-Holstein,GB/BHE,1954,%,0.14
+Schleswig-Holstein,DP³,1954,%,0.051
+Schleswig-Holstein,KPD/DKP¹,1954,%,0.021
+Schleswig-Holstein,REP,1954,%,
+Schleswig-Holstein,DVU,1954,%,
+Schleswig-Holstein,Sonstige,1954,%,0.009000000000000001
+Schleswig-Holstein,CDU,1958,%,0.444
+Schleswig-Holstein,SPD,1958,%,0.359
+Schleswig-Holstein,FDP,1958,%,0.054000000000000006
+Schleswig-Holstein,SSV/SSW4,1958,%,0.027999999999999997
+Schleswig-Holstein,GRÜNE,1958,%,
+Schleswig-Holstein,DIE LINKE5,1958,%,
+Schleswig-Holstein,DRP/NPD²,1958,%,0.011000000000000001
+Schleswig-Holstein,PIRATEN,1958,%,
+Schleswig-Holstein,AfD,1958,%,
+Schleswig-Holstein,GB/BHE,1958,%,0.069
+Schleswig-Holstein,DP³,1958,%,0.027999999999999997
+Schleswig-Holstein,KPD/DKP¹,1958,%,
+Schleswig-Holstein,REP,1958,%,
+Schleswig-Holstein,DVU,1958,%,
+Schleswig-Holstein,Sonstige,1958,%,0.006999999999999999
+Schleswig-Holstein,CDU,1962,%,0.45
+Schleswig-Holstein,SPD,1962,%,0.392
+Schleswig-Holstein,FDP,1962,%,0.079
+Schleswig-Holstein,SSV/SSW4,1962,%,0.023
+Schleswig-Holstein,GRÜNE,1962,%,
+Schleswig-Holstein,DIE LINKE5,1962,%,
+Schleswig-Holstein,DRP/NPD²,1962,%,
+Schleswig-Holstein,PIRATEN,1962,%,
+Schleswig-Holstein,AfD,1962,%,
+Schleswig-Holstein,GB/BHE,1962,%,0.042
+Schleswig-Holstein,DP³,1962,%,
+Schleswig-Holstein,KPD/DKP¹,1962,%,
+Schleswig-Holstein,REP,1962,%,
+Schleswig-Holstein,DVU,1962,%,
+Schleswig-Holstein,Sonstige,1962,%,0.013999999999999999
+Schleswig-Holstein,CDU,1967,%,0.46
+Schleswig-Holstein,SPD,1967,%,0.39399999999999996
+Schleswig-Holstein,FDP,1967,%,0.059000000000000004
+Schleswig-Holstein,SSV/SSW4,1967,%,0.019
+Schleswig-Holstein,GRÜNE,1967,%,
+Schleswig-Holstein,DIE LINKE5,1967,%,
+Schleswig-Holstein,DRP/NPD²,1967,%,0.057999999999999996
+Schleswig-Holstein,PIRATEN,1967,%,
+Schleswig-Holstein,AfD,1967,%,
+Schleswig-Holstein,GB/BHE,1967,%,
+Schleswig-Holstein,DP³,1967,%,
+Schleswig-Holstein,KPD/DKP¹,1967,%,
+Schleswig-Holstein,REP,1967,%,
+Schleswig-Holstein,DVU,1967,%,
+Schleswig-Holstein,Sonstige,1967,%,0.01
+Schleswig-Holstein,CDU,1971,%,0.519
+Schleswig-Holstein,SPD,1971,%,0.41
+Schleswig-Holstein,FDP,1971,%,0.038
+Schleswig-Holstein,SSV/SSW4,1971,%,0.013999999999999999
+Schleswig-Holstein,GRÜNE,1971,%,
+Schleswig-Holstein,DIE LINKE5,1971,%,
+Schleswig-Holstein,DRP/NPD²,1971,%,0.013000000000000001
+Schleswig-Holstein,PIRATEN,1971,%,
+Schleswig-Holstein,AfD,1971,%,
+Schleswig-Holstein,GB/BHE,1971,%,
+Schleswig-Holstein,DP³,1971,%,
+Schleswig-Holstein,KPD/DKP¹,1971,%,0.004
+Schleswig-Holstein,REP,1971,%,
+Schleswig-Holstein,DVU,1971,%,
+Schleswig-Holstein,Sonstige,1971,%,0.002
+Schleswig-Holstein,CDU,1975,%,0.504
+Schleswig-Holstein,SPD,1975,%,0.401
+Schleswig-Holstein,FDP,1975,%,0.071
+Schleswig-Holstein,SSV/SSW4,1975,%,0.013999999999999999
+Schleswig-Holstein,GRÜNE,1975,%,
+Schleswig-Holstein,DIE LINKE5,1975,%,
+Schleswig-Holstein,DRP/NPD²,1975,%,0.005
+Schleswig-Holstein,PIRATEN,1975,%,
+Schleswig-Holstein,AfD,1975,%,
+Schleswig-Holstein,GB/BHE,1975,%,
+Schleswig-Holstein,DP³,1975,%,
+Schleswig-Holstein,KPD/DKP¹,1975,%,0.004
+Schleswig-Holstein,REP,1975,%,
+Schleswig-Holstein,DVU,1975,%,
+Schleswig-Holstein,Sonstige,1975,%,
+Schleswig-Holstein,CDU,1979,%,0.483
+Schleswig-Holstein,SPD,1979,%,0.41700000000000004
+Schleswig-Holstein,FDP,1979,%,0.057
+Schleswig-Holstein,SSV/SSW4,1979,%,0.013999999999999999
+Schleswig-Holstein,GRÜNE,1979,%,0.024
+Schleswig-Holstein,DIE LINKE5,1979,%,
+Schleswig-Holstein,DRP/NPD²,1979,%,0.002
+Schleswig-Holstein,PIRATEN,1979,%,
+Schleswig-Holstein,AfD,1979,%,
+Schleswig-Holstein,GB/BHE,1979,%,
+Schleswig-Holstein,DP³,1979,%,
+Schleswig-Holstein,KPD/DKP¹,1979,%,0.002
+Schleswig-Holstein,REP,1979,%,
+Schleswig-Holstein,DVU,1979,%,
+Schleswig-Holstein,Sonstige,1979,%,
+Schleswig-Holstein,CDU,1983,%,0.49
+Schleswig-Holstein,SPD,1983,%,0.43700000000000006
+Schleswig-Holstein,FDP,1983,%,0.022000000000000002
+Schleswig-Holstein,SSV/SSW4,1983,%,0.013000000000000001
+Schleswig-Holstein,GRÜNE,1983,%,0.036000000000000004
+Schleswig-Holstein,DIE LINKE5,1983,%,
+Schleswig-Holstein,DRP/NPD²,1983,%,
+Schleswig-Holstein,PIRATEN,1983,%,
+Schleswig-Holstein,AfD,1983,%,
+Schleswig-Holstein,GB/BHE,1983,%,
+Schleswig-Holstein,DP³,1983,%,
+Schleswig-Holstein,KPD/DKP¹,1983,%,0.001
+Schleswig-Holstein,REP,1983,%,
+Schleswig-Holstein,DVU,1983,%,
+Schleswig-Holstein,Sonstige,1983,%,0.001
+Schleswig-Holstein,CDU,1987,%,0.426
+Schleswig-Holstein,SPD,1987,%,0.452
+Schleswig-Holstein,FDP,1987,%,0.052000000000000005
+Schleswig-Holstein,SSV/SSW4,1987,%,0.015
+Schleswig-Holstein,GRÜNE,1987,%,0.039
+Schleswig-Holstein,DIE LINKE5,1987,%,
+Schleswig-Holstein,DRP/NPD²,1987,%,
+Schleswig-Holstein,PIRATEN,1987,%,
+Schleswig-Holstein,AfD,1987,%,
+Schleswig-Holstein,GB/BHE,1987,%,
+Schleswig-Holstein,DP³,1987,%,
+Schleswig-Holstein,KPD/DKP¹,1987,%,
+Schleswig-Holstein,REP,1987,%,
+Schleswig-Holstein,DVU,1987,%,
+Schleswig-Holstein,Sonstige,1987,%,0.016
+Schleswig-Holstein,CDU,1988,%,0.33299999999999996
+Schleswig-Holstein,SPD,1988,%,0.5479999999999999
+Schleswig-Holstein,FDP,1988,%,0.044000000000000004
+Schleswig-Holstein,SSV/SSW4,1988,%,0.017
+Schleswig-Holstein,GRÜNE,1988,%,0.028999999999999998
+Schleswig-Holstein,DIE LINKE5,1988,%,
+Schleswig-Holstein,DRP/NPD²,1988,%,0.012
+Schleswig-Holstein,PIRATEN,1988,%,
+Schleswig-Holstein,AfD,1988,%,
+Schleswig-Holstein,GB/BHE,1988,%,
+Schleswig-Holstein,DP³,1988,%,
+Schleswig-Holstein,KPD/DKP¹,1988,%,0.001
+Schleswig-Holstein,REP,1988,%,0.006
+Schleswig-Holstein,DVU,1988,%,
+Schleswig-Holstein,Sonstige,1988,%,0.01
+Schleswig-Holstein,CDU,1992,%,0.33799999999999997
+Schleswig-Holstein,SPD,1992,%,0.462
+Schleswig-Holstein,FDP,1992,%,0.055999999999999994
+Schleswig-Holstein,SSV/SSW4,1992,%,0.019
+Schleswig-Holstein,GRÜNE,1992,%,0.049699999999999994
+Schleswig-Holstein,DIE LINKE5,1992,%,
+Schleswig-Holstein,DRP/NPD²,1992,%,
+Schleswig-Holstein,PIRATEN,1992,%,
+Schleswig-Holstein,AfD,1992,%,
+Schleswig-Holstein,GB/BHE,1992,%,
+Schleswig-Holstein,DP³,1992,%,
+Schleswig-Holstein,KPD/DKP¹,1992,%,
+Schleswig-Holstein,REP,1992,%,0.012
+Schleswig-Holstein,DVU,1992,%,0.063
+Schleswig-Holstein,Sonstige,1992,%,0.001
+Schleswig-Holstein,CDU,1996,%,0.37200000000000005
+Schleswig-Holstein,SPD,1996,%,0.39799999999999996
+Schleswig-Holstein,FDP,1996,%,0.057
+Schleswig-Holstein,SSV/SSW4,1996,%,0.025
+Schleswig-Holstein,GRÜNE,1996,%,0.081
+Schleswig-Holstein,DIE LINKE5,1996,%,
+Schleswig-Holstein,DRP/NPD²,1996,%,
+Schleswig-Holstein,PIRATEN,1996,%,
+Schleswig-Holstein,AfD,1996,%,
+Schleswig-Holstein,GB/BHE,1996,%,
+Schleswig-Holstein,DP³,1996,%,
+Schleswig-Holstein,KPD/DKP¹,1996,%,
+Schleswig-Holstein,REP,1996,%,
+Schleswig-Holstein,DVU,1996,%,0.043
+Schleswig-Holstein,Sonstige,1996,%,0.024
+Schleswig-Holstein,CDU,2000,%,0.35200000000000004
+Schleswig-Holstein,SPD,2000,%,0.431
+Schleswig-Holstein,FDP,2000,%,0.076
+Schleswig-Holstein,SSV/SSW4,2000,%,0.040999999999999995
+Schleswig-Holstein,GRÜNE,2000,%,0.062
+Schleswig-Holstein,DIE LINKE5,2000,%,0.013999999999999999
+Schleswig-Holstein,DRP/NPD²,2000,%,0.01
+Schleswig-Holstein,PIRATEN,2000,%,
+Schleswig-Holstein,AfD,2000,%,
+Schleswig-Holstein,GB/BHE,2000,%,
+Schleswig-Holstein,DP³,2000,%,
+Schleswig-Holstein,KPD/DKP¹,2000,%,
+Schleswig-Holstein,REP,2000,%,
+Schleswig-Holstein,DVU,2000,%,
+Schleswig-Holstein,Sonstige,2000,%,0.013000000000000001
+Schleswig-Holstein,CDU,2005,%,0.402
+Schleswig-Holstein,SPD,2005,%,0.387
+Schleswig-Holstein,FDP,2005,%,0.066
+Schleswig-Holstein,SSV/SSW4,2005,%,0.036000000000000004
+Schleswig-Holstein,GRÜNE,2005,%,0.062
+Schleswig-Holstein,DIE LINKE5,2005,%,0.008
+Schleswig-Holstein,DRP/NPD²,2005,%,0.019
+Schleswig-Holstein,PIRATEN,2005,%,
+Schleswig-Holstein,AfD,2005,%,
+Schleswig-Holstein,GB/BHE,2005,%,
+Schleswig-Holstein,DP³,2005,%,
+Schleswig-Holstein,KPD/DKP¹,2005,%,0.001
+Schleswig-Holstein,REP,2005,%,
+Schleswig-Holstein,DVU,2005,%,
+Schleswig-Holstein,Sonstige,2005,%,0.019
+Schleswig-Holstein,CDU,2009,%,0.315
+Schleswig-Holstein,SPD,2009,%,0.254
+Schleswig-Holstein,FDP,2009,%,0.149
+Schleswig-Holstein,SSV/SSW4,2009,%,0.043
+Schleswig-Holstein,GRÜNE,2009,%,0.124
+Schleswig-Holstein,DIE LINKE5,2009,%,0.06
+Schleswig-Holstein,DRP/NPD²,2009,%,0.009000000000000001
+Schleswig-Holstein,PIRATEN,2009,%,0.018000000000000002
+Schleswig-Holstein,AfD,2009,%,
+Schleswig-Holstein,GB/BHE,2009,%,
+Schleswig-Holstein,DP³,2009,%,
+Schleswig-Holstein,KPD/DKP¹,2009,%,
+Schleswig-Holstein,REP,2009,%,
+Schleswig-Holstein,DVU,2009,%,
+Schleswig-Holstein,Sonstige,2009,%,0.026000000000000002
+Schleswig-Holstein,CDU,2012,%,0.308
+Schleswig-Holstein,SPD,2012,%,0.304
+Schleswig-Holstein,FDP,2012,%,0.08199999999999999
+Schleswig-Holstein,SSV/SSW4,2012,%,0.046
+Schleswig-Holstein,GRÜNE,2012,%,0.132
+Schleswig-Holstein,DIE LINKE5,2012,%,0.023
+Schleswig-Holstein,DRP/NPD²,2012,%,0.006999999999999999
+Schleswig-Holstein,PIRATEN,2012,%,0.08199999999999999
+Schleswig-Holstein,AfD,2012,%,
+Schleswig-Holstein,GB/BHE,2012,%,
+Schleswig-Holstein,DP³,2012,%,
+Schleswig-Holstein,KPD/DKP¹,2012,%,
+Schleswig-Holstein,REP,2012,%,
+Schleswig-Holstein,DVU,2012,%,
+Schleswig-Holstein,Sonstige,2012,%,0.017
+Schleswig-Holstein,CDU,2017,%,0.32
+Schleswig-Holstein,SPD,2017,%,0.272
+Schleswig-Holstein,FDP,2017,%,0.115
+Schleswig-Holstein,SSV/SSW4,2017,%,0.033
+Schleswig-Holstein,GRÜNE,2017,%,0.129
+Schleswig-Holstein,DIE LINKE5,2017,%,0.038
+Schleswig-Holstein,DRP/NPD²,2017,%,
+Schleswig-Holstein,PIRATEN,2017,%,0.012
+Schleswig-Holstein,AfD,2017,%,0.059000000000000004
+Schleswig-Holstein,GB/BHE,2017,%,
+Schleswig-Holstein,DP³,2017,%,
+Schleswig-Holstein,KPD/DKP¹,2017,%,
+Schleswig-Holstein,REP,2017,%,
+Schleswig-Holstein,DVU,2017,%,
+Schleswig-Holstein,Sonstige,2017,%,0.023
+Schleswig-Holstein,CDU,2022,%,0.434
+Schleswig-Holstein,SPD,2022,%,0.16
+Schleswig-Holstein,FDP,2022,%,0.064
+Schleswig-Holstein,SSV/SSW4,2022,%,0.057
+Schleswig-Holstein,GRÜNE,2022,%,0.183
+Schleswig-Holstein,DIE LINKE5,2022,%,0.017
+Schleswig-Holstein,DRP/NPD²,2022,%,
+Schleswig-Holstein,PIRATEN,2022,%,0.003
+Schleswig-Holstein,AfD,2022,%,0.044000000000000004
+Schleswig-Holstein,GB/BHE,2022,%,
+Schleswig-Holstein,DP³,2022,%,
+Schleswig-Holstein,KPD/DKP¹,2022,%,
+Schleswig-Holstein,REP,2022,%,
+Schleswig-Holstein,DVU,2022,%,
+Schleswig-Holstein,Sonstige,2022,%,0.038
