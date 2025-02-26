@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-12-03">
+<meta name="description" content="Below is a list of my projects">
 
-<title>RhetVIZ</title>
+<title>My Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +24,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../favicon.ico" rel="icon">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,15 +71,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="rhet-viz-styles.css">
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-includes','listing-language','listing-title','listing-date','listing-toc','listing-fields','listing-description','listing-projectLink','listing-code','listing-languages','listing-thumbnail','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-includes","listing-language","listing-title","listing-date","listing-toc","listing-fields","listing-description","listing-projectLink","listing-code","listing-languages","listing-thumbnail","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-projects'] = new List('listing-listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles/project-styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -87,25 +147,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects/all-projects.html"> 
+    <a class="nav-link active" href="../projects/all-projects.html" aria-current="page"> 
 <span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects/blog.html"> 
+    <a class="nav-link" href="../projects/blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects/playground/playground.html"> 
+    <a class="nav-link" href="../projects/playground/playground.html"> 
 <span class="menu-text"><em>Playground</em></span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -140,53 +200,156 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">My Projects</h1>
+                  <div>
+        <div class="description">
+          Below is a list of my projects
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">RhetVIZ</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">data visualization</div>
-    <div class="quarto-category">theory</div>
-  </div>
-  </div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 3, 2024</p>
+
+<p><br></p>
+<div id="listing-listing-projects" class="quarto-listing quarto-listing-container-custom">
+
+<div class="project-cards">
+  
+
+    <!-- Instead of <a> around the whole card, use a <div> with onclick -->
+    <div class="project-card" onclick="window.location.href='https://pathwaypal.streamlit.app'" style="cursor: pointer;">
+      <!-- Card Header: Title on the Left, Code Icon on the Right -->
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <div class="card-title">
+          I Built An Enterprise ChatBot!
+        </div>
+
+        
+          <!-- Code Icon Link -->
+          <div class="card-code" onclick="event.stopPropagation()">
+            <a href="https://github.com/ligea-alexander/pathwaypal_chatbot" target="_blank">
+              <i class="bi bi-code-square"></i>
+            </a>
+          </div>
+          
+      </div>
+
+      <!-- Thumbnail Image -->
+      
+        <div class="card-thumbnail">
+          <img src="../projects/all-work/pathway-pal/pathwaypal-app.png" alt="I Built An Enterprise ChatBot! Thumbnail">
+        </div>
+        
+
+          <!-- Description -->
+          <div class="card-description">
+            An interactive tool that offers users answers to common questions about training schedules, services, and resources available through NEST.
+          </div>
+
+          <!-- Languages and Tools -->
+          <div class="card-tools">
+            
+              <span class="tools">
+                
+                  <span class="tool-item">Python</span>
+                  
+                  <span class="tool-item">Elasticsearch</span>
+                  
+                  <span class="tool-item">AI</span>
+                  
+              </span>
+              
+          </div>
+
+          <!-- BTS Section (if you don't want it to navigate to projectLink) -->
+          <div class="card-bts" onclick="event.stopPropagation()">
+            <a href="../projects/all-work/pathway-pal/pathwaypal-chatbot.html">Read Behind The Scenes (BTS)</a>
+          </div>
     </div>
-  </div>
-  
+
     
-  </div>
-  
 
+    <!-- Instead of <a> around the whole card, use a <div> with onclick -->
+    <div class="project-card" onclick="window.location.href='https://ligea-alexander.github.io/cost-of-sunlight-story/#BEGIN'" style="cursor: pointer;">
+      <!-- Card Header: Title on the Left, Code Icon on the Right -->
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <div class="card-title">
+          The Cost of Sunlight
+        </div>
 
-</header>
+        
+          <!-- Code Icon Link -->
+          <div class="card-code" onclick="event.stopPropagation()">
+            <a href="https://github.com/ligea-alexander/cost-of-sunlight-story" target="_blank">
+              <i class="bi bi-code-square"></i>
+            </a>
+          </div>
+          
+      </div>
 
+      <!-- Thumbnail Image -->
+      
+        <div class="card-thumbnail">
+          <img src="../projects/all-work/cost-of-sunlight/cost-of-sunlight.png" alt="The Cost of Sunlight Thumbnail">
+        </div>
+        
 
-<p class="thumbnail-hide">
-<img src="rhetviz.png" alt="Custom Thumbnail">
-</p>
-<p>Start with the Audience</p>
-<p>When I attended MICA, whenever we would be instructed to work on a data visualization assignment, the first thing that we’d promoted to do was to think and ask “who is your audience” The audience paints the narrative. I started my data visualization career while working at a non-profit that was always careful about what was communicated. As I continued to advance in my data viz career, I saw the evolution in just how important data visualization and information design professionals are.</p>
-<p>This past summer, I had the opportunity to join Enrico Bertini’s inaugural Rhetorical Visualization course. Over five weeks, our cohort explored the theory and practice of creating visualizations that don’t just inform but resonate with their intended audience. Through weekly discussions, hands-on exercises, and thought-provoking lessons, we unpacked the nuances of how visualizations convey messages and shape interpretations.</p>
-<p>Rhetorical visualization goes beyond aesthetics or clarity—it’s about the messaging. As Enrico puts it, it examines “the role in the messages a visualization conveys and the inferences one can make.” This idea—how our design decisions influence audience understanding—was a recurring theme throughout the course and challenged me to think more critically about my work.</p>
-<p>One of the most impactful lessons for me was the concept of framing. As Enrico emphasized, data doesn’t speak for itself. This might sound surprising, especially since many of us have heard the phrase tossed around casually in workplaces or even in the media. But the act of visualizing data—choosing what to include, exclude, and how to present it—inevitably shapes a narrative. This realization was both humbling and empowering. Framing taught me that no visualization is ever completely neutral. Every chart carries the weight of its creator’s decisions, from the scale of the axes to the title we give it. Even something as seemingly straightforward as a bar chart can convey vastly different messages depending on these choices. This pushed me to think critically about my own work: What narrative am I shaping? And is it aligned with the truth I want to convey?</p>
-<p>These lessons hit home when thinking about high-stakes visualizations—charts about climate change, election results, or pandemics like COVID-19. In these scenarios, where misinformation can have far-reaching consequences, rhetorical visualization becomes a critical skill. It’s not just about making data clear; it’s about ensuring it’s truthful and responsibly framed.</p>
-<p>Enrico’s course was, at its core, a call to action: to create data visualizations with integrity and to develop the habit of scrutinizing our work and that of others. As practitioners, we hold immense responsibility in shaping how people interpret data. This course sharpened my ability to reason with data effectively and reinforced the idea that there is always a frame—whether we acknowledge it or not.</p>
-<p>Taking this course felt like an exercise in due diligence for any data visualization professional—a deep dive into the ethics of our work. It was a reminder that every decision we make, from data collection to visual design, carries weight. By applying the principles of rhetorical visualization, we can create visuals that don’t just inform but resonate with integrity and purpose.</p>
+          <!-- Description -->
+          <div class="card-description">
+            LEDE Project 2: A cost-benefit analysis of solar energy adoption.
+          </div>
+
+          <!-- Languages and Tools -->
+          <div class="card-tools">
+            
+              <span class="tools">
+                
+                  <span class="tool-item">Python</span>
+                  
+                  <span class="tool-item">Altair</span>
+                  
+                  <span class="tool-item">ai2html</span>
+                  
+              </span>
+              
+          </div>
+
+          <!-- BTS Section (if you don't want it to navigate to projectLink) -->
+          <div class="card-bts" onclick="event.stopPropagation()">
+            <a href="../projects/all-work/cost-of-sunlight/bts-cost-of-sunlight.html">Read Behind The Scenes (BTS)</a>
+          </div>
+    </div>
+
+    
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 
